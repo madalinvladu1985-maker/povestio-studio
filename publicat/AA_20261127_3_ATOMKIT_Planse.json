@@ -1,0 +1,65 @@
+{
+  "id": "AA_20261127_3_ATOMKIT_Planse",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-27/AA_20261127_3_ATOMKIT_Planse.json",
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "17:00"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Știai că priza poate sta ascunsă în blat? Iese când ai nevoie, coboară când termini: 3 prize, USB-A, USB-C și încărcare wireless. Vezi toate prizele încorporabile pe AtentAles.ro.\n#bucatarie #amenajare #casa #organizare #atentales"
+    },
+    "instagram": {
+      "text": "Știai că priza poate sta ascunsă chiar în blatul de bucătărie?\nO priză pop-up iese din blat când ai nevoie și coboară la loc când termini. Are 3 prize, USB-A, USB-C și încărcare wireless 15 W pentru telefoanele compatibile.\nToate prizele încorporabile, pe AtentAles.ro.\n#bucatarie #amenajarebucatarie #designinterior #organizare #atentales"
+    },
+    "facebook": {
+      "text": "Știai că priza poate sta ascunsă în blat? Iese când ai nevoie și coboară la loc când termini. 3 prize, USB-A, USB-C și încărcare wireless pentru telefoanele compatibile. Vezi toate prizele încorporabile pe AtentAles.ro."
+    },
+    "youtube": {
+      "titlu": "Știai că priza poate sta ascunsă în blatul de bucătărie?",
+      "descriere": "Cum funcționează o priză pop-up încorporată în blat: iese când ai nevoie, coboară la loc când termini. Vezi toate prizele încorporabile pe AtentAles.ro.",
+      "tags": [
+        "bucatarie",
+        "amenajare",
+        "priza pop-up",
+        "atentales"
+      ]
+    }
+  },
+  "produs": {
+    "handle": "priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "url": "https://atentales.ro/products/priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "decupaje": {
+      "erou": "assets/produse/atomkit-one-z/erou.png",
+      "wireless": {
+        "cale": "assets/produse/atomkit-one-z/wireless.png",
+        "latime": 860,
+        "baza_frac": 0.8
+      }
+    },
+    "fapte_din_fisa": [
+      "3 prize, până la 2500 W",
+      "port USB-A și port USB-C",
+      "încărcare wireless 15 W pentru dispozitivele compatibile",
+      "sistem pop-up: priza rămâne ascunsă când nu este folosită",
+      "protecție la suprasarcină"
+    ]
+  },
+  "actualizat": "2026-11-26T21:19:37+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 25.9,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261127_3_ATOMKIT_Planse.mp4",
+    "jpg": "AA_20261127_3_ATOMKIT_Planse.jpg",
+    "srt": "AA_20261127_3_ATOMKIT_Planse.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_3_ATOMKIT_Planse.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_3_ATOMKIT_Planse.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_3_ATOMKIT_Planse.srt"
+}
