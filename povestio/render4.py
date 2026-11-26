@@ -265,7 +265,8 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         produs_cale = RAD / (pc if isinstance(pc, str) else pc["cale"])
     else:
         from povestio.imagine import pregateste
-        produs_cale = pregateste(spec["produs"]["imagine_url"], cache)
+        produs_cale = pregateste(spec["produs"]["imagine_url"], cache, spec["produs"].get("imagine_zona"),
+                                 spec["produs"].get("imagine_punct"))
     straturi = [construieste(sc, i, produs_cale) for i, sc in enumerate(scene)]
 
     # subtitrari: fraze scurte, cronometrate proportional cu lungimea lor

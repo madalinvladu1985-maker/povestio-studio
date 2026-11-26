@@ -17,12 +17,15 @@ def descarca(url, cache):
     return f
 
 
-def pregateste(url, cache):
-    cache = Path(cache)
-    out = cache / ("dec_" + hashlib.sha1(url.encode()).hexdigest()[:16] + ".png")
+def pregateste(url, cache, zona=None, punct=None):
+    cache = Path(cache); cache.mkdir(parents=True, exist_ok=True)
+    out = cache / ("dec_" + hashlib.sha1(f"{url}|{zona}|{punct}".encode()).hexdigest()[:16] + ".png")
     if out.exists():
         return out
     im = Image.open(descarca(url, cache)).convert("RGB")
+    if zona:  # [x0, y0, x1, y1] ca fractiuni din poza
+        W0, H0 = im.size
+        im = im.crop((int(zona[0] * W0), int(zona[1] * H0), int(zona[2] * W0), int(zona[3] * H0)))
     w, h = im.size
     puncte = [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1), (w // 2, 0), (w // 2, h - 1), (0, h // 2), (w - 1, h // 2)]
     alb = sum(1 for p in puncte if min(im.getpixel(p)) > 232)
@@ -35,7 +38,12 @@ def pregateste(url, cache):
         fundal = ImageChops.multiply(ImageChops.multiply(r.point(lambda v: 255 if v == 255 else 0),
                                                          g.point(lambda v: 255 if v == 0 else 0)),
                                      b.point(lambda v: 255 if v == 255 else 0))
-        alfa = ImageChops.invert(fundal).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.2))
+        alfa = ImageChops.invert(fundal).filter(ImageFilter.MinFilter(3))
+        if punct:  # pastreaza doar obiectul care contine punctul (scoate restul pachetului)
+            bin_ = alfa.point(lambda v: 255 if v > 20 else 0)
+            ImageDraw.floodfill(bin_, (int(punct[0] * w), int(punct[1] * h)), 128, thresh=0)
+            alfa = bin_.point(lambda v: 255 if v == 128 else 0)
+        alfa = alfa.filter(ImageFilter.GaussianBlur(1.2))
         rez = im.convert("RGBA"); rez.putalpha(alfa)
         bb = alfa.point(lambda v: 255 if v > 20 else 0).getbbox()
         rez = rez.crop(bb) if bb else rez
