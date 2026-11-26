@@ -33,7 +33,8 @@
     "viteza": 0.95,
     "azure_voce": "ro-RO-AlinaNeural",
     "azure_regiune": "northeurope",
-    "azure_viteza": "-6%"
+    "azure_viteza": "-6%",
+    "buget_credite_luna": 30000
   },
   "publicare": {
     "metricool_blog_id": "",

@@ -5,6 +5,23 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 ## Orele de publicare (Europe/Bucharest)
 07:30 · 11:00 · 14:30 · 17:00 · 20:30 — câte un clip, fiecare din altă categorie.
 
+## Limite de lucru (abonamentul Claude al lui Mădălin: fereastră de 5 ore + limită săptămânală)
+- Agentul rulează de **3 ori pe zi** (02:13, 08:13, 13:13), la peste 5 ore distanță, ca fiecare rulare să prindă o fereastră nouă.
+- Fiecare rulare e **reluabilă**: face doar ce lipsește. Ordinea de verificare:
+  1. ce sloturi ale zilei sunt deja programate în Metricool (`getScheduledPosts`, blogId 8391098) → nu le atinge;
+  2. ce spec-uri există deja în `clipuri/<data>/` și au manifest `gata_de_programat` în `publicat/` → doar programează-le;
+  3. ce spec-uri există fără manifest → așteaptă randarea, apoi programează;
+  4. abia apoi scrie spec-uri noi pentru sloturile rămase.
+- Lucrează pe rând, slot cu slot: scrie spec → push → următorul. Așa, dacă limita se termină la jumătate, ce s-a făcut nu se pierde și rularea următoare continuă de acolo.
+- Un slot a cărui oră a trecut nu se mai programează; clipul lui se mută la următorul slot liber al zilei (sau la 07:30 a doua zi).
+- Economisește: nu reciti fișiere mari (catalogul se filtrează cu `python -c`), verifică vizual doar 3 cadre pe clip, nu rerandă decât dacă e o eroare reală, analiza se face doar în prima rulare a zilei.
+
+## Bugetul de credite de voce (toată luna)
+- Rulează `python studio.py buget <data>`: dă pentru fiecare slot `caractere_voce` (țintă aleatorie, calculată din soldul real ElevenLabs până la resetare, cu 10% rezervă).
+- Scrie vocea clipului cât mai aproape de țintă (±10%) și pune `"tinta_caractere_voce": <valoarea>` în spec; `verifica` respinge clipul dacă depășește ținta cu peste 15%.
+- Clipurile scurte (sub ~300 caractere) au 4 scene (hook, problemă, funcții, CTA); cele lungi 5 scene. Durata variază aleatoriu de la o zi la alta, nu scade spre sfârșitul lunii.
+- Soldul real e scris automat de workflow în `publicat/elevenlabs.json` după fiecare randare.
+
 ## Pași la fiecare rulare
 0. Verifică în Metricool (`getScheduledPosts`, blogId 8391098) ce sloturi ale zilei au deja o postare programată și nu le dubla. Fă clipuri doar pentru sloturile libere (de ex. pe 27.11 slotul de 07:30 e deja ocupat de clipul uscătorului).
 1. `git pull` în repo `madalinvladu1985-maker/povestio-studio`.

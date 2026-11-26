@@ -34,6 +34,14 @@ def verifica_v3(spec, brand):
     n = len(voce_tot.split())
     if n < 45 or n > 100:
         avert.append(f"Voiceover de {n} cuvinte (ținta v3: 55–90).")
+    tinta = spec.get("tinta_caractere_voce")
+    if tinta:
+        from povestio.voce import pentru_voce
+        car = sum(len(pentru_voce(s.get("voce", ""), brand)) for s in sc)
+        if car > tinta * 1.15:
+            erori.append(f"Vocea are {car} caractere, peste bugetul slotului ({tinta}, +15% toleranță). Scurtează textul.")
+        elif car < tinta * 0.80:
+            avert.append(f"Vocea are {car} caractere, mult sub ținta slotului ({tinta}).")
     if not sc or sc[-1].get("tip") != "cta":
         erori.append("Ultima scenă trebuie să fie CTA-ul.")
     elif len(sc[-1].get("voce", "").split()) > 8:

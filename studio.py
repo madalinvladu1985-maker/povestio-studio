@@ -133,6 +133,10 @@ if __name__ == "__main__":
         cmd_batch(fara)
     elif a[0] == "release":
         cmd_release()
+    elif a[0] == "buget":
+        from povestio.buget import tinte_zi
+        from datetime import date as _d
+        print(json.dumps(tinte_zi(a[1] if len(a) > 1 else _d.today().isoformat()), ensure_ascii=False, indent=1))
     elif a[0] == "analiza":
         from povestio import analiza
         sub = a[1] if len(a) > 1 else "raport"
