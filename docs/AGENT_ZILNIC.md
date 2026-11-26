@@ -18,7 +18,7 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
    - Voce totală 50–75 cuvinte; CTA vocal ≤ 8 cuvinte, de forma „Vezi toate <categoria> pe AtentAles.ro.”
    - Fără preț, reduceri, stoc, garanții, superlative, afirmații medicale. Doar fapte din `descriere`.
    - Poza: multe poze de pe site au text. Scrie handle-ul în `catalog/poze_cerere.txt`, push, apoi uită-te la `catalog/poze/<handle>.jpg` (planșă numerotată). Alege poza pe fundal alb în care produsul apare curat; dacă pe ea sunt și alte obiecte, setează `imagine_zona` [x0,y0,x1,y1] și `imagine_punct` [fx,fy] (fracții) ca să rămână doar produsul. Exemplu: clipul uscătorului din 27.11.
-   - Texte pentru tiktok, instagram, facebook, threads, youtube (titlu ≤ 100 caractere).
+   - Texte pentru tiktok, instagram, facebook, threads, youtube (titlu ≤ 100 caractere). **Fiecare text (și descrierea YouTube, și textul Pinterest) se încheie cu propoziția „Conținut realizat cu ajutorul AI.”** (înaintea hashtagurilor). Motorul v4 pune automat și eticheta „Realizat cu AI” în colțul clipului, pe toată durata.
    - `varianta`: hook_tip, deschidere, mix_scene, categorie, stil, stare.
    - Rulează `python studio.py verifica <spec>`; corectează până trece.
 6. Commit + push. Workflow-ul „Povestio - randare clipuri” randează cu vocea ElevenLabs și scrie `publicat/<id>.json` cu `video_url`, `coperta_url`.

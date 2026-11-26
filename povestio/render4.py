@@ -95,6 +95,19 @@ def fraze(text, max_cuv=6):
     return out
 
 
+def strat_eticheta_ai(text="Realizat cu AI"):
+    """Eticheta permanenta, discreta, in coltul din dreapta sus (transparenta AI)."""
+    f = font(FONT_TITLU, 30, 800)
+    tw = f.getlength(text) / 2
+    lat, inalt = int(tw + 44), 52
+    im = Image.new("RGBA", (lat * 2, inalt * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=inalt, fill=CERNEALA + (190,))
+    d.text((im.width / 2, im.height / 2 + 1), text, font=f, fill=ALB, anchor="mm")
+    im = im.resize((lat, inalt), Image.LANCZOS)
+    return (im, W - lat - 36, 40)
+
+
 def strat_subtitlu(text):
     f = font(FONT_TITLU, 50, 850)
     tw = f.getlength(text) / 2
@@ -270,6 +283,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     straturi = [construieste(sc, i, produs_cale) for i, sc in enumerate(scene)]
 
     # subtitrari: fraze scurte, cronometrate proportional cu lungimea lor
+    eticheta_ai = strat_eticheta_ai(brand.get("eticheta_ai", "Realizat cu AI"))
     subt = []
     for sc in scene:
         fz = fraze(sc.get("subtitlu", sc["voce"]))
@@ -301,6 +315,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         for (a, b, e_cta, st, _) in subt:
             if a <= t < b + 0.15 and not e_cta:
                 pune(fr, st, a=min(ease((t - a) / 0.12), 1.0))
+        pune(fr, eticheta_ai)
         if t > durata - 0.4:
             fr = Image.blend(fr, Image.new("RGBA", (W, H), (255, 246, 229, 255)), ease((t - (durata - 0.4)) / 0.4))
         return fr
