@@ -13,7 +13,7 @@ def get(url):
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
                 return json.load(r)
         except Exception as e:
-            err = e; time.sleep(2)
+            err = e; time.sleep(3 + 4 * i)
     raise err
 
 
@@ -34,8 +34,12 @@ colectii = [c for c in toate("/collections.json", "collections") if c.get("produ
 produse = {p["handle"]: p for p in toate("/products.json", "products")}
 membri = {}
 for c in colectii:
-    for p in toate(f"/collections/{c['handle']}/products.json", "products"):
-        membri.setdefault(p["handle"], []).append(c["handle"])
+    try:
+        for p in toate(f"/collections/{c['handle']}/products.json", "products"):
+            membri.setdefault(p["handle"], []).append(c["handle"])
+    except Exception as e:
+        print("colectie sarita:", c["handle"], e)
+    time.sleep(0.6)
 cat = {"domeniu": DOMENIU, "actualizat": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
        "colectii": [{"handle": c["handle"], "titlu": c["title"], "produse": c.get("products_count")} for c in colectii],
        "produse": [{
