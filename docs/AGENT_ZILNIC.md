@@ -16,14 +16,18 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
    - Decoruri disponibile: `bucatarie`, `bucatarie_cabluri`, `baie`, `hartie`. Pentru categorii fără decor potrivit, folosește `hartie` sau adaugă un decor nou în `povestio/planse.py`.
    - Voce totală 50–75 cuvinte; CTA vocal ≤ 8 cuvinte, de forma „Vezi toate <categoria> pe AtentAles.ro.”
    - Fără preț, reduceri, stoc, garanții, superlative, afirmații medicale. Doar fapte din `descriere`.
-   - `imagine_url`: prima imagine a produsului (dacă după randare se vede text pe poză, alege alta).
+   - Poza: multe poze de pe site au text. Scrie handle-ul în `catalog/poze_cerere.txt`, push, apoi uită-te la `catalog/poze/<handle>.jpg` (planșă numerotată). Alege poza pe fundal alb în care produsul apare curat; dacă pe ea sunt și alte obiecte, setează `imagine_zona` [x0,y0,x1,y1] și `imagine_punct` [fx,fy] (fracții) ca să rămână doar produsul. Exemplu: clipul uscătorului din 27.11.
    - Texte pentru tiktok, instagram, facebook, threads, youtube (titlu ≤ 100 caractere).
    - `varianta`: hook_tip, deschidere, mix_scene, categorie, stil, stare.
    - Rulează `python studio.py verifica <spec>`; corectează până trece.
 6. Commit + push. Workflow-ul „Povestio - randare clipuri” randează cu vocea ElevenLabs și scrie `publicat/<id>.json` cu `video_url`, `coperta_url`.
-7. Verifică fiecare clip: descarcă MP4 din release, extrage 4 cadre, verifică textul, poza produsului și durata (20–35 s).
-8. Publicare în Metricool, brandul Atent Ales (`getBrandSettings`, label care conține „Atent”): `createScheduledPost` la ora slotului, cu:
-   - providers: tiktok, instagram (REEL), facebook (REEL), youtube (short, madeForKids false), threads; pinterest doar dacă există un board.
+7. Verifică fiecare clip: descarcă MP4 din release, extrage 4 cadre, verifică textul, poza produsului (fără text, fără alte obiecte) și durata (20–35 s). Dacă ceva e greșit, corectează spec-ul, șterge `publicat/<id>.json` și fă push ca să se rerandeze.
+8. Publicare în Metricool, brandul **Atent Ales, blogId 8391098** (NU Vlateo 6257903): `createScheduledPost` la ora slotului, o singură postare pentru toate rețelele, cu:
+   - `text` = textul pentru Instagram (≤ 500 caractere, ca să treacă și pe Threads);
+   - `tiktokData.title` este obligatoriu (titlu scurt, ≤ 90 caractere);
+   - `facebookData.title` = același titlu scurt;
+   - fără `videoThumbnailUrl` (poate respinge toată postarea);
+   - providers: tiktok, instagram (REEL), facebook (REEL), youtube (short, madeForKids false, category potrivită), threads; pinterest doar dacă există un board.
    - eticheta AI: `tiktokData.isAigc`, `instagramData.isAiGenerated`, `youtubeData.isAiGeneratedContent` = true; `tiktokData.commercialContentOwnBrand` = true.
    - `videoThumbnailUrl` = `coperta_url` doar acolo unde e acceptat.
    - Un slot deja trecut nu se programează în trecut: mută clipul la următorul slot liber al zilei.
