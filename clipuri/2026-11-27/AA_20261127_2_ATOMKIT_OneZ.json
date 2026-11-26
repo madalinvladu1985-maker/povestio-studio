@@ -1,0 +1,137 @@
+{
+  "id": "AA_20261127_2_ATOMKIT_OneZ",
+  "brand": "atentales",
+  "versiune_motor": 3,
+  "unghi_marketing": "educativ: problemă reală -> 3 motive -> categorie",
+  "produs": {
+    "handle": "priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "url": "https://atentales.ro/products/priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "decupaje": {
+      "erou": "assets/produse/atomkit-one-z/erou.png",
+      "wireless": {
+        "cale": "assets/produse/atomkit-one-z/wireless.png",
+        "latime": 860,
+        "baza_frac": 0.8
+      }
+    },
+    "fapte_din_fisa": [
+      "3 prize, până la 2500 W",
+      "port USB-A și port USB-C",
+      "încărcare wireless 15 W pentru dispozitivele compatibile",
+      "sistem pop-up: priza rămâne ascunsă când nu este folosită",
+      "protecție la suprasarcină"
+    ]
+  },
+  "scene": [
+    {
+      "tip": "video",
+      "src": "https://media.canva.com/v2/download/name:Povestio+ATOMKIT+-+scene+bucatarie+%28personaj%29.mp4/uri:ifs%3A%2F%2FV%2FAY91v_WZdIZnmhntcsljyF8xhPeg1N3eUreZdPIPVFs.?csig=AAAAAAAAAAAAAAAAAAAAAGiAJBRN9Bt_6dmmdR0UqlOtPTjaLHxMgVMkNrCEQltR&exp=1795700126&signer=video-rpc&token=AAIAAVYALEFZOTF2X1daZElabm1obnRjc2xqeUY4eGhQZWcxTjNlVXJlWmRQSVBWRnMuAAAAAAGiGLY8sDX1uj58G198LNOsF7wznp-DH_6QiHmjgNlbUqM20zUN",
+      "din": 0.0,
+      "voce": "Telefonul e pe roșu. Iar priza liberă e după frigider.",
+      "subtitlu": "Telefonul e pe *roșu*. Iar priza liberă e după *frigider*.",
+      "ecran": "*1%* baterie. Zero prize libere."
+    },
+    {
+      "tip": "video",
+      "src": "https://media.canva.com/v2/download/name:Povestio+ATOMKIT+-+scene+bucatarie+%28personaj%29.mp4/uri:ifs%3A%2F%2FV%2FAY91v_WZdIZnmhntcsljyF8xhPeg1N3eUreZdPIPVFs.?csig=AAAAAAAAAAAAAAAAAAAAAGiAJBRN9Bt_6dmmdR0UqlOtPTjaLHxMgVMkNrCEQltR&exp=1795700126&signer=video-rpc&token=AAIAAVYALEFZOTF2X1daZElabm1obnRjc2xqeUY4eGhQZWcxTjNlVXJlWmRQSVBWRnMuAAAAAAGiGLY8sDX1uj58G198LNOsF7wznp-DH_6QiHmjgNlbUqM20zUN",
+      "din": 3.2,
+      "voce": "Și blatul arată ca un nod de cabluri.",
+      "subtitlu": "Și blatul arată ca un *nod de cabluri*.",
+      "ecran": "Sună *cunoscut*?"
+    },
+    {
+      "tip": "titlu",
+      "produs": "erou",
+      "durata_min": 3.2,
+      "voce": "Uite trei motive să-ți ascunzi priza chiar în blat.",
+      "subtitlu": "Uite *3 motive* să-ți ascunzi priza chiar în blat.",
+      "ecran": "3 motive să-ți ascunzi *priza în blat*",
+      "marime_ecran": 84
+    },
+    {
+      "tip": "popup",
+      "produs": "erou",
+      "numar": 1,
+      "durata_min": 4.2,
+      "voce": "Unu. Apare când ai nevoie și dispare când termini. Blatul rămâne liber.",
+      "subtitlu": "Apare când ai nevoie. *Dispare* când termini.",
+      "ecran": "Apare *doar când* ai nevoie"
+    },
+    {
+      "tip": "functii",
+      "produs": "erou",
+      "numar": 2,
+      "durata_min": 4.0,
+      "voce": "Doi. Trei prize, plus USB-A și USB-C, toate într-un singur loc.",
+      "subtitlu": "*3 prize*, plus *USB-A* și *USB-C*, într-un singur loc.",
+      "ecran": "*5 funcții*, un singur loc",
+      "etichete": [
+        "3 prize · până la 2500 W",
+        "USB-A",
+        "USB-C",
+        "Wireless 15 W"
+      ]
+    },
+    {
+      "tip": "wireless",
+      "produs": "wireless",
+      "numar": 3,
+      "durata_min": 3.6,
+      "voce": "Trei. Pui telefonul deasupra și se încarcă wireless.",
+      "subtitlu": "Pui telefonul deasupra și se încarcă *wireless*.",
+      "ecran": "Încărcare *wireless 15 W*",
+      "nota": "pentru telefoanele compatibile",
+      "placa": [
+        0.52,
+        0.37
+      ]
+    },
+    {
+      "tip": "video",
+      "src": "https://media.canva.com/v2/download/name:Povestio+ATOMKIT+-+scene+bucatarie+%28personaj%29.mp4/uri:ifs%3A%2F%2FV%2FAY91v_WZdIZnmhntcsljyF8xhPeg1N3eUreZdPIPVFs.?csig=AAAAAAAAAAAAAAAAAAAAAGiAJBRN9Bt_6dmmdR0UqlOtPTjaLHxMgVMkNrCEQltR&exp=1795700126&signer=video-rpc&token=AAIAAVYALEFZOTF2X1daZElabm1obnRjc2xqeUY4eGhQZWcxTjNlVXJlWmRQSVBWRnMuAAAAAAGiGLY8sDX1uj58G198LNOsF7wznp-DH_6QiHmjgNlbUqM20zUN",
+      "din": 9.0,
+      "voce": "Mai puține cabluri. Mai mult loc pentru momentele tale.",
+      "subtitlu": "Mai puține *cabluri*. Mai mult loc pentru *tine*.",
+      "ecran": "Blat curat. *Seară liniștită.*"
+    },
+    {
+      "tip": "cta",
+      "produs": "erou",
+      "durata_min": 3.6,
+      "pauza": 0.6,
+      "voce": "Vezi toate prizele încorporabile pe AtentAles.ro."
+    }
+  ],
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Prize încorporabile",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/casa-bucatarie-prize"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "17:00"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Știai că priza poate sta ascunsă în blat până ai nevoie de ea? 3 motive să scapi de prelungitoarele de pe blat. Vezi toate prizele încorporabile pe AtentAles.ro.\n#bucatarie #amenajare #casa #organizare #atentales"
+    },
+    "instagram": {
+      "text": "Telefonul pe roșu, priza după frigider și un nod de cabluri pe blat? Iată 3 motive să-ți ascunzi priza chiar în blat:\n1. Apare doar când ai nevoie.\n2. 3 prize, USB-A și USB-C într-un singur loc.\n3. Încărcare wireless 15 W pentru telefoanele compatibile.\nToate prizele încorporabile, pe AtentAles.ro.\n#bucatarie #amenajarebucatarie #designinterior #organizare #atentales"
+    },
+    "facebook": {
+      "text": "3 motive să-ți ascunzi priza în blat: apare doar când ai nevoie, are 3 prize plus USB-A și USB-C, și încarcă wireless telefoanele compatibile. Vezi toate prizele încorporabile pe AtentAles.ro."
+    },
+    "youtube": {
+      "titlu": "3 motive să-ți ascunzi priza în blatul de bucătărie",
+      "descriere": "Telefonul pe roșu și un nod de cabluri pe blat? Iată 3 motive să alegi o priză pop-up încorporată în blat. Vezi toate prizele încorporabile pe AtentAles.ro.",
+      "tags": [
+        "bucatarie",
+        "amenajare",
+        "priza pop-up",
+        "atentales"
+      ]
+    }
+  },
+  "sursa_personaje": "Canva AI (video VAHcA5yDlEY), personaj fictiv generat"
+}

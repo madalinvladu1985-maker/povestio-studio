@@ -25,7 +25,49 @@ def _gaseste(tipare, text):
     return [t for t in tipare if re.search(t, text, flags=re.IGNORECASE)]
 
 
+def verifica_v3(spec, brand):
+    erori, avert = [], []
+    sc = spec.get("scene", [])
+    if len(sc) < 4:
+        erori.append("Clipul v3 are nevoie de cel puțin 4 scene.")
+    voce_tot = " ".join(s.get("voce", "") for s in sc)
+    n = len(voce_tot.split())
+    if n < 45 or n > 100:
+        avert.append(f"Voiceover de {n} cuvinte (ținta v3: 55–90).")
+    if not sc or sc[-1].get("tip") != "cta":
+        erori.append("Ultima scenă trebuie să fie CTA-ul.")
+    elif len(sc[-1].get("voce", "").split()) > 8:
+        erori.append("CTA-ul are mai mult de 8 cuvinte.")
+    for i, s in enumerate(sc):
+        if s.get("tip") == "video" and (not s.get("src") or "PLACEHOLDER" in s.get("src", "")):
+            erori.append(f"Scena {i + 1}: lipsește clipul video (src).")
+    p = spec.get("produs", {})
+    if not p.get("decupaje"):
+        erori.append("Lipsesc imaginile decupate ale produsului.")
+    texte = [voce_tot] + [s.get("ecran", "") + " " + s.get("subtitlu", "") + " " + s.get("nota", "") + " " + " ".join(s.get("etichete", [])) for s in sc]
+    plat = spec.get("platforme", {})
+    for k in ("tiktok", "instagram", "facebook"):
+        if k in plat:
+            texte.append(plat[k].get("text", ""))
+            if len(plat[k].get("text", "")) > LIMITE[k]:
+                erori.append(f"Textul pentru {k} depășește {LIMITE[k]} caractere.")
+    yt = plat.get("youtube", {})
+    if yt:
+        texte += [yt.get("titlu", ""), yt.get("descriere", "")]
+        if not yt.get("titlu") or len(yt.get("titlu", "")) > LIMITE["youtube_titlu"]:
+            erori.append("Titlul YouTube lipsește sau depășește 100 de caractere.")
+    tot = "\n".join(texte)
+    for t in _gaseste(INTERZISE_GENERAL, tot):
+        erori.append(f"Formulare interzisă (vânzare agresivă/promisiune): {t}")
+    if brand.get("fara_afirmatii_medicale", True):
+        for t in _gaseste(INTERZISE_MEDICAL, tot):
+            erori.append(f"Formulare cu caracter medical: {t}")
+    return erori, avert
+
+
 def verifica(spec, brand):
+    if spec.get("versiune_motor") == 3:
+        return verifica_v3(spec, brand)
     erori, avert = [], []
     replici = spec.get("replici", [])
     if not replici:

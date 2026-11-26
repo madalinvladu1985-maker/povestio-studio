@@ -53,7 +53,8 @@ def cmd_verifica(cale):
 
 
 def proceseaza(cale, fara_voce=False):
-    from povestio.render import randeaza
+    from povestio.render import randeaza as randeaza_v2
+    from povestio.render3 import randeaza as randeaza_v3
     spec = citeste(cale); brand = brand_de(spec)
     erori, avert = verifica(spec, brand)
     baza = {"id": spec["id"], "brand": brand["id"], "spec": str(Path(cale).relative_to(RAD)),
@@ -64,7 +65,8 @@ def proceseaza(cale, fara_voce=False):
         print(f"[{spec['id']}] RESPINS: {erori}")
         return False
     try:
-        rez = randeaza(spec, brand, IESIRE, CACHE, ["fara"] if fara_voce else None)
+        rnd = randeaza_v3 if spec.get("versiune_motor") == 3 else randeaza_v2
+        rez = rnd(spec, brand, IESIRE, CACHE, ["fara"] if fara_voce else None)
     except Exception as e:  # o eroare la un clip nu le oprește pe celelalte
         scrie_manifest(spec["id"], {**baza, "status": "eroare_randare", "erori": [str(e)]})
         print(f"[{spec['id']}] EROARE la randare: {e}")

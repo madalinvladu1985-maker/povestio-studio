@@ -3,7 +3,11 @@
   "magazin_shopify": "2fuzia-7q.myshopify.com",
   "domeniu_public": "AtentAles.ro",
   "slogan": "produse atent alese",
-  "culoare_accent": [255, 200, 140],
+  "culoare_accent": [
+    255,
+    200,
+    140
+  ],
   "tema_implicita": "iarna_seara",
   "volum_muzica": 0.22,
   "fara_afirmatii_medicale": true,
@@ -12,10 +16,15 @@
     "AtentAles.ro": "Atent Ales punct ro",
     "Vlateo": "Vlateo",
     "ATOMKIT": "Atom Kit",
-    "SanoAlint": "Sano Alint"
+    "SanoAlint": "Sano Alint",
+    "USB-A": "u-se-be A",
+    "USB-C": "u-se-be ce"
   },
   "voce": {
-    "ordine": ["elevenlabs", "azure"],
+    "ordine": [
+      "elevenlabs",
+      "azure"
+    ],
     "elevenlabs_model": "eleven_flash_v2_5",
     "elevenlabs_voice_id": "gbLy9ep70G3JW53cTzFC",
     "stabilitate": 0.55,
@@ -28,8 +37,17 @@
   },
   "publicare": {
     "metricool_blog_id": "",
-    "ore": ["12:00", "17:00", "20:00"],
-    "retele": ["tiktok", "instagram", "facebook", "youtube"],
+    "ore": [
+      "12:00",
+      "17:00",
+      "20:00"
+    ],
+    "retele": [
+      "tiktok",
+      "instagram",
+      "facebook",
+      "youtube"
+    ],
     "eticheta_ai": true,
     "tiktok_continut_comercial_brand_propriu": true
   }
