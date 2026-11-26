@@ -28,7 +28,8 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
    - `tiktokData.title` este obligatoriu (titlu scurt, ≤ 90 caractere);
    - `facebookData.title` = același titlu scurt;
    - fără `videoThumbnailUrl` (poate respinge toată postarea);
-   - providers: tiktok, instagram (REEL), facebook (REEL), youtube (short, madeForKids false, category potrivită), threads; pinterest doar dacă există un board.
+   - providers: tiktok, instagram (REEL), facebook (REEL), youtube (short, madeForKids false, category potrivită), threads.
+   - **Pinterest, ca postare separată** la aceeași oră: același MP4, `pinterestData` cu `boardId` "267823577779759925" (panoul „Idei pentru casă”), `pinTitle` = titlul scurt, `pinLink` = URL-ul categoriei din CTA, `pinNewFormat` true, `isAiGenerated` true, `isAiGeneratedPerson` false; text ≤ 500 caractere, fără hashtaguri.
    - eticheta AI: `tiktokData.isAigc`, `instagramData.isAiGenerated`, `youtubeData.isAiGeneratedContent` = true; `tiktokData.commercialContentOwnBrand` = true.
    - `videoThumbnailUrl` = `coperta_url` doar acolo unde e acceptat.
    - Un slot deja trecut nu se programează în trecut: mută clipul la următorul slot liber al zilei.
