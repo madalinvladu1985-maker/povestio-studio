@@ -17,7 +17,7 @@
   "voce": {
     "ordine": ["elevenlabs", "azure"],
     "elevenlabs_model": "eleven_flash_v2_5",
-    "elevenlabs_voice_id": "",
+    "elevenlabs_voice_id": "gbLy9ep70G3JW53cTzFC",
     "stabilitate": 0.55,
     "similaritate": 0.75,
     "stil": 0.15,
