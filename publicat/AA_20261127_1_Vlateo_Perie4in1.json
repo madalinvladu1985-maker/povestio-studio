@@ -38,9 +38,9 @@
     "titlu_ecran": "Peria rotativă Vlateo",
     "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții"
   },
-  "actualizat": "2026-11-26T10:22:46+00:00",
+  "actualizat": "2026-11-26T10:39:24+00:00",
   "status": "eroare_randare",
   "erori": [
-    "Niciun furnizor de voce nu a mers: ELEVENLABS_API_KEY lipsește | AZURE_SPEECH_KEY lipsește"
+    "404 Client Error: Not Found for url: https://2fuzia-7q.myshopify.com/products/perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w.json"
   ]
 }
