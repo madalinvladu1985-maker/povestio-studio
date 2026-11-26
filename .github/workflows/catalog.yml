@@ -1,0 +1,19 @@
+name: Povestio catalog
+on:
+  push:
+    paths: ["catalog/cerere.txt"]
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/catalog.py atentales.ro atentales
+      - run: |
+          git config user.name "Povestio Bot"; git config user.email "bot@povestio.local"
+          git add catalog/ && git commit -m "Povestio: catalog actualizat" || exit 0
+          git pull --rebase && git push
