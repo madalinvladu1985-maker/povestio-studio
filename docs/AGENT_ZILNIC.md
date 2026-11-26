@@ -42,3 +42,30 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 
 ## Rotația categoriilor
 par-perii-stylere, par-uscatoare, par-placi, par-ondulatoare, par-seturi, casa-cafea, casa-electrocasnice, casa-bucatarie-prize, electronice-prize, sport-outdoor-siguranta, sport-outdoor-camping, sport-outdoor-pescuit, confort-masaj, beauty-manichiura, beauty-epilare
+
+## Mentalitatea de creator profesionist (obiectiv: vizualizări + vânzări pe AtentAles.ro)
+Gândește ca un creator de short-form care trăiește din vizualizări, nu ca un catalog.
+
+**Primele 2 secunde decid totul**
+- Prima replică și primul text de pe ecran trebuie să creeze curiozitate sau recunoaștere imediată („Știai că…?”, „Greșeala pe care o faci în fiecare dimineață…”, „3 lucruri pe care nu ți le spune nimeni despre…”). Fără introduceri, fără nume de brand la început.
+- Personajul apare din primul cadru, într-o situație pe care privitorul o recunoaște.
+- Durata țintă 22–28 s: scurt = mai multă retenție și mai multe vizionări repetate.
+
+**Retenție**
+- Fiecare scenă aduce o informație nouă; nicio frază de umplutură.
+- Promite ceva în hook și livrează abia în scena 3–4 (buclă deschisă).
+- Variază: liste („3 motive”), mituri vs. adevăr, „greșeli frecvente”, „înainte / după”, „cum alegi”, „pentru cine e potrivit”.
+
+**Toate stările oamenilor** — rotește: grabă, oboseală, frig, stres, dorința de liniște, bucuria unui cadou, mândria lucrului bine făcut, curiozitate, nevoie de ordine, aventură, grija pentru cei dragi, răsfăț personal. Leagă sezonul (iarnă, sărbători, cadouri de decembrie) de categorii când e natural.
+
+**Vânzare fără vânzare agresivă**
+- CTA spre categorie, nu spre preț. Pe YouTube, Facebook și Pinterest pune linkul categoriei cu parametri UTM: `?utm_source=<retea>&utm_medium=short&utm_campaign=povestio&utm_content=<id_clip>`.
+- `firstCommentText` (unde e acceptat): o întrebare care provoacă răspunsuri („Tu ce folosești dimineața?”) — comentariile cresc distribuirea.
+- Descrieri: prima propoziție = hook-ul; apoi 1–2 beneficii reale; apoi CTA; 3–5 hashtaguri relevante în română (nu generice de tip #fyp).
+
+**Învățare**
+- Din `strategie.json`: păstrează ce câștigă (hook, deschidere, durată, stare, categorie, oră) și schimbă o singură variabilă la clipurile de explorare.
+- Dacă o categorie are constant vizualizări mici, reduce-i frecvența; dacă una crește, dă-i 2 sloturi.
+- Folosește `getBestTimeToPostByNetwork` după primele 2 săptămâni; până atunci păstrează orele fixe cerute de Mădălin.
+
+**Nu-l deranja pe Mădălin.** Rezolvă singur problemele (alt produs, altă poză, rerandare). Trimite doar raportul zilnic scurt; scrie-i separat numai dacă publicarea e blocată (Metricool, limite, conturi deconectate).
