@@ -226,10 +226,19 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     # 1) vocea, replică cu replică -> cronologie exactă
     sr = voce.SR
     segs, audio, t, furnizori = [], [np.zeros(int(sr * 0.6), np.int16)], 0.6, set()
-    for s in spec["replici"]:
+    n_img = len(spec["produs"].get("imagini_url") or spec["produs"].get("imagini") or [1])
+    min_prod = 2.3 * n_img + 0.4  # timp minim pe ecran pentru imaginile produsului
+    replici = spec["replici"]
+    ultim_prod = max([i for i, r in enumerate(replici) if r.get("scena") == "produs"], default=-1)
+    start_prod = None
+    for idx, s in enumerate(replici):
         v, furn = voce.genereaza(s["text"], brand, cache, ordine_voce)
         furnizori.add(furn)
         d = len(v) / sr; p = s.get("pauza", 0.4)
+        if s.get("scena") == "produs" and start_prod is None:
+            start_prod = t
+        if idx == ultim_prod and start_prod is not None:
+            p = max(p, min_prod - (t + d - start_prod))
         segs.append(dict(s, start=t, end=t + d))
         audio += [v, np.zeros(int(sr * p), np.int16)]
         t += d + p
@@ -282,11 +291,16 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
             card = card.crop((ox, oy, ox + CW, oy + ch0))
             mask = Image.new("L", card.size, 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, CW, ch0], 36, fill=255)
             a = ease(li / 0.45) if i > 0 else ease(lt / 0.6)
-            cA = card.convert("RGBA"); cA.putalpha(mask.point(lambda v, a=a: int(v * a)))
-            sh = Image.new("RGBA", (CW + 120, ch0 + 120), (0, 0, 0, 0))
-            ImageDraw.Draw(sh).rounded_rectangle([60, 70, CW + 60, ch0 + 70], 40, fill=(0, 0, 0, int(150 * a)))
+            a_sh = 1.0 if i > 0 else a
             x0, y0 = (W - CW) // 2, 400
+            sh = Image.new("RGBA", (CW + 120, ch0 + 120), (0, 0, 0, 0))
+            ImageDraw.Draw(sh).rounded_rectangle([60, 70, CW + 60, ch0 + 70], 40, fill=(0, 0, 0, int(150 * a_sh)))
             fr.alpha_composite(sh.filter(ImageFilter.GaussianBlur(28)), (x0 - 60, y0 - 60))
+            if i > 0 and a < 1:  # trecere directă: imaginea anterioară rămâne dedesubt
+                prev = poze[i - 1].resize((CW, int(poze[i - 1].height * CW / poze[i - 1].width)), Image.LANCZOS)
+                prev = prev.resize((CW, ch0), Image.LANCZOS).convert("RGBA"); prev.putalpha(mask)
+                fr.alpha_composite(prev, (x0, y0))
+            cA = card.convert("RGBA"); cA.putalpha(mask.point(lambda v, a=a: int(v * a)))
             fr.alpha_composite(cA, (x0, y0))
             put(fr, titlu, 170, env(lt, 0.1, dur + 1, 0.6), dy=14 * (1 - ease(lt / 0.8)))
             put(fr, benef, y0 + ch0 + 210, env(lt, 1.2, dur + 1, 0.6))
