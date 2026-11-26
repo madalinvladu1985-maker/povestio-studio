@@ -257,8 +257,13 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     vox = np.concatenate(audio); vox = np.pad(vox, (0, max(0, int(sr * durata) - len(vox))))
 
     # 2) straturi
-    pc = spec["produs"]["decupaje"]["erou"]
-    produs_cale = RAD / (pc if isinstance(pc, str) else pc["cale"])
+    dec = spec["produs"].get("decupaje", {})
+    if dec.get("erou"):
+        pc = dec["erou"]
+        produs_cale = RAD / (pc if isinstance(pc, str) else pc["cale"])
+    else:
+        from povestio.imagine import pregateste
+        produs_cale = pregateste(spec["produs"]["imagine_url"], cache)
     straturi = [construieste(sc, i, produs_cale) for i, sc in enumerate(scene)]
 
     # subtitrari: fraze scurte, cronometrate proportional cu lungimea lor

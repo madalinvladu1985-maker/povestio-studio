@@ -42,7 +42,7 @@ def verifica_v3(spec, brand):
         if s.get("tip") == "video" and (not s.get("src") or "PLACEHOLDER" in s.get("src", "")):
             erori.append(f"Scena {i + 1}: lipsește clipul video (src).")
     p = spec.get("produs", {})
-    if not p.get("decupaje"):
+    if not p.get("decupaje") and not p.get("imagine_url"):
         erori.append("Lipsesc imaginile decupate ale produsului.")
     texte = [voce_tot] + [s.get("ecran", "") + " " + s.get("subtitlu", "") + " " + s.get("nota", "") + " " + s.get("bula", "") + " " + s.get("eticheta", "") + " " + " ".join([e if isinstance(e, str) else e.get("text", "") for e in s.get("etichete", [])] + s.get("pasi", [])) for s in sc]
     plat = spec.get("platforme", {})
