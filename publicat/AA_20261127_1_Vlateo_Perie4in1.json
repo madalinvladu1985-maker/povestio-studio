@@ -1,0 +1,46 @@
+{
+  "id": "AA_20261127_1_Vlateo_Perie4in1",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-27/AA_20261127_1_Vlateo_Perie4in1.json",
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "12:00"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Căciula a lăsat urme, iar cineva te așteaptă. ❄️ O mică poveste de decembrie.\n#decembrie #iarna #coafuraacasa #vlateo #atentales"
+    },
+    "instagram": {
+      "text": "Serile de decembrie au farmecul lor: luminițe, zăpadă, oameni dragi. Iar când părul nu e gata, ajută un aparat care usucă și coafează în același timp. Peria rotativă 4 în 1 Vlateo, pe AtentAles.ro.\n#iarna #coafuraacasa #vlateo #atentales"
+    },
+    "facebook": {
+      "text": "Serile de decembrie au farmecul lor: luminițe, zăpadă, oameni dragi. Peria rotativă 4 în 1 Vlateo usucă și coafează cu același aparat. Descoperă-o pe AtentAles.ro."
+    },
+    "youtube": {
+      "titlu": "Seara de decembrie și căciula care a stricat coafura",
+      "descriere": "O mică poveste de iarnă. Peria rotativă 4 în 1 Vlateo usucă și coafează cu același aparat. Descoperă-o pe AtentAles.ro.",
+      "tags": [
+        "iarna",
+        "coafura",
+        "vlateo",
+        "atentales"
+      ]
+    }
+  },
+  "produs": {
+    "handle": "perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w",
+    "url": "https://2fuzia-7q.myshopify.com/products/perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w",
+    "imagini": [
+      4,
+      3,
+      1
+    ],
+    "titlu_ecran": "Peria rotativă Vlateo",
+    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții"
+  },
+  "actualizat": "2026-11-26T10:22:46+00:00",
+  "status": "eroare_randare",
+  "erori": [
+    "Niciun furnizor de voce nu a mers: ELEVENLABS_API_KEY lipsește | AZURE_SPEECH_KEY lipsește"
+  ]
+}
