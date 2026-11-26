@@ -1,0 +1,167 @@
+{
+  "id": "AA_20261127_3_ATOMKIT_Planse",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: Știai că… -> problemă -> cum funcționează -> funcții -> categorie",
+  "produs": {
+    "handle": "priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "url": "https://atentales.ro/products/priza-pop-up-incastrabila-5-in-1-atomkit-one-z-3-prize-usb-a-usb-c-wireless-15-w-negru-mat",
+    "decupaje": {
+      "erou": "assets/produse/atomkit-one-z/erou.png",
+      "wireless": {
+        "cale": "assets/produse/atomkit-one-z/wireless.png",
+        "latime": 860,
+        "baza_frac": 0.8
+      }
+    },
+    "fapte_din_fisa": [
+      "3 prize, până la 2500 W",
+      "port USB-A și port USB-C",
+      "încărcare wireless 15 W pentru dispozitivele compatibile",
+      "sistem pop-up: priza rămâne ascunsă când nu este folosită",
+      "protecție la suprasarcină"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Prize încorporabile",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/casa-bucatarie-prize"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "17:00"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "bucatarie_cabluri",
+      "eticheta": "ȘTIAI CĂ…?",
+      "culoare_eticheta": "albastru",
+      "ecran": "priza poate sta\n*ascunsă în blat*?",
+      "personaj": {
+        "x": 380,
+        "stare": "trist",
+        "obiect": "telefon",
+        "intrare": true
+      },
+      "voce": "Știai că priza poate sta ascunsă chiar în blatul de bucătărie?"
+    },
+    {
+      "tip": "problema",
+      "decor": "bucatarie_cabluri",
+      "ecran": "*1%* baterie.\nZero prize libere.",
+      "personaj": {
+        "x": 380,
+        "stare": "surprins",
+        "obiect": "telefon"
+      },
+      "bula": "Iar nicio priză liberă…",
+      "bula_start": 0.4,
+      "voce": "Telefonul e pe roșu, iar singura priză liberă e după frigider."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "coral",
+      "ecran": "cum lucrează\no priză *pop-up*",
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 600,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Iese din blat",
+        "Conectezi",
+        "Coboară la loc"
+      ],
+      "voce": "Hai să-ți arăt. Iese din blat când ai nevoie și coboară la loc când termini."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "Tot ce-ți trebuie,\n*într-un singur loc*",
+      "produs": {
+        "x": 540,
+        "baza": 1180,
+        "latime": 560,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "Wireless 15 W",
+          "x": 540,
+          "y": 560,
+          "accent": true,
+          "sageata": true
+        },
+        {
+          "text": "3 prize · 2500 W",
+          "x": 290,
+          "y": 1260
+        },
+        {
+          "text": "USB-A + USB-C",
+          "x": 790,
+          "y": 1260
+        }
+      ],
+      "voce": "Trei prize, USB-A, USB-C și încărcare wireless de 15 wați, pentru telefoanele compatibile."
+    },
+    {
+      "tip": "cta",
+      "decor": "bucatarie",
+      "ecran": "Mai puțin *haos*.\nMai mult *loc*.",
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 690,
+        "baza": 1345,
+        "latime": 380,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi toate prizele încorporabile",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi toate prizele încorporabile pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Știai că priza poate sta ascunsă în blat? Iese când ai nevoie, coboară când termini: 3 prize, USB-A, USB-C și încărcare wireless. Vezi toate prizele încorporabile pe AtentAles.ro.\n#bucatarie #amenajare #casa #organizare #atentales"
+    },
+    "instagram": {
+      "text": "Știai că priza poate sta ascunsă chiar în blatul de bucătărie?\nO priză pop-up iese din blat când ai nevoie și coboară la loc când termini. Are 3 prize, USB-A, USB-C și încărcare wireless 15 W pentru telefoanele compatibile.\nToate prizele încorporabile, pe AtentAles.ro.\n#bucatarie #amenajarebucatarie #designinterior #organizare #atentales"
+    },
+    "facebook": {
+      "text": "Știai că priza poate sta ascunsă în blat? Iese când ai nevoie și coboară la loc când termini. 3 prize, USB-A, USB-C și încărcare wireless pentru telefoanele compatibile. Vezi toate prizele încorporabile pe AtentAles.ro."
+    },
+    "youtube": {
+      "titlu": "Știai că priza poate sta ascunsă în blatul de bucătărie?",
+      "descriere": "Cum funcționează o priză pop-up încorporată în blat: iese când ai nevoie, coboară la loc când termini. Vezi toate prizele încorporabile pe AtentAles.ro.",
+      "tags": [
+        "bucatarie",
+        "amenajare",
+        "priza pop-up",
+        "atentales"
+      ]
+    }
+  },
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "stiai_ca",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "durata_s": null,
+    "categorie": "casa-bucatarie-prize",
+    "stil": "planse_v4"
+  }
+}

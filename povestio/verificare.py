@@ -44,7 +44,7 @@ def verifica_v3(spec, brand):
     p = spec.get("produs", {})
     if not p.get("decupaje"):
         erori.append("Lipsesc imaginile decupate ale produsului.")
-    texte = [voce_tot] + [s.get("ecran", "") + " " + s.get("subtitlu", "") + " " + s.get("nota", "") + " " + " ".join(s.get("etichete", [])) for s in sc]
+    texte = [voce_tot] + [s.get("ecran", "") + " " + s.get("subtitlu", "") + " " + s.get("nota", "") + " " + s.get("bula", "") + " " + s.get("eticheta", "") + " " + " ".join([e if isinstance(e, str) else e.get("text", "") for e in s.get("etichete", [])] + s.get("pasi", [])) for s in sc]
     plat = spec.get("platforme", {})
     for k in ("tiktok", "instagram", "facebook"):
         if k in plat:
@@ -66,7 +66,7 @@ def verifica_v3(spec, brand):
 
 
 def verifica(spec, brand):
-    if spec.get("versiune_motor") == 3:
+    if spec.get("versiune_motor") in (3, 4):
         return verifica_v3(spec, brand)
     erori, avert = [], []
     replici = spec.get("replici", [])

@@ -65,7 +65,10 @@ def proceseaza(cale, fara_voce=False):
         print(f"[{spec['id']}] RESPINS: {erori}")
         return False
     try:
-        rnd = randeaza_v3 if spec.get("versiune_motor") == 3 else randeaza_v2
+        if spec.get("versiune_motor") == 4:
+            from povestio.render4 import randeaza as rnd
+        else:
+            rnd = randeaza_v3 if spec.get("versiune_motor") == 3 else randeaza_v2
         rez = rnd(spec, brand, IESIRE, CACHE, ["fara"] if fara_voce else None)
     except Exception as e:  # o eroare la un clip nu le oprește pe celelalte
         scrie_manifest(spec["id"], {**baza, "status": "eroare_randare", "erori": [str(e)]})
