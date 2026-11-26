@@ -1,0 +1,17 @@
+name: Povestio poze
+on:
+  push:
+    paths: ["catalog/poze_cerere.txt"]
+permissions:
+  contents: write
+jobs:
+  poze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python scripts/poze.py
+      - run: |
+          git config user.name "Povestio Bot"; git config user.email "bot@povestio.local"
+          git add catalog/poze && git commit -m "Povestio: planse poze" || exit 0
+          git pull --rebase && git push
