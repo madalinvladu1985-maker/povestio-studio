@@ -114,6 +114,8 @@ def construieste(sc, idx, produs_cale):
     pb = Plansa(idx + 1)
     if decor.startswith("bucatarie"):
         pb.bucatarie(BLAT_Y, cabluri=(decor == "bucatarie_cabluri"))
+    elif decor == "baie":
+        pb.baie(BLAT_Y)
     L["fundal"] = pb.finalizeaza()
 
     ytit = 250 if sc.get("eticheta") else 200
@@ -140,7 +142,7 @@ def construieste(sc, idx, produs_cale):
 
     pr = sc.get("produs")
     if pr:
-        L["produs"] = strat(lambda p: p.produs(produs_cale, pr.get("x", 540), pr.get("baza", 1250), pr.get("latime", 620)))
+        L["produs"] = strat(lambda p: p.produs(produs_cale, pr.get("x", 540), pr.get("baza", 1250), pr.get("latime", 620), pr.get("inaltime_max", 620)))
         if pr.get("din_blat"):
             # blatul desenat in fata produsului, ca sa para ca iese din el
             yb = pr.get("baza", 1250) - 40

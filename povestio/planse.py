@@ -263,9 +263,34 @@ class Plansa:
                 pts.append((1040, blat_y - 260))
                 self.linie(pts, c, 9, amp=6)
 
-    def produs(self, cale, cx, baza, latime):
+    def baie(self, blat_y=1330):
+        # faianta mare, oglinda, chiuveta pe blat, prosop, planta
+        for x in range(0, W, 180):
+            for y in range(blat_y - 900, blat_y, 180):
+                self.d.rounded_rectangle([self._p(x + 5, y + 5), self._p(x + 175, y + 175)], radius=8 * S,
+                                         fill=(222, 238, 236))
+        self.d.ellipse([self._p(560, blat_y - 760), self._p(940, blat_y - 260)], fill=(205, 228, 240),
+                       outline=CERNEALA, width=8 * S)
+        self.linie([(640, blat_y - 640), (700, blat_y - 700)], ALB, 10, amp=0.5)
+        self.linie([(640, blat_y - 580), (760, blat_y - 700)], ALB, 8, amp=0.5)
+        # prosop agatat
+        self.drept(80, blat_y - 640, 150, 230, (255, 183, 178), gros=6, raza=16)
+        self.linie([(80, blat_y - 600), (230, blat_y - 600)], gros=5)
+        self.drept(60, blat_y - 660, 190, 30, GRI, gros=6, raza=12, umbra=False)
+        # blat cu chiuveta
+        self.drept(-20, blat_y, W + 40, 70, ALB, gros=7, raza=10)
+        self.d.chord([self._p(600, blat_y - 30), self._p(900, blat_y + 60)], 0, 180, fill=(236, 240, 244),
+                     outline=CERNEALA, width=6 * S)
+        self.drept(730, blat_y - 110, 40, 90, GRI, gros=6, raza=10, umbra=False)
+        self.drept(-20, blat_y + 70, W + 40, H - blat_y, (150, 196, 204), gros=7, raza=0, umbra=False)
+        # planta mica
+        self.drept(960, blat_y - 110, 90, 110, CORAL, gros=6, raza=14)
+        for a in (-0.6, -0.2, 0.2, 0.6):
+            self.linie([(1005, blat_y - 110), (1005 + 120 * math.sin(a), blat_y - 230 - 30 * math.cos(a))], (70, 160, 100), 14)
+
+    def produs(self, cale, cx, baza, latime, inaltime_max=620):
         img = Image.open(cale).convert("RGBA")
-        k = latime * S / img.width
+        k = min(latime * S / img.width, inaltime_max * S / img.height)
         img = img.resize((int(img.width * k), int(img.height * k)), Image.LANCZOS)
         # contur alb ca la sticker, ca produsul real sa se lege de ilustratie
         a = img.split()[3].filter(ImageFilter.MaxFilter(25))

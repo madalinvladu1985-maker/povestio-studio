@@ -1,0 +1,178 @@
+{
+  "id": "AA_20261127_0730_Uscator1800",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: Știai că aerul rece fixează coafura -> grabă de dimineață -> cum alegi -> funcții -> categorie",
+  "stare_emotionala": "graba de dimineata",
+  "produs": {
+    "handle": "uscator-de-par-1800-w-motor-ac-2-seruri",
+    "url": "https://atentales.ro/products/uscator-de-par-1800-w-motor-ac-2-seruri",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1400aa68caad3058c10b40d6bfd89a0b.jpg?v=1795585623",
+    "fapte_din_fisa": [
+      "1800 W",
+      "motor AC din cupru, până la 18.000 rpm",
+      "3 trepte de temperatură",
+      "funcție de aer rece pentru fixarea coafurii",
+      "difuzor și concentrator",
+      "săculeț din catifea, 2 seruri cu biotină, cutie cadou"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Uscătoare de păr",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/par-uscatoare"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "07:30"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "baie",
+      "eticheta": "ȘTIAI CĂ…?",
+      "culoare_eticheta": "albastru",
+      "ecran": "*aerul rece*, la final,\nfixează coafura?",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 380,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Știai că un jet de aer rece, la final, ajută la fixarea coafurii?"
+    },
+    {
+      "tip": "problema",
+      "decor": "baie",
+      "ecran": "Dimineața,\n*fiecare minut* contează.",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 380,
+        "stare": "trist"
+      },
+      "bula": "Iar întârzii…",
+      "bula_start": 0.4,
+      "voce": "Dimineața, cu părul încă ud, fiecare minut contează."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "coral",
+      "ecran": "la ce te uiți când\nalegi *un uscător*",
+      "marime_ecran": 88,
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 560,
+        "inaltime_max": 560,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Putere",
+        "Trepte",
+        "Aer rece"
+      ],
+      "voce": "Hai să-ți arăt la ce să te uiți: putere, trepte de temperatură și aer rece."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "Tot ce-ți trebuie,\n*într-o singură cutie*",
+      "marime_ecran": 86,
+      "produs": {
+        "x": 540,
+        "baza": 1190,
+        "latime": 520,
+        "inaltime_max": 480,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "1800 W · motor AC",
+          "x": 540,
+          "y": 560,
+          "accent": true,
+          "latime": 520,
+          "sageata": true
+        },
+        {
+          "text": "3 trepte",
+          "x": 290,
+          "y": 1260
+        },
+        {
+          "text": "Aer rece",
+          "x": 790,
+          "y": 1260
+        },
+        {
+          "text": "Difuzor + concentrator",
+          "x": 540,
+          "y": 1390,
+          "latime": 600
+        }
+      ],
+      "voce": "Acesta are 1800 de wați, motor AC din cupru, trei trepte de temperatură, aer rece, difuzor și concentrator."
+    },
+    {
+      "tip": "cta",
+      "decor": "baie",
+      "ecran": "Mai puțină *grabă*.\nMai mult *timp*.",
+      "marime_ecran": 92,
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 720,
+        "baza": 1335,
+        "latime": 300,
+        "inaltime_max": 360,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi toate uscătoarele de păr",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi toate uscătoarele de păr pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Știai că un jet de aer rece, la final, ajută la fixarea coafurii? La ce să te uiți când alegi un uscător: putere, trepte de temperatură și aer rece. Vezi toate uscătoarele de păr pe AtentAles.ro.\n#uscatordepar #coafura #ingrijireapărului #rutinadedimineata #atentales"
+    },
+    "instagram": {
+      "text": "Știai că un jet de aer rece, la final, ajută la fixarea coafurii?\nCând alegi un uscător, uită-te la 3 lucruri: putere, trepte de temperatură și funcția de aer rece.\nUscătorul din clip are 1800 W, motor AC din cupru, 3 trepte, aer rece, difuzor și concentrator.\nToate uscătoarele de păr, pe AtentAles.ro.\n#uscatordepar #coafura #ingrijireaparului #rutinadedimineata #atentales"
+    },
+    "facebook": {
+      "text": "Știai că un jet de aer rece, la final, ajută la fixarea coafurii? Când alegi un uscător, uită-te la putere, trepte de temperatură și aer rece. Vezi toate uscătoarele de păr pe AtentAles.ro."
+    },
+    "threads": {
+      "text": "Știai că un jet de aer rece, la final, ajută la fixarea coafurii? Putere, trepte de temperatură și aer rece: la astea te uiți când alegi un uscător. Toate uscătoarele de păr, pe AtentAles.ro."
+    },
+    "youtube": {
+      "titlu": "Știai că aerul rece fixează coafura? Cum alegi un uscător de păr",
+      "descriere": "La ce să te uiți când alegi un uscător de păr: putere, trepte de temperatură și funcția de aer rece. Vezi toate uscătoarele de păr pe AtentAles.ro.",
+      "tags": [
+        "uscator de par",
+        "coafura",
+        "ingrijirea parului",
+        "atentales"
+      ]
+    }
+  },
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "stiai_ca",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "categorie": "par-uscatoare",
+    "stil": "planse_v4",
+    "stare": "graba"
+  }
+}
