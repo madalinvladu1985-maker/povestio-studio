@@ -38,3 +38,11 @@ Vezi exemplul din `clipuri/2026-11-27/`. Câmpul `id`: `AA_<AAAALLZZ>_<nr>_<Bran
 - Nu inventa nimic. Dacă un produs nu are informații suficiente, alege altul.
 - Nu publica nimic; publicarea o face agentul de publicare.
 - La final, scrie un rezumat scurt: cele 3 produse, temele, orele.
+
+## Format v3 și bucla de învățare (din 26.11.2026)
+
+- Înainte de a scrie clipurile zilei, citește `performanta/strategie.json`.
+- 2 clipuri folosesc valorile din `castigatori` (când există), 1 clip schimbă o singură variabilă din `de_testat`.
+- Fiecare spec are `"versiune_motor": 3` și câmpul `varianta` (`hook_tip`, `deschidere`, `mix_scene`, `durata_s`, `categorie`). Fără `varianta`, clipul nu poate fi analizat.
+- Deschiderea emoțională e diferită la fiecare clip; hook-urile educative: „Știai că…”, „Uite N motive…”, „Hai să-ți arăt cum…”.
+- CTA-ul trimite spre o categorie a site-ului, fără preț.

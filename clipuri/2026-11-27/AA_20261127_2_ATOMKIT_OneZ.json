@@ -133,5 +133,12 @@
       ]
     }
   },
-  "sursa_personaje": "Canva AI (video VAHcA5yDlEY), personaj fictiv generat"
+  "sursa_personaje": "Canva AI (video VAHcA5yDlEY), personaj fictiv generat",
+  "varianta": {
+    "hook_tip": "motive",
+    "deschidere": "personaj_problema",
+    "mix_scene": "echilibrat",
+    "durata_s": 32.5,
+    "categorie": "casa-bucatarie-prize"
+  }
 }

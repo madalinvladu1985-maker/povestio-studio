@@ -130,5 +130,14 @@ if __name__ == "__main__":
         cmd_batch(fara)
     elif a[0] == "release":
         cmd_release()
+    elif a[0] == "analiza":
+        from povestio import analiza
+        sub = a[1] if len(a) > 1 else "raport"
+        if sub == "inregistreaza":
+            print(f"{analiza.inregistreaza(Path(a[2]))} masuratori inregistrate")
+            analiza.actualizeaza()
+        elif sub == "actualizeaza":
+            analiza.actualizeaza()
+        print(analiza.raport())
     else:
         sys.exit(__doc__)

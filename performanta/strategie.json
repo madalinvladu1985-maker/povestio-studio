@@ -1,0 +1,48 @@
+{
+  "tinta_vizualizari": 5000,
+  "trepte": [
+    5000,
+    10000,
+    20000,
+    50000,
+    100000
+  ],
+  "tinta_atinsa_la": {},
+  "mix_zilnic": {
+    "exploatare": 2,
+    "explorare": 1
+  },
+  "castigatori": {},
+  "de_testat": {
+    "hook_tip": [
+      "stiai_ca",
+      "motive",
+      "hai_sa_arat",
+      "intrebare",
+      "pov_problema"
+    ],
+    "deschidere": [
+      "personaj_problema",
+      "detaliu_macro",
+      "text_soc",
+      "inainte_dupa"
+    ],
+    "mix_scene": [
+      "video_greu",
+      "echilibrat",
+      "produs_greu"
+    ],
+    "durata": [
+      "20-25",
+      "25-30",
+      "30-35"
+    ],
+    "ora": [
+      "12:00",
+      "17:00",
+      "20:00"
+    ]
+  },
+  "observatii": [],
+  "actualizat": null
+}
