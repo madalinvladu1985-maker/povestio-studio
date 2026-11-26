@@ -1,0 +1,28 @@
+{
+  "id": "AA_20261127_1_Vlateo_Perie4in1",
+  "brand": "atentales",
+  "tema": "iarna_seara",
+  "produs": {
+    "handle": "perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w",
+    "url": "https://2fuzia-7q.myshopify.com/products/perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w",
+    "imagini": [4, 3, 1],
+    "titlu_ecran": "Peria rotativă Vlateo",
+    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții"
+  },
+  "replici": [
+    {"text": "Decembrie are seri care strălucesc.", "scena": "atmosfera", "pauza": 0.5},
+    {"text": "Luminițe în ferestre, zăpadă pe umeri, cineva care te așteaptă.", "scena": "atmosfera", "pauza": 0.5},
+    {"text": "Dar căciula a lăsat urme, iar părul e încă umed de la fulgi.", "scena": "atmosfera", "pauza": 0.4},
+    {"text": "Mai sunt câteva minute până pleci.", "scena": "atmosfera", "pauza": 0.6},
+    {"text": "Peria rotativă Vlateo usucă și coafează cu același aparat.", "scena": "produs", "pauza": 1.2},
+    {"text": "Descoperă-o pe AtentAles.ro.", "scena": "final", "ecran": "Descoperă-o pe AtentAles.ro"}
+  ],
+  "cta": {"linia1": "Descoperă-o pe", "linia2": "AtentAles.ro"},
+  "programare": {"data": "2026-11-27", "ora": "12:00"},
+  "platforme": {
+    "tiktok": {"text": "Căciula a lăsat urme, iar cineva te așteaptă. ❄️ O mică poveste de decembrie.\n#decembrie #iarna #coafuraacasa #vlateo #atentales"},
+    "instagram": {"text": "Serile de decembrie au farmecul lor: luminițe, zăpadă, oameni dragi. Iar când părul nu e gata, ajută un aparat care usucă și coafează în același timp. Peria rotativă 4 în 1 Vlateo, pe AtentAles.ro.\n#iarna #coafuraacasa #vlateo #atentales"},
+    "facebook": {"text": "Serile de decembrie au farmecul lor: luminițe, zăpadă, oameni dragi. Peria rotativă 4 în 1 Vlateo usucă și coafează cu același aparat. Descoperă-o pe AtentAles.ro."},
+    "youtube": {"titlu": "Seara de decembrie și căciula care a stricat coafura", "descriere": "O mică poveste de iarnă. Peria rotativă 4 în 1 Vlateo usucă și coafează cu același aparat. Descoperă-o pe AtentAles.ro.", "tags": ["iarna", "coafura", "vlateo", "atentales"]}
+  }
+}

@@ -1,0 +1,8 @@
+cache/
+iesire/
+__pycache__/
+*.pyc
+*.tmp.mp4
+.env
+config.json
+broll/**/_test*
