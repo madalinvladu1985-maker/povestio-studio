@@ -36,11 +36,27 @@
       1
     ],
     "titlu_ecran": "Peria rotativă Vlateo",
-    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții"
+    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții",
+    "imagini_url": [
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-4.webp?v=1794145959",
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-3.webp?v=1794145959",
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-1.webp?v=1794145959"
+    ]
   },
-  "actualizat": "2026-11-26T10:39:24+00:00",
-  "status": "eroare_randare",
-  "erori": [
-    "404 Client Error: Not Found for url: https://2fuzia-7q.myshopify.com/products/perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w.json"
-  ]
+  "actualizat": "2026-11-26T10:41:52+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 24.7,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "iarna_seara",
+  "fisiere": {
+    "mp4": "AA_20261127_1_Vlateo_Perie4in1.mp4",
+    "jpg": "AA_20261127_1_Vlateo_Perie4in1.jpg",
+    "srt": "AA_20261127_1_Vlateo_Perie4in1.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_1_Vlateo_Perie4in1.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_1_Vlateo_Perie4in1.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_1_Vlateo_Perie4in1.srt"
 }
