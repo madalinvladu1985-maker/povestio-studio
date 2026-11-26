@@ -22,7 +22,7 @@ Push-ul pornește automat randarea în GitHub Actions.
    - CTA de maximum 8 cuvinte, acordat cu produsul: „Descoperă-l/-o pe AtentAles.ro.”;
    - fără prețuri, reduceri, stoc, garanții, superlative, „cumpără acum”;
    - SanoAlint: doar confort, relaxare, stare de bine; niciun cuvânt medical (durere, tratament, vindecare etc.).
-5. Alege 2–3 imagini clare (numerele lor în fișa Shopify, 1 = prima). Evită imaginile cu multe afirmații scrise pe ele.
+5. Alege 2–3 imagini clare și scrie-le linkurile directe CDN (cdn.shopify.com, din `media.image.url` în Admin GraphQL) în `produs.imagini_url`. Magazinul e protejat cu parolă, deci pagina publică .json nu funcționează. Evită imaginile cu multe afirmații scrise pe ele.
 6. Scrie textele pentru fiecare platformă în `platforme` (TikTok, Instagram, Facebook, YouTube cu titlu ≤ 100 caractere,
    3–5 hashtaguri relevante, inclusiv #atentales).
 7. `programare`: data de azi și orele din `brand.json` (`publicare.ore`), câte una pe clip.

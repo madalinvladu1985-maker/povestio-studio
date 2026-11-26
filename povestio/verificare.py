@@ -70,6 +70,6 @@ def verifica(spec, brand):
             erori.append(f"Cuvânt interzis de brand: {t}")
 
     p = spec.get("produs", {})
-    if not p.get("handle") or not p.get("imagini"):
+    if not p.get("handle") or not (p.get("imagini") or p.get("imagini_url")):
         erori.append("Lipsește produsul (handle/imagini).")
     return erori, avert

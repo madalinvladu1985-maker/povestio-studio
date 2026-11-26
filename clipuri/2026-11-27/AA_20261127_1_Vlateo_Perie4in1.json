@@ -11,7 +11,12 @@
       1
     ],
     "titlu_ecran": "Peria rotativă Vlateo",
-    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții"
+    "beneficiu_ecran": "4 accesorii  ·  rotație în ambele direcții",
+    "imagini_url": [
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-4.webp?v=1794145959",
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-3.webp?v=1794145959",
+      "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotativa-4-in-1-vlateo-cu-aer-cald-1200-w-1.webp?v=1794145959"
+    ]
   },
   "replici": [
     {
@@ -74,5 +79,5 @@
       ]
     }
   },
-  "revizie": 2
+  "revizie": 3
 }

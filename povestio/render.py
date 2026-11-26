@@ -245,7 +245,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
 
     # 2) imagini și texte
     magazin = brand["magazin_shopify"]
-    poze = [Image.open(p).convert("RGB") for p in imagini_produs(magazin, spec["produs"]["handle"], spec["produs"]["imagini"], cache)]
+    poze = [Image.open(p).convert("RGB") for p in imagini_produs(magazin, spec["produs"], cache)]
     acc = tuple(brand.get("culoare_accent", [255, 200, 140]))
     titlu = text_layer([spec["produs"]["titlu_ecran"]], F_SERIF, 88, culoare_text)
     benef = text_layer([spec["produs"].get("beneficiu_ecran", "")], F_SANS, 40, (255, 236, 214), maxw=980)
