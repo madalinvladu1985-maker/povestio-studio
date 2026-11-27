@@ -1,0 +1,265 @@
+{
+ "id": "AA_20261127_2030_RitualSeara",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "self-care: ritual de seară în 3 pași; aparatul de masaj doar la final",
+ "stare_emotionala": "dorința de liniște și răsfăț după o zi lungă",
+ "produs": {
+  "handle": "aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+  "url": "https://atentales.ro/products/aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_2eb778b716ffe994472df79ca4feb09d.jpg?v=1795561352",
+  "imagine_zona": [
+   0.08,
+   0.38,
+   0.97,
+   0.86
+  ],
+  "fapte_din_fisa": [
+   "3 tipuri de masaj și 3 moduri de vibrație",
+   "3 trepte de încălzire, temperatură constantă",
+   "fără fir, baterie reîncărcabilă 2500 mAh",
+   "până la 20 de utilizări după o încărcare completă",
+   "exterior din ABS și material textil"
+  ]
+ },
+ "cta": {
+  "sus": "Găsește aparate de masaj",
+  "categorie": "Masaj și relaxare",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/confort-masaj"
+ },
+ "programare": {
+  "data": "2026-11-27",
+  "ora": "20:30"
+ },
+ "tinta_caractere_voce": 470,
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/4d23d44f-c1be-42c7-ba2a-3e3e915cdd88.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DOAR PENTRU TINE",
+   "culoare_eticheta": "teal",
+   "ecran": "Zece minute\n*doar pentru tine*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.5,
+     0.6,
+     1.2
+    ],
+    "la": [
+     0.5,
+     0.55,
+     1.0
+    ]
+   },
+   "voce": "Ziua s-a terminat. Acum urmează zece minute doar pentru tine.",
+   "pauza": 0.45
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/3b099cdd-ad1b-4dd1-b046-bd3ef299a4b0.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "PASUL 1",
+   "culoare_eticheta": "albastru",
+   "ecran": "Telefonul,\n*cu ecranul în jos*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.42,
+     0.64,
+     1.22
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Telefonul deoparte",
+     "x": 540,
+     "y": 500,
+     "latime": 600
+    },
+    {
+     "text": "Doar o lampă caldă",
+     "x": 540,
+     "y": 620,
+     "latime": 600,
+     "accent": true
+    }
+   ],
+   "voce": "Primul pas: lasă telefonul cu ecranul în jos și stinge lumina mare. O lampă caldă e de ajuns.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/07ecd849-6549-46d8-af19-e5b1e946edcf.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "PASUL 2",
+   "culoare_eticheta": "coral",
+   "ecran": "Un ceai cald,\n*fără grabă*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.22
+    ],
+    "la": [
+     0.45,
+     0.58,
+     1.0
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Ceai cald",
+     "x": 540,
+     "y": 500,
+     "latime": 420
+    },
+    {
+     "text": "Bea-l încet",
+     "x": 540,
+     "y": 620,
+     "latime": 420,
+     "accent": true
+    }
+   ],
+   "voce": "Al doilea pas: o cană de ceai cald. Fără grabă, fără liste de făcut.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/13ac281f-cc64-4e9a-87dd-b3b219d5e5d6.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "PASUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Picioarele,\n*sus pe pernă*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.62,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.55,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Odihnă după o zi lungă",
+     "x": 540,
+     "y": 500,
+     "latime": 680,
+     "accent": true
+    }
+   ],
+   "voce": "Al treilea pas: ridică picioarele pe o pernă și lasă-le să se odihnească după o zi lungă.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/07ecd849-6549-46d8-af19-e5b1e946edcf.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "albastru",
+   "ecran": "Salvează clipul\n*pentru o seară liniștită*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.55,
+     1.0
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.15
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    540,
+    900
+   ],
+   "pasi": [
+    "Telefon",
+    "Ceai",
+    "Odihnă"
+   ],
+   "voce": "Telefonul deoparte, ceai cald, picioarele sus. Salvează clipul pentru o seară liniștită.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Căldură și\n*vibrații blânde*",
+   "marime_ecran": 88,
+   "produs": {
+    "x": 540,
+    "baza": 1150,
+    "latime": 640,
+    "inaltime_max": 520,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Găsește aparate de masaj",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește aparate de masaj pe AtentAles.ro.",
+   "durata_min": 3.0
+  }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "varianta": {
+  "hook_tip": "pov_selfcare",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "confort-masaj",
+  "stil": "poveste_ilustrata",
+  "stare": "liniste"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+  },
+  "instagram": {
+   "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+  },
+  "facebook": {
+   "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+  },
+  "threads": {
+   "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Ritualul de seară în 3 pași: zece minute doar pentru tine",
+   "descriere": "Zece minute doar pentru tine. ✨ Ritualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă. Găsește aparate de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Zece minute doar pentru tine. ✨ Găsește aparate de masaj pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/confort-masaj?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara"
+  },
+  "first_comment": "Care e momentul tău preferat al serii?"
+ },
+ "voce_id": "pFZP5JQG7iQjIQuC4Bku"
+}

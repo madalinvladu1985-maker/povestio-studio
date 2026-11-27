@@ -34,7 +34,33 @@
     "azure_voce": "ro-RO-AlinaNeural",
     "azure_regiune": "northeurope",
     "azure_viteza": "-6%",
-    "buget_credite_luna": 30000
+    "buget_credite_luna": 30000,
+    "voci_feminine": [
+      {
+        "nume": "Corina",
+        "id": "gbLy9ep70G3JW53cTzFC"
+      },
+      {
+        "nume": "Jessica",
+        "id": "cgSgspJ2msm6clMCkdW9"
+      },
+      {
+        "nume": "Charlotte",
+        "id": "XB0fDUnXU5powFXDhCwa"
+      },
+      {
+        "nume": "Lily",
+        "id": "pFZP5JQG7iQjIQuC4Bku"
+      },
+      {
+        "nume": "Aria",
+        "id": "9BWtsMINqrJLrRacOk9x"
+      },
+      {
+        "nume": "Sarah",
+        "id": "EXAVITQu4vr4xnSDxMaL"
+      }
+    ]
   },
   "publicare": {
     "metricool_blog_id": "",

@@ -382,6 +382,8 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     aspect = {**brand.get("aspect", {}), **spec.get("aspect", {})}
     if spec.get("voce_setari"):
         brand = {**brand, "voce": {**brand.get("voce", {}), **spec["voce_setari"]}}
+    if spec.get("voce_id"):  # altă voce feminină la fiecare clip
+        brand = {**brand, "voce": {**brand.get("voce", {}), "voce_id_clip": spec["voce_id"]}}
     sub_y = aspect.get("subtitlu_y", 1720)
 
     # 1) vocea pe scene -> cronologie

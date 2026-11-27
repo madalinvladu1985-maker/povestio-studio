@@ -40,7 +40,7 @@ def elevenlabs(text, brand):
     if not key:
         raise EroareVoce("ELEVENLABS_API_KEY lipsește")
     cfg = brand.get("voce", {})
-    voice_id = os.environ.get("ELEVENLABS_VOICE_ID") or cfg.get("elevenlabs_voice_id")
+    voice_id = cfg.get("voce_id_clip") or os.environ.get("ELEVENLABS_VOICE_ID") or cfg.get("elevenlabs_voice_id")
     if not voice_id:
         raise EroareVoce("ELEVENLABS_VOICE_ID lipsește")
     model = cfg.get("elevenlabs_model", "eleven_flash_v2_5")
