@@ -1,172 +1,269 @@
 {
-  "id": "AA_20261128_0730_BlenderPortabil",
-  "brand": "atentales",
-  "versiune_motor": 4,
-  "unghi_marketing": "educativ: 2 greșeli la smoothie-ul de dimineață -> produsul doar la final",
-  "stare_emotionala": "pofta unui început de weekend fără grabă",
-  "produs": {
-    "handle": "blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
-    "url": "https://atentales.ro/products/blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
-    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_63dcc7eddea34e92149d61e27b587191.jpg?v=1795561294",
-    "fapte_din_fisa": [
-      "400 ml",
-      "6 lame din oțel inoxidabil 304",
-      "baterie 2000 mAh, încărcare USB-C",
-      "recipient fără BPA",
-      "capac to go și curea de transport"
-    ],
-    "imagine_zona": [
-      0.505,
-      0.09,
-      0.755,
-      0.96
-    ],
-    "imagine_punct": [
-      0.62,
-      0.5
-    ]
-  },
-  "cta": {
-    "sus": "Găsește un blender portabil",
-    "categorie": "Electrocasnice de bucătărie",
-    "domeniu": "AtentAles.ro",
-    "url_categorie": "https://atentales.ro/collections/casa-electrocasnice"
-  },
-  "programare": {
-    "data": "2026-11-28",
-    "ora": "07:30"
-  },
-  "tinta_caractere_voce": 294,
-  "scene": [
-    {
-      "tip": "hook",
-      "decor": "bucatarie",
-      "eticheta": "ATENȚIE!",
-      "culoare_eticheta": "coral",
-      "ecran": "*2 greșeli* care îți strică\nsmoothie-ul de dimineață",
-      "marime_ecran": 84,
-      "personaj": {
-        "x": 380,
-        "stare": "surprins",
-        "intrare": true
-      },
-      "voce": "Atenție! Două greșeli care îți strică smoothie-ul de sâmbătă dimineață.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 1",
-      "culoare_eticheta": "coral",
-      "ecran": "Pui fructele\n*primele*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "NU: fructe, apoi lichid",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "DA: întâi lichidul",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Unu: pui fructele primele. Toarnă întâi lichidul, apoi adaugă fructele.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 2",
-      "culoare_eticheta": "albastru",
-      "ecran": "Umpli paharul\n*până sus*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Lasă puțin loc liber",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 780,
-        "stare": "trist"
-      },
-      "voce": "Doi: umpli paharul până sus. Lasă puțin loc, ca totul să se amestece uniform.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "cta",
-      "decor": "bucatarie",
-      "ecran": "Salvează clipul\n*pentru sâmbăta viitoare*",
-      "marime_ecran": 80,
-      "personaj": {
-        "x": 250,
-        "stare": "bucuros",
-        "obiect": "brate_sus"
-      },
-      "produs": {
-        "x": 680,
-        "baza": 1300,
-        "latime": 300,
-        "inaltime_max": 460,
-        "start": 0.2
-      },
-      "cta": {
-        "sus": "Găsește un blender portabil",
-        "domeniu": "AtentAles.ro"
-      },
-      "voce": "Găsește un blender portabil pe AtentAles.ro.",
-      "durata_min": 3.2
-    }
+ "id": "AA_20261128_0730_BlenderPortabil",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "mini-poveste: Ioana are 10 minute până la sală; 3 sfaturi pentru smoothie-ul de dimineață; blenderul doar la final",
+ "stare_emotionala": "grabă de dimineață transformată în rutină",
+ "produs": {
+  "handle": "blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+  "url": "https://atentales.ro/products/blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_63dcc7eddea34e92149d61e27b587191.jpg?v=1795561294",
+  "fapte_din_fisa": [
+   "400 ml",
+   "6 lame din oțel inoxidabil 304",
+   "baterie 2000 mAh, încărcare USB-C",
+   "recipient fără BPA",
+   "capac to go și curea de transport"
   ],
-  "platforme": {
-    "tiktok": {
-      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #micdejun #weekend #bucatarie #atentales"
-    },
-    "instagram": {
-      "text": "Două greșeli care îți strică smoothie-ul de dimineață.\n1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece.\nGăsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #micdejun #weekend #bucatarie #atentales"
-    },
-    "facebook": {
-      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nhttps://atentales.ro/collections/casa-electrocasnice?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI."
-    },
-    "threads": {
-      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
-    },
-    "youtube": {
-      "titlu": "2 greșeli care îți strică smoothie-ul de dimineață",
-      "descriere": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nhttps://atentales.ro/collections/casa-electrocasnice?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI.",
-      "tags": [
-        "smoothie",
-        "blender portabil",
-        "mic dejun",
-        "atentales"
-      ]
-    },
-    "pinterest": {
-      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
-      "link": "https://atentales.ro/collections/casa-electrocasnice?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil"
-    }
+  "imagine_zona": [
+   0.505,
+   0.09,
+   0.755,
+   0.96
+  ],
+  "imagine_punct": [
+   0.62,
+   0.5
+  ]
+ },
+ "cta": {
+  "sus": "Găsește blendere portabile",
+  "categorie": "Electrocasnice de bucătărie",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/casa-electrocasnice"
+ },
+ "programare": {
+  "data": "2026-11-28",
+  "ora": "07:30"
+ },
+ "tinta_caractere_voce": 480,
+ "voce_id": "gbLy9ep70G3JW53cTzFC",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
   },
-  "titlu_scurt": "2 greșeli care îți strică smoothie-ul",
-  "first_comment": "Tu ce pui primul în blender?",
-  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
-  "varianta": {
-    "hook_tip": "frica_lista",
-    "deschidere": "personaj_problema",
-    "mix_scene": "educativ_planse",
-    "categorie": "casa-electrocasnice",
-    "stil": "educatie_cta_final",
-    "stare": "weekend_relaxat"
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/878c765e-bc8f-4a8a-b6c2-0d3a04e42df6.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DIMINEAȚA IOANEI",
+   "culoare_eticheta": "teal",
+   "ecran": "Zece minute\n*până la sală*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
+    ]
+   },
+   "voce": "Ioana are zece minute până pleacă la sală. Și totuși, nu pleacă fără micul dejun. Uite cum face.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/1310586f-eb29-4428-9f16-51cfeb1c6d49.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SFATUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Fructele,\n*tăiate de cu seară*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.5,
+     0.66,
+     1.22
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Tăiate de seara",
+     "x": 540,
+     "y": 500,
+     "latime": 540
+    },
+    {
+     "text": "La frigider, în caserolă",
+     "x": 540,
+     "y": 620,
+     "latime": 680,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul unu: taie fructele de cu seară și pune-le la frigider, într-o caserolă.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/7e445a46-fc7c-49cd-8ca2-a17f38c19554.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SFATUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Întâi lichidul,\n*apoi fructele*",
+   "marime_ecran": 90,
+   "camera": {
+    "de": [
+     0.48,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: fructele primele",
+     "x": 540,
+     "y": 500,
+     "latime": 600
+    },
+    {
+     "text": "DA: lichidul primul",
+     "x": 540,
+     "y": 620,
+     "latime": 600,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul doi: toarnă întâi lichidul, apoi adaugă fructele. Se amestecă mai ușor.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/7e445a46-fc7c-49cd-8ca2-a17f38c19554.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SFATUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Lasă puțin\n*loc liber*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.42,
+     0.66,
+     1.3
+    ],
+    "la": [
+     0.45,
+     0.64,
+     1.15
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Nu umple până sus",
+     "x": 540,
+     "y": 500,
+     "latime": 560,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul trei: nu umple recipientul până sus. Lasă puțin loc, ca totul să se amestece uniform.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/d3011b85-455f-44d9-ac55-42ad582ef008.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Salvează clipul\n*pentru mâine dimineață*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.58,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    480,
+    900
+   ],
+   "pasi": [
+    "Fructe",
+    "Lichid",
+    "Loc liber"
+   ],
+   "voce": "Fructe de cu seară, lichidul primul, puțin loc liber. Iar smoothie-ul vine cu tine. Salvează clipul pentru mâine dimineață.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Îl faci și îl bei\n*din același recipient*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Găsește blendere portabile",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește blendere portabile pe AtentAles.ro.",
+   "durata_min": 3.0
   }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "varianta": {
+  "hook_tip": "mini_poveste",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "casa-electrocasnice",
+  "stil": "poveste_ilustrata",
+  "stare": "graba_dimineata"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+  },
+  "instagram": {
+   "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+  },
+  "facebook": {
+   "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro. https://atentales.ro/collections/casa-electrocasnice?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+  },
+  "threads": {
+   "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Smoothie în 10 minute înainte de sală: 3 sfaturi",
+   "descriere": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪 Sfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient. Găsește blendere portabile pe AtentAles.ro. https://atentales.ro/collections/casa-electrocasnice?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪 Găsește blendere portabile pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/casa-electrocasnice?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil"
+  },
+  "first_comment": "Tu ce pui în smoothie-ul de dimineață?"
+ }
 }
