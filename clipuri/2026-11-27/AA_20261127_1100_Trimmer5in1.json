@@ -1,0 +1,187 @@
+{
+  "id": "AA_20261127_1100_Trimmer5in1",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: întrebare despre bagaj -> plecare în grabă -> ce contează la un trimmer de drum -> funcții -> categorie",
+  "stare_emotionala": "aventura: pregătirea bagajului pentru o călătorie",
+  "tinta_caractere_voce": 497,
+  "produs": {
+    "handle": "trimmer-5-in-1-pentru-barba-par-corp-si-nas-fara-fir",
+    "url": "https://atentales.ro/products/trimmer-5-in-1-pentru-barba-par-corp-si-nas-fara-fir",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_b33de7ca3db0faf1b62d50173c7f9fe3.jpg?v=1795585570",
+    "fapte_din_fisa": [
+      "5 capete: barbă și contur, păr, corp, păr nazal, precizie",
+      "fără fir",
+      "lame din oțel inoxidabil",
+      "baterie Li-ion 400 mAh, până la 60 min",
+      "încărcare USB în aproximativ 2 ore",
+      "afișaj LCD cu nivelul bateriei"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Epilare, ras și tuns",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/beauty-epilare"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "11:00"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "baie",
+      "eticheta": "ÎNTREBARE",
+      "culoare_eticheta": "albastru",
+      "ecran": "Câte aparate pui\nîn *bagaj*?",
+      "marime_ecran": 92,
+      "personaj": {
+        "x": 380,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Câte aparate îți pui în bagaj doar pentru barbă, păr și nas?"
+    },
+    {
+      "tip": "problema",
+      "decor": "baie",
+      "ecran": "Pleci *mâine*.\nTrusa e deja plină.",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 380,
+        "stare": "trist"
+      },
+      "bula": "Unde le mai pun?",
+      "bula_start": 0.4,
+      "voce": "Pleci mâine dimineață, iar trusa de baie e deja plină de aparate, cabluri și încărcătoare."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "coral",
+      "ecran": "ce contează la\nun *trimmer de drum*",
+      "marime_ecran": 88,
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 600,
+        "inaltime_max": 560,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Capete",
+        "Baterie",
+        "USB"
+      ],
+      "voce": "Hai să-ți arăt la ce te uiți la un trimmer de drum: câte capete are, cât ține bateria și cum se încarcă."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "*Un singur aparat*,\ncinci capete",
+      "marime_ecran": 86,
+      "produs": {
+        "x": 540,
+        "baza": 1190,
+        "latime": 600,
+        "inaltime_max": 500,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "5 capete",
+          "x": 540,
+          "y": 560,
+          "accent": true,
+          "latime": 420,
+          "sageata": true
+        },
+        {
+          "text": "Fără fir",
+          "x": 270,
+          "y": 1260
+        },
+        {
+          "text": "Până la 60 min",
+          "x": 810,
+          "y": 1260
+        },
+        {
+          "text": "Încărcare USB · LCD",
+          "x": 540,
+          "y": 1390,
+          "latime": 600
+        }
+      ],
+      "voce": "Acesta are cinci capete, pentru barbă, păr, corp, nas și detalii, lame din oțel inoxidabil, baterie de până la aproximativ șaizeci de minute, încărcare prin USB și afișaj cu nivelul bateriei."
+    },
+    {
+      "tip": "cta",
+      "decor": "baie",
+      "ecran": "Bagaj mai *ușor*.\nDrum mai *liniștit*.",
+      "marime_ecran": 90,
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 740,
+        "baza": 1335,
+        "latime": 300,
+        "inaltime_max": 360,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi aparatele de ras și tuns",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi aparatele de ras și tuns pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Câte aparate îți pui în bagaj doar pentru barbă, păr și nas? Un trimmer 5 în 1, fără fir, le adună într-unul singur. Vezi aparatele de ras și tuns pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#trimmer #bagaj #calatorie #ingrijirebarba #atentales"
+    },
+    "instagram": {
+      "text": "Câte aparate îți pui în bagaj doar pentru barbă, păr și nas?\nLa un trimmer de drum te uiți la 3 lucruri: câte capete are, cât ține bateria și cum se încarcă.\nCel din clip: 5 capete, fără fir, baterie de până la aproximativ 60 de minute, încărcare USB și afișaj LCD.\nAparatele de ras și tuns, pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#trimmer #bagaj #calatorie #ingrijirebarba #atentales"
+    },
+    "facebook": {
+      "text": "Câte aparate îți pui în bagaj doar pentru barbă, păr și nas? Un trimmer 5 în 1, fără fir, cu 5 capete, baterie de până la aproximativ 60 de minute și încărcare USB. Vezi aparatele de ras și tuns pe AtentAles.ro.\nhttps://atentales.ro/collections/beauty-epilare?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1100_Trimmer5in1\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Câte aparate îți pui în bagaj doar pentru barbă, păr și nas? Capete, baterie, încărcare: la astea te uiți la un trimmer de drum. Aparatele de ras și tuns, pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Câte aparate pui în bagaj? Cum alegi un trimmer de drum",
+      "descriere": "La ce te uiți la un trimmer de drum: câte capete are, cât ține bateria și cum se încarcă. Vezi aparatele de ras și tuns pe AtentAles.ro. https://atentales.ro/collections/beauty-epilare?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1100_Trimmer5in1 Conținut realizat cu ajutorul AI.",
+      "tags": [
+        "trimmer",
+        "trimmer barba",
+        "calatorie",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "titlu": "Câte aparate pui în bagaj pentru barbă?",
+      "text": "Un trimmer de drum: câte capete are, cât ține bateria și cum se încarcă. Aparatele de ras și tuns, pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/beauty-epilare?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1100_Trimmer5in1"
+    }
+  },
+  "titlu_scurt": "Câte aparate pui în bagaj pentru barbă?",
+  "prim_comentariu": "Tu câte aparate iei cu tine în concediu?",
+  "youtube_categorie": "HOWTO_STYLE",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "intrebare",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "categorie": "beauty-epilare",
+    "stil": "planse_v4",
+    "stare": "aventura"
+  }
+}

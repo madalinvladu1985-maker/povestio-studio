@@ -129,6 +129,10 @@ def construieste(sc, idx, produs_cale):
         pb.bucatarie(BLAT_Y, cabluri=(decor == "bucatarie_cabluri"))
     elif decor == "baie":
         pb.baie(BLAT_Y)
+    elif decor == "sufragerie":
+        pb.sufragerie(BLAT_Y)
+    elif decor == "terasa":
+        pb.terasa(BLAT_Y)
     L["fundal"] = pb.finalizeaza()
 
     ytit = 250 if sc.get("eticheta") else 200

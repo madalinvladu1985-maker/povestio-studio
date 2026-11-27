@@ -1,0 +1,195 @@
+{
+  "id": "AA_20261127_1700_TrusaGratar",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: 3 lucruri care lipsesc la grătar -> prietenii vin, cleștele lipsește -> le ții la un loc -> conținut trusă -> categorie",
+  "stare_emotionala": "bucuria de a primi prieteni în weekend",
+  "tinta_caractere_voce": 360,
+  "produs": {
+    "handle": "set-ustensile-gratar-din-otel-inoxidabil-cu-geanta",
+    "url": "https://atentales.ro/products/set-ustensile-gratar-din-otel-inoxidabil-cu-geanta",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_fd31d89bf32d461fa5c39c1bd549b6e3.jpg?v=1795585514",
+    "imagine_zona": [
+      0.24,
+      0.16,
+      0.78,
+      0.97
+    ],
+    "fapte_din_fisa": [
+      "spatulă cu fante",
+      "clește",
+      "furculiță și cuțit",
+      "frigărui din metal",
+      "pensulă pentru sosuri și marinadă",
+      "oțel inoxidabil, rezistent la temperaturi ridicate și la coroziune",
+      "geantă de transport"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Camping",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/sport-outdoor-camping"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "17:00"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "terasa",
+      "eticheta": "3 LUCRURI",
+      "culoare_eticheta": "coral",
+      "ecran": "care *lipsesc mereu*\nla grătar",
+      "marime_ecran": 90,
+      "personaj": {
+        "x": 360,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Trei lucruri care lipsesc mereu când aprinzi grătarul."
+    },
+    {
+      "tip": "problema",
+      "decor": "terasa",
+      "ecran": "Prietenii vin *la șase*.\nCleștele… nicăieri.",
+      "marime_ecran": 84,
+      "personaj": {
+        "x": 360,
+        "stare": "trist"
+      },
+      "bula": "Unde e cleștele?",
+      "bula_start": 0.4,
+      "voce": "Prietenii vin la șase, iar cleștele e iar de negăsit."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "albastru",
+      "ecran": "ține-le *la un loc*",
+      "marime_ecran": 90,
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 520,
+        "inaltime_max": 600,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Spatulă",
+        "Clește",
+        "Pensulă"
+      ],
+      "voce": "Spatula, cleștele și pensula pentru marinadă. Ține-le mereu la un loc."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "Totul într-o *geantă*",
+      "marime_ecran": 88,
+      "produs": {
+        "x": 540,
+        "baza": 1190,
+        "latime": 500,
+        "inaltime_max": 560,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "Oțel inoxidabil",
+          "x": 540,
+          "y": 500,
+          "accent": true,
+          "latime": 520,
+          "sageata": true
+        },
+        {
+          "text": "Frigărui",
+          "x": 250,
+          "y": 1260
+        },
+        {
+          "text": "Furculiță + cuțit",
+          "x": 820,
+          "y": 1260,
+          "latime": 400
+        },
+        {
+          "text": "Geantă de transport",
+          "x": 540,
+          "y": 1390,
+          "latime": 600
+        }
+      ],
+      "voce": "Trusa are spatulă cu fante, clește, furculiță, cuțit, frigărui și pensulă, din oțel inoxidabil, într-o geantă."
+    },
+    {
+      "tip": "cta",
+      "decor": "terasa",
+      "ecran": "Mai puțin *căutat*.\nMai mult *împreună*.",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 620,
+        "baza": 1335,
+        "latime": 260,
+        "inaltime_max": 380,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi tot pentru camping",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi tot pentru camping pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Trei lucruri care lipsesc mereu când aprinzi grătarul: spatula, cleștele și pensula pentru marinadă. Ține-le la un loc, într-o geantă. Vezi tot pentru camping pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#gratar #weekend #prieteni #camping #atentales"
+    },
+    "instagram": {
+      "text": "Trei lucruri care lipsesc mereu când aprinzi grătarul: spatula, cleștele și pensula pentru marinadă. 🔥\nTrusa din clip le ține la un loc: spatulă cu fante, clește, furculiță, cuțit, frigărui și pensulă, din oțel inoxidabil, într-o geantă de transport.\nTot pentru camping, pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#gratar #weekend #prieteni #camping #atentales"
+    },
+    "facebook": {
+      "text": "Trei lucruri care lipsesc mereu când aprinzi grătarul: spatula, cleștele și pensula pentru marinadă. Trusa din clip le ține pe toate într-o geantă de transport. Vezi tot pentru camping pe AtentAles.ro.\nhttps://atentales.ro/collections/sport-outdoor-camping?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1700_TrusaGratar\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Trei lucruri care lipsesc mereu când aprinzi grătarul: spatula, cleștele și pensula pentru marinadă. Ține-le la un loc. Tot pentru camping, pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "3 lucruri care lipsesc mereu la grătar",
+      "descriere": "Spatula, cleștele și pensula pentru marinadă: ține-le la un loc, într-o trusă cu geantă. Vezi tot pentru camping pe AtentAles.ro. https://atentales.ro/collections/sport-outdoor-camping?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1700_TrusaGratar Conținut realizat cu ajutorul AI.",
+      "tags": [
+        "gratar",
+        "ustensile gratar",
+        "camping",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "titlu": "3 lucruri care lipsesc mereu la grătar",
+      "text": "Spatula, cleștele și pensula pentru marinadă, la un loc într-o geantă. Tot pentru camping, pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/sport-outdoor-camping?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1700_TrusaGratar"
+    }
+  },
+  "titlu_scurt": "3 lucruri care lipsesc mereu la grătar",
+  "prim_comentariu": "Ce uiți mereu când faci grătar?",
+  "youtube_categorie": "HOWTO_STYLE",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "motive",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "categorie": "sport-outdoor-camping",
+    "stil": "planse_v4",
+    "stare": "bucuria_prietenilor"
+  }
+}

@@ -288,6 +288,52 @@ class Plansa:
         for a in (-0.6, -0.2, 0.2, 0.6):
             self.linie([(1005, blat_y - 110), (1005 + 120 * math.sin(a), blat_y - 230 - 30 * math.cos(a))], (70, 160, 100), 14)
 
+    def sufragerie(self, blat_y=1330):
+        # perete cald, fereastra cu zapada, lampa, canapea, covor
+        self.d.rectangle([self._p(0, 160), self._p(W, blat_y)], fill=(250, 232, 214))
+        self.drept(560, blat_y - 860, 420, 460, (190, 214, 240), gros=8, raza=18)
+        self.linie([(770, blat_y - 860), (770, blat_y - 400)], gros=6)
+        self.linie([(560, blat_y - 630), (980, blat_y - 630)], gros=6)
+        for _ in range(26):
+            x, y = self.r.uniform(585, 955), self.r.uniform(blat_y - 840, blat_y - 420)
+            self.d.ellipse([self._p(x - 6, y - 6), self._p(x + 6, y + 6)], fill=ALB)
+        self.drept(560, blat_y - 440, 420, 40, ALB, gros=6, raza=10, umbra=False)
+        # lampa de podea
+        self.linie([(120, blat_y - 40), (120, blat_y - 620)], gros=8)
+        self.poligon([(50, blat_y - 600), (190, blat_y - 600), (160, blat_y - 720), (80, blat_y - 720)], GALBEN)
+        # canapea
+        self.drept(250, blat_y - 330, 640, 200, (120, 150, 200), gros=7, raza=40)
+        self.drept(220, blat_y - 170, 700, 150, (100, 130, 185), gros=7, raza=30)
+        self.drept(330, blat_y - 300, 140, 110, CORAL, gros=6, raza=24, umbra=False)
+        # podea + covor
+        self.drept(-20, blat_y, W + 40, H - blat_y, (196, 150, 110), gros=7, raza=0, umbra=False)
+        self.d.ellipse([self._p(150, blat_y + 40), self._p(930, blat_y + 200)], fill=(240, 210, 170),
+                       outline=CERNEALA, width=6 * S)
+
+    def terasa(self, blat_y=1330):
+        # cer de iarna, brazi, gard de lemn, gratar
+        self.d.rectangle([self._p(0, 160), self._p(W, blat_y)], fill=(214, 230, 245))
+        for cx, h in ((140, 420), (330, 520), (930, 470)):
+            self.poligon([(cx, blat_y - 200 - h), (cx - 110, blat_y - 200), (cx + 110, blat_y - 200)], (70, 150, 110))
+            self.poligon([(cx, blat_y - 200 - h), (cx - 40, blat_y - 120 - h * 0.7), (cx + 40, blat_y - 120 - h * 0.7)], ALB, gros=5, umbra=False)
+        for x in range(0, W, 110):
+            self.drept(x + 10, blat_y - 260, 80, 260, LEMN, gros=6, raza=8, umbra=False)
+        self.linie([(0, blat_y - 200), (W, blat_y - 200)], gros=6)
+        for _ in range(30):
+            x, y = self.r.uniform(0, W), self.r.uniform(180, blat_y - 300)
+            self.d.ellipse([self._p(x - 6, y - 6), self._p(x + 6, y + 6)], fill=ALB)
+        # gratar in dreapta
+        self.d.chord([self._p(740, blat_y - 330), self._p(1040, blat_y - 150)], 0, 180, fill=CERNEALA,
+                     outline=CERNEALA, width=6 * S)
+        self.linie([(760, blat_y - 240), (1020, blat_y - 240)], (120, 120, 120), 8)
+        self.linie([(790, blat_y - 160), (760, blat_y)], gros=8)
+        self.linie([(990, blat_y - 160), (1020, blat_y)], gros=8)
+        for i in range(3):
+            x = 830 + i * 60
+            self.linie([(x, blat_y - 270), (x + 15, blat_y - 330), (x - 5, blat_y - 390)], (190, 190, 190), 6, amp=4)
+        self.drept(-20, blat_y, W + 40, 70, ALB, gros=7, raza=10)
+        self.drept(-20, blat_y + 70, W + 40, H - blat_y, (230, 236, 242), gros=7, raza=0, umbra=False)
+
     def produs(self, cale, cx, baza, latime, inaltime_max=620):
         img = Image.open(cale).convert("RGBA")
         k = min(latime * S / img.width, inaltime_max * S / img.height)

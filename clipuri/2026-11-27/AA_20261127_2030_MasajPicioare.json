@@ -1,0 +1,194 @@
+{
+  "id": "AA_20261127_2030_MasajPicioare",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: POV zi lungă în picioare -> seară de iarnă pe canapea -> mic răsfăț de seară -> funcții -> categorie",
+  "stare_emotionala": "oboseala de seară și dorința de liniște",
+  "tinta_caractere_voce": 361,
+  "produs": {
+    "handle": "aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "url": "https://atentales.ro/products/aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_2eb778b716ffe994472df79ca4feb09d.jpg?v=1795561352",
+    "imagine_zona": [
+      0.08,
+      0.38,
+      0.97,
+      0.86
+    ],
+    "fapte_din_fisa": [
+      "3 tipuri de masaj și 3 moduri de vibrație",
+      "3 trepte de încălzire, temperatură constantă",
+      "fără fir, baterie reîncărcabilă 2500 mAh",
+      "până la 20 de utilizări după o încărcare completă",
+      "exterior din ABS și material textil"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Masaj și relaxare",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/confort-masaj"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "20:30"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "sufragerie",
+      "eticheta": "POV",
+      "culoare_eticheta": "albastru",
+      "ecran": "ai stat *toată ziua*\nîn picioare",
+      "marime_ecran": 90,
+      "personaj": {
+        "x": 380,
+        "stare": "trist",
+        "intrare": true,
+        "ochi_inchisi": true
+      },
+      "voce": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua."
+    },
+    {
+      "tip": "problema",
+      "decor": "sufragerie",
+      "ecran": "Afară *ninge*.\nTu vrei doar liniște.",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 380,
+        "stare": "trist"
+      },
+      "bula": "Gata, pauză.",
+      "bula_start": 0.4,
+      "voce": "Afară ninge, iar seara asta e doar a ta."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "coral",
+      "ecran": "un *mic răsfăț*\npentru seară",
+      "marime_ecran": 90,
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 640,
+        "inaltime_max": 520,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Vibrații",
+        "Căldură",
+        "Fără fir"
+      ],
+      "voce": "Hai să-ți arăt un mic răsfăț de seară: vibrații și căldură blândă, fără fir."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "Setezi *cum îți place*",
+      "marime_ecran": 88,
+      "produs": {
+        "x": 540,
+        "baza": 1190,
+        "latime": 620,
+        "inaltime_max": 480,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "3 tipuri de masaj",
+          "x": 540,
+          "y": 560,
+          "accent": true,
+          "latime": 520,
+          "sageata": true
+        },
+        {
+          "text": "3 vibrații",
+          "x": 270,
+          "y": 1260
+        },
+        {
+          "text": "3 trepte de căldură",
+          "x": 800,
+          "y": 1260,
+          "latime": 440
+        },
+        {
+          "text": "Baterie 2500 mAh",
+          "x": 540,
+          "y": 1390,
+          "latime": 560
+        }
+      ],
+      "voce": "Are trei tipuri de masaj, trei moduri de vibrație, trei trepte de încălzire și baterie reîncărcabilă."
+    },
+    {
+      "tip": "cta",
+      "decor": "sufragerie",
+      "ecran": "Seara *ta*.\nÎn ritmul *tău*.",
+      "marime_ecran": 92,
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 740,
+        "baza": 1335,
+        "latime": 320,
+        "inaltime_max": 300,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi toate aparatele de masaj",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi toate aparatele de masaj pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. Vezi toate aparatele de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#seraacasa #relaxare #iarna #masaj #atentales"
+    },
+    "instagram": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. ❄️\nUn mic răsfăț pentru seară: aparatul din clip are 3 tipuri de masaj, 3 moduri de vibrație, 3 trepte de încălzire și baterie reîncărcabilă de 2500 mAh, fără fir.\nToate aparatele de masaj, pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#seraacasa #relaxare #iarna #masaj #atentales"
+    },
+    "facebook": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Un mic răsfăț de seară: 3 tipuri de masaj, 3 moduri de vibrație și 3 trepte de încălzire, fără fir. Vezi toate aparatele de masaj pe AtentAles.ro.\nhttps://atentales.ro/collections/confort-masaj?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Vibrații și căldură blândă, fără fir: un mic răsfăț de seară. Toate aparatele de masaj, pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "POV: ai stat toată ziua în picioare. Un mic răsfăț de seară",
+      "descriere": "Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. 3 tipuri de masaj, 3 moduri de vibrație, 3 trepte de încălzire. Vezi toate aparatele de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare Conținut realizat cu ajutorul AI.",
+      "tags": [
+        "aparat de masaj",
+        "masaj picioare",
+        "relaxare",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "titlu": "POV: ai stat toată ziua în picioare",
+      "text": "Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. Toate aparatele de masaj, pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/confort-masaj?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare"
+    }
+  },
+  "titlu_scurt": "POV: ai stat toată ziua în picioare",
+  "prim_comentariu": "Care e ritualul tău de seară după o zi lungă?",
+  "youtube_categorie": "HOWTO_STYLE",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "pov_problema",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "categorie": "confort-masaj",
+    "stil": "planse_v4",
+    "stare": "oboseala"
+  }
+}
