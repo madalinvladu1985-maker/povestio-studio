@@ -92,7 +92,16 @@ def fraze(text, max_cuv=6):
             grup += x.split()
         if grup:
             out += _rupe(grup, max_cuv)
-    return out
+    # o bucata prea lata pentru ecran (peste ~34 caractere) se imparte in doua
+    rez = []
+    for b in out:
+        cuv = b.split()
+        if len(b) > 34 and len(cuv) > 1:
+            k = min(range(1, len(cuv)), key=lambda i: abs(len(" ".join(cuv[:i])) - len(b) / 2))
+            rez += [" ".join(cuv[:k]), " ".join(cuv[k:])]
+        else:
+            rez.append(b)
+    return rez
 
 
 def strat_eticheta_ai(text="Realizat cu AI"):
