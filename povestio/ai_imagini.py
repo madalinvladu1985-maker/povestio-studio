@@ -23,6 +23,14 @@ def _cache(cache_dir, cheie):
     return Path(cache_dir) / ("ai_" + hashlib.sha1(cheie.encode("utf-8")).hexdigest()[:20] + ".png")
 
 
+def _acopera(im, W=1080, H=1920):
+    """acopera exact 1080x1920 (taie marginile daca raportul difera)"""
+    k = max(W / im.width, H / im.height)
+    im = im.resize((int(im.width * k + 0.5), int(im.height * k + 0.5)), Image.LANCZOS)
+    x0, y0 = (im.width - W) // 2, (im.height - H) // 2
+    return im.crop((x0, y0, x0 + W, y0 + H))
+
+
 def prompt_scena(sc, personaj_desc):
     p = sc.get("ilustratie", "")
     if sc.get("ilustratie_personaj", True) and personaj_desc:
@@ -32,6 +40,17 @@ def prompt_scena(sc, personaj_desc):
 
 def genereaza(sc, cfg, cache_dir, personaj_desc=""):
     """Intoarce calea unei imagini 1080x1920 sau None."""
+    if sc.get("ilustratie_url"):  # ilustratie deja generata (ex. demo), doar o descarcam
+        out = _cache(cache_dir, "url|" + sc["ilustratie_url"])
+        if not out.exists():
+            try:
+                r = requests.get(sc["ilustratie_url"], timeout=90)
+                r.raise_for_status()
+                _acopera(Image.open(io.BytesIO(r.content)).convert("RGB")).save(out)
+            except Exception as e:
+                print(f"[ai_imagini] descarcare esuata: {e}")
+                return None
+        return out
     if not sc.get("ilustratie"):
         return None
     key = os.environ.get("FAL_KEY")
@@ -57,12 +76,7 @@ def genereaza(sc, cfg, cache_dir, personaj_desc=""):
     except Exception as e:  # reteaua sau formatul raspunsului: revenim la desen
         print(f"[ai_imagini] eroare: {e}")
         return None
-    # acopera exact 1080x1920 (taie marginile daca raportul difera)
-    W, H = 1080, 1920
-    k = max(W / im.width, H / im.height)
-    im = im.resize((int(im.width * k + 0.5), int(im.height * k + 0.5)), Image.LANCZOS)
-    x0, y0 = (im.width - W) // 2, (im.height - H) // 2
-    im.crop((x0, y0, x0 + W, y0 + H)).save(out)
+    _acopera(im).save(out)
     jurnal = Path(cache_dir) / "ai_imagini_jurnal.jsonl"
     with jurnal.open("a", encoding="utf-8") as f:
         f.write(json.dumps({"model": model, "fisier": out.name}) + "\n")
