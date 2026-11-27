@@ -31,6 +31,7 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 5. Pentru fiecare clip scrie un spec v4 (`versiune_motor: 4`) în `clipuri/<data>/AA_<data>_<HHMM>_<Nume>.json`, după modelul `clipuri/2026-11-27/AA_20261127_0730_Uscator1800.json`:
    - 5 scene: hook („Știai că…?” / „Uite N motive…” / „Hai să-ți arăt…” / întrebare) → problemă cu personajul → explicație educativă → funcții (doar din fișa produsului) → CTA spre categorie.
    - **Stare emoțională diferită la fiecare clip**: grabă, oboseală, frig, dorință de liniște, bucuria unui cadou, mândria lucrului bine făcut, curiozitate, nevoie de ordine, aventură etc.
+   - **Prima scenă (coperta pe TikTok) trebuie să arate diferit la fiecare clip al zilei și față de ultimele clipuri publicate**: alt decor sau alt cadru în scena 1. Pe 27.11, uscătorul și trimmerul au avut aceeași copertă (baie + oglindă) și arătau ca același clip pe profil.
    - Decoruri disponibile: `bucatarie`, `bucatarie_cabluri`, `baie`, `hartie`. Pentru categorii fără decor potrivit, folosește `hartie` sau adaugă un decor nou în `povestio/planse.py`.
    - Voce totală 50–75 cuvinte; CTA vocal ≤ 8 cuvinte, de forma „Vezi toate <categoria> pe AtentAles.ro.”
    - Fără preț, reduceri, stoc, garanții, superlative, afirmații medicale. Doar fapte din `descriere`.
