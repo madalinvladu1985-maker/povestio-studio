@@ -1,0 +1,8 @@
+[ 0.00- 4.86] Atenție! Două greșeli care îți strică smoothie-ul de sămbătă dimineață.
+    Atenție!(0.00,p=0.86) Două(1.46,p=0.94) greșeli(1.68,p=0.96) care(2.06,p=0.99) îți(2.26,p=0.87) strică(2.50,p=0.99) smoothie(2.82,p=0.97) -ul(3.16,p=0.97) de(3.32,p=1.00) sămbătă(3.52,p=0.96) dimineață.(3.90,p=0.98)
+[ 5.12- 9.64] Unu, pui fructele primele, toarnă întâi lichidul, apoi adaugă fructele.
+    Unu,(5.12,p=0.70) pui(5.50,p=0.99) fructele(5.70,p=0.99) primele,(6.20,p=0.99) toarnă(6.94,p=0.99) întâi(7.38,p=0.94) lichidul,(7.58,p=0.99) apoi(8.34,p=0.99) adaugă(8.56,p=0.93) fructele.(9.04,p=1.00)
+[10.14-15.20] Doi, umpli paharul până sus. Lasă puțin în loc, ca totul să se amestece uniform.
+    Doi,(10.14,p=0.99) umpli(10.66,p=0.97) paharul(10.90,p=0.96) până(11.38,p=0.97) sus.(11.62,p=0.99) Lasă(12.38,p=0.99) puțin(12.68,p=0.99) în(13.00,p=1.00) loc,(13.14,p=1.00) ca(13.44,p=1.00) totul(13.58,p=1.00) să(13.90,p=0.99) se(14.04,p=1.00) amestece(14.20,p=0.96) uniform.(14.68,p=0.94)
+[15.74-18.84] Găsește un blender portabil pe atentales.ro
+    Găsește(15.74,p=0.99) un(16.22,p=1.00) blender(16.46,p=0.99) portabil(16.74,p=0.97) pe(17.28,p=0.99) atentales(17.50,p=0.67) .ro(18.10,p=0.98)
