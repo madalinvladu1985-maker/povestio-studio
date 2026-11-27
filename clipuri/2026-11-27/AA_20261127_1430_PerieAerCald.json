@@ -1,0 +1,198 @@
+{
+  "id": "AA_20261127_1430_PerieAerCald",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: Știai că uscarea și volumul pot fi un singur pas -> căutarea unui cadou de decembrie -> 3 moduri de aer -> funcții -> categorie",
+  "stare_emotionala": "bucuria de a alege un cadou",
+  "tinta_caractere_voce": 339,
+  "produs": {
+    "handle": "perie-rotunda-cu-aer-cald-1200-w-3-moduri-cu-husa",
+    "url": "https://atentales.ro/products/perie-rotunda-cu-aer-cald-1200-w-3-moduri-cu-husa",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/vl-perie-rotunda-cu-aer-cald-1200-w-3-moduri-cu-husa-1.webp?v=1794145960",
+    "imagine_zona": [
+      0.0,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "imagine_punct": [
+      0.3,
+      0.5
+    ],
+    "fapte_din_fisa": [
+      "uscare, volum și coafare într-un singur pas",
+      "1200 W",
+      "cap de 75 mm",
+      "3 moduri: aer rece, cald-mic, cald-mare",
+      "cablu rotativ la 360°",
+      "săculeț de depozitare și cutie de prezentare"
+    ]
+  },
+  "cta": {
+    "sus": "Vezi toate",
+    "categorie": "Perii rotative și aparate de coafat",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/par-perii-stylere"
+  },
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "14:30"
+  },
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "baie",
+      "eticheta": "ȘTIAI CĂ…?",
+      "culoare_eticheta": "albastru",
+      "ecran": "uscarea și volumul\npot fi *un singur pas*?",
+      "marime_ecran": 84,
+      "personaj": {
+        "x": 380,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Știai că uscarea și volumul pot fi un singur pas?"
+    },
+    {
+      "tip": "problema",
+      "decor": "sufragerie",
+      "ecran": "Cauți un *cadou*\npe care să-l folosească.",
+      "marime_ecran": 82,
+      "personaj": {
+        "x": 380,
+        "stare": "trist"
+      },
+      "bula": "Ce-i iau oare?",
+      "bula_start": 0.4,
+      "voce": "Cauți un cadou de decembrie pe care chiar să-l folosească."
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "HAI SĂ-ȚI ARĂT",
+      "culoare_eticheta": "coral",
+      "ecran": "*3 moduri* de aer",
+      "marime_ecran": 92,
+      "produs": {
+        "x": 540,
+        "baza": 1250,
+        "latime": 680,
+        "inaltime_max": 420,
+        "din_blat": true,
+        "start": 0.4
+      },
+      "pasi": [
+        "Rece",
+        "Cald-mic",
+        "Cald-mare"
+      ],
+      "voce": "Aer rece, cald la viteză mică și cald la viteză mare."
+    },
+    {
+      "tip": "functii",
+      "decor": "hartie",
+      "ecran": "Usucă și dă *volum*",
+      "marime_ecran": 90,
+      "produs": {
+        "x": 540,
+        "baza": 1190,
+        "latime": 680,
+        "inaltime_max": 420,
+        "start": 0.1
+      },
+      "etichete": [
+        {
+          "text": "Cap de 75 mm",
+          "x": 540,
+          "y": 600,
+          "accent": true,
+          "latime": 460,
+          "sageata": true
+        },
+        {
+          "text": "1200 W",
+          "x": 270,
+          "y": 1260
+        },
+        {
+          "text": "Cablu rotativ",
+          "x": 800,
+          "y": 1260,
+          "latime": 400
+        },
+        {
+          "text": "Săculeț + cutie",
+          "x": 540,
+          "y": 1390,
+          "latime": 520
+        }
+      ],
+      "voce": "Are 1200 de wați, cap de 75 de milimetri, cablu rotativ, săculeț și cutie de prezentare."
+    },
+    {
+      "tip": "cta",
+      "decor": "sufragerie",
+      "ecran": "Un cadou *ales cu grijă*.",
+      "marime_ecran": 88,
+      "personaj": {
+        "x": 330,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 760,
+        "baza": 1335,
+        "latime": 330,
+        "inaltime_max": 220,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Vezi toate periile cu aer cald",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Vezi toate periile cu aer cald pe AtentAles.ro.",
+      "durata_min": 3.2
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Știai că uscarea și volumul pot fi un singur pas? 🎁 O idee de cadou de decembrie: perie rotundă cu aer cald, cu 3 moduri de aer. Vezi toate periile cu aer cald pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#periecuaercald #volum #cadouri #craciun #atentales"
+    },
+    "instagram": {
+      "text": "Știai că uscarea și volumul pot fi un singur pas? 🎁\nDacă alegi un cadou de decembrie, uită-te la modurile de aer: rece, cald la viteză mică și cald la viteză mare.\nPeria din clip are 1200 W, cap de 75 mm, cablu rotativ și vine cu săculeț și cutie de prezentare.\nToate periile cu aer cald, pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#periecuaercald #volum #cadouri #craciun #atentales"
+    },
+    "facebook": {
+      "text": "Știai că uscarea și volumul pot fi un singur pas? O idee de cadou de decembrie: perie rotundă cu aer cald, 3 moduri de aer, cap de 75 mm, săculeț și cutie de prezentare. Vezi toate periile cu aer cald pe AtentAles.ro.\nhttps://atentales.ro/collections/par-perii-stylere?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1430_PerieAerCald\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Știai că uscarea și volumul pot fi un singur pas? Aer rece, cald-mic și cald-mare, într-o perie rotundă. O idee de cadou de decembrie. Toate periile cu aer cald, pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Știai că uscarea și volumul pot fi un singur pas? Idee de cadou",
+      "descriere": "Perie rotundă cu aer cald: 3 moduri de aer (rece, cald-mic, cald-mare), 1200 W, cap de 75 mm, săculeț și cutie de prezentare. Vezi toate periile cu aer cald pe AtentAles.ro. https://atentales.ro/collections/par-perii-stylere?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1430_PerieAerCald Conținut realizat cu ajutorul AI.",
+      "tags": [
+        "perie cu aer cald",
+        "volum par",
+        "idei cadouri",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "titlu": "Uscare și volum într-un singur pas",
+      "text": "Idee de cadou de decembrie: perie rotundă cu aer cald, 3 moduri de aer, cu săculeț și cutie de prezentare. Toate periile cu aer cald, pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/par-perii-stylere?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_1430_PerieAerCald"
+    }
+  },
+  "titlu_scurt": "Uscare și volum într-un singur pas",
+  "prim_comentariu": "Ce cadou ți-ar plăcea să primești anul ăsta?",
+  "youtube_categorie": "HOWTO_STYLE",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "stiai_ca",
+    "deschidere": "personaj_problema",
+    "mix_scene": "planse_ilustrate",
+    "categorie": "par-perii-stylere",
+    "stil": "planse_v4",
+    "stare": "bucuria_cadoului"
+  }
+}
