@@ -258,13 +258,54 @@ def construieste(sc, idx, produs_cale):
     return L
 
 
+def efecte(fr, sc, lt, t):
+    """Mici animații peste ilustrație, ca într-un desen animat."""
+    ef = sc.get("efect")
+    if not ef:
+        return
+    x, y = sc.get("efect_poz", [540, 800])
+    strat_ef = Image.new("RGBA", fr.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(strat_ef)
+    if ef == "intrebari":
+        f = font(FONT_TITLU, 130, 900)
+        for k, (dx, ph) in enumerate(((0, 0.0), (90, 1.3))):
+            a = ease((lt - 0.3 - k * 0.25) / 0.3)
+            if a <= 0:
+                continue
+            yy = y - 18 * math.sin(2 * math.pi * 0.8 * t + ph) - k * 40
+            st = Image.new("RGBA", (240, 320), (0, 0, 0, 0))
+            ImageDraw.Draw(st).text((120, 160), "?", font=f, fill=CERNEALA + (int(255 * a),), anchor="mm")
+            st = st.resize((120, 160), Image.LANCZOS)
+            fr.alpha_composite(st, (int(x + dx - 60), int(yy - 80)))
+    elif ef == "picaturi":
+        for k in range(9):
+            per = 1.1 + (k % 3) * 0.25
+            fz = ((t + k * 0.37) % per) / per
+            px = x - 160 + (k * 71) % 320
+            py = y + fz * 320
+            a = int(200 * (1 - fz))
+            d.ellipse([px - 13, py - 20, px + 13, py + 20], fill=(120, 190, 230, a), outline=(60, 120, 170, a), width=2)
+    elif ef == "sclipiri":
+        for k in range(10):
+            ph = (t * 1.6 + k * 0.61) % 1.0
+            r = 6 + 14 * math.sin(math.pi * ph)
+            px = x - 260 + (k * 97) % 520; py = y - 220 + (k * 151) % 440
+            col = (255, 214, 120, int(230 * math.sin(math.pi * ph)))
+            d.polygon([(px, py - r), (px + r * 0.28, py - r * 0.28), (px + r, py), (px + r * 0.28, py + r * 0.28),
+                       (px, py + r), (px - r * 0.28, py + r * 0.28), (px - r, py), (px - r * 0.28, py - r * 0.28)], fill=col)
+    fr.alpha_composite(strat_ef)
+
+
 def deseneaza(L, sc, lt, D, t):
     sc = L.get("sc", sc)
     if L.get("fundal_ai"):
-        # mișcare lentă de cameră peste ilustrație (zoom 1.00 -> 1.07, ușor în sus)
-        z = 1.0 + 0.07 * min(max(lt / max(D, 0.1), 0), 1)
+        # mișcare de cameră peste ilustrație: camera = {"de":[cx,cy,zoom], "la":[cx,cy,zoom]} (centre ca fracții)
+        cam = sc.get("camera") or {"de": [0.5, 0.5, 1.0], "la": [0.5, 0.45, 1.07]}
+        k = ease(min(max(lt / max(D, 0.1), 0), 1))
+        cx, cy, z = [a + (b - a) * k for a, b in zip(cam["de"], cam["la"])]
+        z = max(z, 1.0)
         f = L["fundal"]; cw, ch = int(W / z), int(H / z)
-        x0 = (W - cw) // 2; y0 = int((H - ch) * 0.45)
+        x0 = int(min(max(cx * W - cw / 2, 0), W - cw)); y0 = int(min(max(cy * H - ch / 2, 0), H - ch))
         fr = f.crop((x0, y0, x0 + cw, y0 + ch)).resize((W, H), Image.BILINEAR)
     else:
         fr = L["fundal"].copy()
@@ -286,6 +327,8 @@ def deseneaza(L, sc, lt, D, t):
             for k, st in enumerate(L.get("titlu", [])):
                 t0 = 0.15 + k * 0.22
                 pune(fr, st, a=ease((lt - t0) / 0.3), dy=30 * (1 - ease((lt - t0) / 0.4)))
+
+    efecte(fr, sc, lt, t)
 
     # produs
     if L.get("produs"):

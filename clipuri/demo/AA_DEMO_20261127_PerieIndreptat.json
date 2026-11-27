@@ -1,0 +1,263 @@
+{
+ "id": "AA_DEMO_20261127_PerieIndreptat",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "demo": true,
+ "unghi_marketing": "DEMO stil referinta (ilustratii miscatoare, o singura poveste) + discursul nostru: hook pe frica, 3 greseli, CTA la final, logo",
+ "stare_emotionala": "teama ca indreptarea nu tine -> incredere",
+ "produs": {
+  "handle": "perie-de-indreptat-parul-lcd-14-trepte-2-seruri",
+  "url": "https://atentales.ro/products/perie-de-indreptat-parul-lcd-14-trepte-2-seruri",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_82b0a72a792815a52af88cbc0b048134.jpg?v=1795561529",
+  "fapte_din_fisa": [
+   "14 trepte de temperatură, până la 210 °C",
+   "afișaj LCD cu temperatura în timp real",
+   "cele 14 trepte se potrivesc de la părul fin până la cel rebel",
+   "2 clame pentru separarea șuvițelor",
+   "2 seruri cu biotină, săculeț, cutie cadou"
+  ],
+  "imagine_zona": [
+   0.72,
+   0.12,
+   0.99,
+   1.0
+  ],
+  "imagine_punct": [
+   0.5,
+   0.3
+  ]
+ },
+ "cta": {
+  "sus": "Găsește perii cu 14 trepte",
+  "categorie": "Perii și stylere",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/par-perii-stylere"
+ },
+ "programare": {
+  "data": "demo",
+  "ora": "--"
+ },
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma-demo"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/f09c1869-100e-471f-91fd-6026e6c146e7.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "ATENȚIE!",
+   "culoare_eticheta": "coral",
+   "ecran": "*3 greșeli* care îți strică\nîndreptarea părului",
+   "marime_ecran": 82,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
+    ]
+   },
+   "efect": "intrebari",
+   "efect_poz": [
+    800,
+    930
+   ],
+   "voce": "Atenție! Trei greșeli care îți strică îndreptarea părului până la prânz.",
+   "pauza": 0.4
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/adea456b-7f27-4d12-a9ad-5ed04e90c626.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Îndrepți părul\n*încă umed*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.5,
+     0.6,
+     1.0
+    ],
+    "la": [
+     0.45,
+     0.62,
+     1.22
+    ]
+   },
+   "efect": "picaturi",
+   "efect_poz": [
+    560,
+    1130
+   ],
+   "etichete": [
+    {
+     "text": "NU: păr umed",
+     "x": 540,
+     "y": 500,
+     "latime": 560
+    },
+    {
+     "text": "DA: păr complet uscat",
+     "x": 540,
+     "y": 620,
+     "latime": 620,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala unu: îndrepți părul încă umed. Usucă-l complet înainte.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/5e2ef570-5f70-48d5-9441-97b4cf906d0e.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Iei șuvițe\n*prea groase*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.6,
+     0.56,
+     1.18
+    ],
+    "la": [
+     0.55,
+     0.5,
+     1.0
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Secțiuni mici",
+     "x": 540,
+     "y": 500,
+     "latime": 520
+    },
+    {
+     "text": "Prinse cu clame",
+     "x": 540,
+     "y": 620,
+     "latime": 520,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala doi: iei șuvițe prea groase. Împarte părul în secțiuni mici și prinde-le cu clame.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/5e2ef570-5f70-48d5-9441-97b4cf906d0e.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Alegi mereu\n*temperatura maximă*",
+   "marime_ecran": 86,
+   "camera": {
+    "de": [
+     0.66,
+     0.48,
+     1.2
+    ],
+    "la": [
+     0.66,
+     0.44,
+     1.32
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Păr fin: treaptă mică",
+     "x": 540,
+     "y": 500,
+     "latime": 640
+    },
+    {
+     "text": "Păr rebel: treaptă mare",
+     "x": 540,
+     "y": 620,
+     "latime": 640,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala trei: alegi mereu temperatura maximă. Părul fin are nevoie de mai puțin, cel rebel de mai mult.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/905d4679-7bff-4a95-a6cd-229409808c3f.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "albastru",
+   "ecran": "Salvează clipul\n*pentru mâine dimineață*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.56,
+     1.15
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    600,
+    900
+   ],
+   "pasi": [
+    "Uscat",
+    "Șuvițe mici",
+    "Treapta potrivită"
+   ],
+   "voce": "Păr uscat, șuvițe mici, temperatura potrivită. Salvează clipul pentru mâine dimineață.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Treapta potrivită\n*pentru părul tău*",
+   "marime_ecran": 84,
+   "produs": {
+    "x": 540,
+    "baza": 1150,
+    "latime": 520,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Găsește perii cu 14 trepte",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește perii cu paisprezece trepte pe AtentAles.ro.",
+   "subtitlu": "Găsește perii cu 14 trepte pe AtentAles.ro.",
+   "durata_min": 3.2
+  }
+ ],
+ "sursa_personaje": "ilustratii AI demo (Figma, gemini-3.1-flash-lite-image)",
+ "varianta": {
+  "hook_tip": "frica_lista",
+  "deschidere": "personaj_problema",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "par-perii-stylere",
+  "stil": "educatie_cta_final",
+  "stare": "teama"
+ },
+ "platforme": {}
+}
