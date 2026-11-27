@@ -1,0 +1,193 @@
+{
+  "id": "AA_20261128_1100_PrizaBlat3",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: 3 greșeli care îți umplu blatul de cabluri -> priză încorporabilă la final",
+  "stare_emotionala": "nevoia de ordine",
+  "produs": {
+    "handle": "priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
+    "url": "https://atentales.ro/products/priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_f79948e868a784c6501ae8744c8893fb.jpg?v=1795130325",
+    "fapte_din_fisa": [
+      "3 prize",
+      "1 port USB-C și 1 port USB-A, 18 W",
+      "capac",
+      "montaj încastrat în blat"
+    ]
+  },
+  "cta": {
+    "sus": "Găsește prize încorporabile",
+    "categorie": "Prize și prelungitoare",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/electronice-prize"
+  },
+  "programare": {
+    "data": "2026-11-28",
+    "ora": "11:00"
+  },
+  "tinta_caractere_voce": 375,
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "bucatarie_cabluri",
+      "eticheta": "ATENȚIE!",
+      "culoare_eticheta": "coral",
+      "ecran": "*3 greșeli* care îți umplu\nblatul de cabluri",
+      "marime_ecran": 84,
+      "personaj": {
+        "x": 330,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Atenție! Trei greșeli care îți transformă blatul într-un ghem de cabluri.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 1",
+      "culoare_eticheta": "coral",
+      "ecran": "Încărcătoare\n*peste tot*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "NU: pe tot blatul",
+          "x": 540,
+          "y": 490,
+          "latime": 640
+        },
+        {
+          "text": "DA: un singur loc",
+          "x": 540,
+          "y": 610,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 300,
+        "stare": "trist"
+      },
+      "voce": "Unu: lași încărcătoarele împrăștiate pe blat. Fă-le un singur loc al lor.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 2",
+      "culoare_eticheta": "albastru",
+      "ecran": "Câte un adaptor\n*pentru fiecare*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "Caută porturi USB în priză",
+          "x": 540,
+          "y": 490,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 780,
+        "stare": "trist"
+      },
+      "voce": "Doi: ai câte un adaptor pentru fiecare telefon. Caută prize cu porturi USB.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 3",
+      "culoare_eticheta": "teal",
+      "ecran": "Te gândești la prize\n*prea târziu*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "Stabilește locul din timp",
+          "x": 540,
+          "y": 490,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 300,
+        "stare": "surprins"
+      },
+      "voce": "Trei: te gândești la prize după ce montezi blatul. Stabilește-le locul din timp.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "cta",
+      "decor": "hartie",
+      "ecran": "Salvează clipul\n*pentru renovare*",
+      "marime_ecran": 80,
+      "personaj": {
+        "x": 250,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 680,
+        "baza": 1300,
+        "latime": 440,
+        "inaltime_max": 360,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Găsește prize încorporabile",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Găsește prize încorporabile pe AtentAles.ro.",
+      "durata_min": 3.2,
+      "etichete": [
+        {
+          "text": "3 prize · USB-A și USB-C",
+          "x": 540,
+          "y": 560,
+          "latime": 640,
+          "accent": true
+        }
+      ]
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #renovare #bucatarie #amenajare #atentales"
+    },
+    "instagram": {
+      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri.\n1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #renovare #bucatarie #amenajare #atentales"
+    },
+    "facebook": {
+      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nhttps://atentales.ro/collections/electronice-prize?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "3 greșeli care îți umplu blatul de cabluri",
+      "descriere": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nhttps://atentales.ro/collections/electronice-prize?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI.",
+      "tags": [
+        "priza incorporabila",
+        "organizare",
+        "renovare bucatarie",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/electronice-prize?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3"
+    }
+  },
+  "titlu_scurt": "3 greșeli care îți umplu blatul de cabluri",
+  "first_comment": "Câte încărcătoare ai acum pe blat?",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "frica_lista",
+    "deschidere": "personaj_problema",
+    "mix_scene": "educativ_planse",
+    "categorie": "electronice-prize",
+    "stil": "educatie_cta_final",
+    "stare": "ordine"
+  }
+}

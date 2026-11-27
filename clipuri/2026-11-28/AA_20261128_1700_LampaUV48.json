@@ -1,0 +1,194 @@
+{
+  "id": "AA_20261128_1700_LampaUV48",
+  "brand": "atentales",
+  "versiune_motor": 4,
+  "unghi_marketing": "educativ: 3 greșeli la manichiura cu gel făcută acasă -> lampă cu senzor la final",
+  "stare_emotionala": "răsfăț personal de sâmbătă seara",
+  "produs": {
+    "handle": "lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
+    "url": "https://atentales.ro/products/lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_59b11414dd6aa57c1fcf4db87b02feb5.jpg?v=1795561436",
+    "fapte_din_fisa": [
+      "48 W",
+      "senzor care pornește și oprește lampa automat",
+      "timer 10 / 30 / 60 / 99 s",
+      "afișaj digital",
+      "mod Low Heat de 99 s"
+    ]
+  },
+  "cta": {
+    "sus": "Caută o lampă UV LED",
+    "categorie": "Manichiură și pedichiură",
+    "domeniu": "AtentAles.ro",
+    "url_categorie": "https://atentales.ro/collections/beauty-manichiura"
+  },
+  "programare": {
+    "data": "2026-11-28",
+    "ora": "17:00"
+  },
+  "tinta_caractere_voce": 344,
+  "scene": [
+    {
+      "tip": "hook",
+      "decor": "sufragerie",
+      "eticheta": "ATENȚIE!",
+      "culoare_eticheta": "coral",
+      "ecran": "*3 greșeli* care îți strică\nmanichiura făcută acasă",
+      "marime_ecran": 84,
+      "personaj": {
+        "x": 360,
+        "stare": "surprins",
+        "intrare": true
+      },
+      "voce": "Atenție! Trei greșeli care îți strică manichiura făcută acasă.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 1",
+      "culoare_eticheta": "coral",
+      "ecran": "Pui straturi\n*groase*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "NU: un strat gros",
+          "x": 540,
+          "y": 490,
+          "latime": 640
+        },
+        {
+          "text": "DA: straturi subțiri",
+          "x": 540,
+          "y": 610,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 300,
+        "stare": "trist"
+      },
+      "voce": "Unu: pui straturi groase. Mai bine subțiri, fiecare uscat separat.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 2",
+      "culoare_eticheta": "albastru",
+      "ecran": "Ții mâna\n*pe jumătate afară*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "Mâna complet înăuntru",
+          "x": 540,
+          "y": 490,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 780,
+        "stare": "surprins"
+      },
+      "voce": "Doi: ții mâna pe jumătate afară. Introdu-o complet, cu degetele întinse.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "explica",
+      "decor": "hartie",
+      "eticheta": "GREȘEALA 3",
+      "culoare_eticheta": "teal",
+      "ecran": "Uiți de\n*vârful unghiei*",
+      "marime_ecran": 88,
+      "etichete": [
+        {
+          "text": "Trece pensula și pe margine",
+          "x": 540,
+          "y": 490,
+          "latime": 640,
+          "accent": true
+        }
+      ],
+      "personaj": {
+        "x": 300,
+        "stare": "trist"
+      },
+      "voce": "Trei: uiți de vârful unghiei. Trece pensula și peste margine.",
+      "pauza": 0.25
+    },
+    {
+      "tip": "cta",
+      "decor": "hartie",
+      "ecran": "Salvează clipul\n*pentru seara de răsfăț*",
+      "marime_ecran": 80,
+      "personaj": {
+        "x": 250,
+        "stare": "bucuros",
+        "obiect": "brate_sus"
+      },
+      "produs": {
+        "x": 680,
+        "baza": 1300,
+        "latime": 420,
+        "inaltime_max": 340,
+        "start": 0.2
+      },
+      "cta": {
+        "sus": "Caută o lampă UV LED",
+        "domeniu": "AtentAles.ro"
+      },
+      "voce": "Caută o lampă UV LED pe AtentAles.ro.",
+      "durata_min": 3.2,
+      "etichete": [
+        {
+          "text": "Senzor de mână · timer",
+          "x": 540,
+          "y": 560,
+          "latime": 640,
+          "accent": true
+        }
+      ]
+    }
+  ],
+  "platforme": {
+    "tiktok": {
+      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #acasa #atentales"
+    },
+    "instagram": {
+      "text": "Trei greșeli care îți strică manichiura făcută acasă.\n1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei.\nCaută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #acasa #atentales"
+    },
+    "facebook": {
+      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nhttps://atentales.ro/collections/beauty-manichiura?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "3 greșeli care îți strică manichiura făcută acasă",
+      "descriere": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nhttps://atentales.ro/collections/beauty-manichiura?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI.",
+      "tags": [
+        "manichiura",
+        "lampa uv",
+        "unghii gel",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/beauty-manichiura?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48"
+    }
+  },
+  "titlu_scurt": "3 greșeli la manichiura făcută acasă",
+  "first_comment": "Tu îți faci singură manichiura sau mergi la salon?",
+  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+  "varianta": {
+    "hook_tip": "frica_lista",
+    "deschidere": "personaj_problema",
+    "mix_scene": "educativ_planse",
+    "categorie": "beauty-manichiura",
+    "stil": "educatie_cta_final",
+    "stare": "rasfat"
+  }
+}
