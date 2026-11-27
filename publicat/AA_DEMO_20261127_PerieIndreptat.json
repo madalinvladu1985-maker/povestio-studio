@@ -1,0 +1,48 @@
+{
+  "id": "AA_DEMO_20261127_PerieIndreptat",
+  "brand": "atentales",
+  "spec": "clipuri/demo/AA_DEMO_20261127_PerieIndreptat.json",
+  "programare": {
+    "data": "demo",
+    "ora": "--"
+  },
+  "platforme": {},
+  "produs": {
+    "handle": "perie-de-indreptat-parul-lcd-14-trepte-2-seruri",
+    "url": "https://atentales.ro/products/perie-de-indreptat-parul-lcd-14-trepte-2-seruri",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_82b0a72a792815a52af88cbc0b048134.jpg?v=1795561529",
+    "fapte_din_fisa": [
+      "14 trepte de temperatură, până la 210 °C",
+      "afișaj LCD cu temperatura în timp real",
+      "cele 14 trepte se potrivesc de la părul fin până la cel rebel",
+      "2 clame pentru separarea șuvițelor",
+      "2 seruri cu biotină, săculeț, cutie cadou"
+    ],
+    "imagine_zona": [
+      0.72,
+      0.12,
+      0.99,
+      1.0
+    ],
+    "imagine_punct": [
+      0.5,
+      0.3
+    ]
+  },
+  "actualizat": "2026-11-27T11:44:12+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 36.7,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_DEMO_20261127_PerieIndreptat.mp4",
+    "jpg": "AA_DEMO_20261127_PerieIndreptat.jpg",
+    "srt": "AA_DEMO_20261127_PerieIndreptat.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_PerieIndreptat.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_PerieIndreptat.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_PerieIndreptat.srt"
+}
