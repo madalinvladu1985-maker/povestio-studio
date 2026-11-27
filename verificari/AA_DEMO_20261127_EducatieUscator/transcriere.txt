@@ -1,0 +1,14 @@
+[ 0.00- 2.64] Atenție! Trei greșeli care îi cătcând,
+    Atenție!(0.00,p=0.86) Trei(1.18,p=0.68) greșeli(1.48,p=0.92) care(1.86,p=0.99) îi(2.12,p=0.93) cătcând,(2.24,p=0.46)
+[ 3.52- 8.46] care îți tigă glietățită, îți, el o îți strică coafura în fiecare dimineață.
+    care(3.52,p=0.29) îți(3.82,p=0.73) tigă(4.04,p=0.50) glietățită,(4.16,p=0.62) îți,(5.16,p=0.99) el(5.48,p=0.84) o(5.78,p=0.25) îți(5.88,p=0.91) strică(6.10,p=0.95) coafura(6.48,p=0.91) în(6.92,p=0.95) fiecare(7.12,p=0.99) dimineață.(7.50,p=0.95)
+[ 8.60-11.90] 1. Freci părul cu prosopul. Mai bine îți torci ușor apa.
+    1.(8.60,p=0.52) Freci(8.94,p=0.64) părul(9.26,p=0.98) cu(9.58,p=1.00) prosopul.(9.82,p=0.98) Mai(10.56,p=0.99) bine(10.72,p=1.00) îți(10.96,p=0.67) torci(11.06,p=0.86) ușor(11.28,p=0.99) apa.(11.62,p=0.98)
+[12.46-17.42] 2. Ți uscătorul lipit de păr. Păstrează câțiva centimetri și suflă de sus în jos.
+    2.(12.46,p=1.00) Ți(12.98,p=0.76) uscătorul(13.12,p=0.92) lipit(13.76,p=0.85) de(14.10,p=1.00) păr.(14.28,p=0.99) Păstrează(14.70,p=0.99) câțiva(15.18,p=0.98) centimetri(15.52,p=0.80) și(16.14,p=0.98) suflă(16.34,p=0.76) de(16.66,p=0.97) sus(16.80,p=0.99) în(16.96,p=0.97) jos.(17.22,p=0.99)
+[18.00-23.14] 3. Sări peste aerul rece. Un jet rece la final ajută la fixarea coafurii.
+    3.(18.00,p=1.00) Sări(18.56,p=0.94) peste(18.76,p=1.00) aerul(19.06,p=0.99) rece.(19.62,p=0.96) Un(20.18,p=0.99) jet(20.30,p=0.98) rece(20.48,p=0.98) la(20.74,p=0.94) final(21.04,p=1.00) ajută(21.36,p=0.93) la(21.76,p=1.00) fixarea(21.96,p=0.96) coafurii.(22.38,p=0.96)
+[23.58-26.94] Caută un uscător cu aer rece pe www.atentales.ro
+    Caută(23.58,p=0.97) un(23.96,p=1.00) uscător(24.12,p=0.99) cu(24.60,p=1.00) aer(24.80,p=0.99) rece(25.06,p=0.99) pe(25.34,p=0.99) www(25.56,p=0.45) .atentales(25.56,p=0.65) .ro(26.24,p=0.96)
+[30.00-30.06] Vă mulțumim pentru vizionare!
+    Vă(30.00,p=0.17) mulțumim(30.04,p=0.79) pentru(30.04,p=0.34) vizionare!(30.04,p=0.80)

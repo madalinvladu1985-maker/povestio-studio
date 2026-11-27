@@ -1,0 +1,14 @@
+[ 0.00- 6.04] Ți s-a întâmplat să stai ore întregi la pescuit, fără nici o trăsătură.
+    Ți(0.00,p=0.73) s(0.76,p=0.86) -a(0.92,p=1.00) întâmplat(0.98,p=0.98) să(1.58,p=1.00) stai(1.92,p=0.99) ore(2.12,p=0.66) întregi(2.44,p=0.95) la(2.96,p=0.98) pescuit,(3.14,p=0.83) fără(4.24,p=1.00) nici(4.48,p=0.71) o(4.86,p=0.99) trăsătură.(5.02,p=0.99)
+[ 6.46- 9.18] Schimbi momeala, verifici montura.
+    Schimbi(6.46,p=0.87) momeala,(6.88,p=0.87) verifici(7.98,p=0.97) montura.(8.50,p=0.96)
+[10.66-18.16] Dar te-ai întrebat vreodată ce se întâmplă de fapt sub apă, cu o cameră sub-agvatică pentru pescuit.
+    Dar(10.66,p=0.99) te(10.82,p=0.93) -ai(10.96,p=0.98) întrebat(11.08,p=0.99) vreodată(11.50,p=1.00) ce(12.38,p=0.97) se(12.70,p=1.00) întâmplă(13.00,p=0.99) de(13.40,p=0.70) fapt(13.66,p=1.00) sub(14.16,p=0.76) apă,(14.60,p=0.97) cu(15.44,p=1.00) o(15.64,p=1.00) cameră(15.86,p=0.98) sub(16.22,p=0.99) -agvatică(16.52,p=0.72) pentru(17.10,p=0.96) pescuit.(17.38,p=0.99)
+[18.70-22.46] Poți observa peștii, vegetația și substratul.
+    Poți(18.70,p=0.97) observa(18.86,p=1.00) peștii,(19.38,p=0.94) vegetația(20.24,p=0.99) și(21.16,p=0.96) substratul.(21.52,p=0.99)
+[22.46-29.66] Imaginile te ajată să înțelegi mai bine locul în care pescuiești și să-ți adaptezi strategia.
+    Imaginile(22.46,p=0.87) te(23.56,p=0.97) ajată(23.94,p=0.64) să(24.38,p=0.98) înțelegi(24.54,p=0.98) mai(24.96,p=0.99) bine(25.12,p=1.00) locul(25.42,p=1.00) în(25.82,p=0.98) care(25.94,p=1.00) pescuiești(26.10,p=0.91) și(27.02,p=0.87) să(27.46,p=1.00) -ți(27.66,p=0.86) adaptezi(27.86,p=0.98) strategia.(28.76,p=0.99)
+[30.18-35.36] Pescuitul înseamnă răbdare, experiență și cunoașterea locului.
+    Pescuitul(30.18,p=0.82) înseamnă(31.02,p=0.99) răbdare,(31.64,p=0.99) experiență(32.84,p=0.98) și(33.62,p=0.98) cunoașterea(34.00,p=0.96) locului.(34.78,p=1.00)
+[35.70-44.24] Dacă ești curios să descoperi ce se întâmplă sub suprafața apei, găsești mai multe informații pe clastep.ro
+    Dacă(35.70,p=1.00) ești(35.86,p=0.99) curios(36.16,p=0.89) să(36.74,p=0.98) descoperi(37.14,p=0.96) ce(37.78,p=1.00) se(37.90,p=1.00) întâmplă(38.16,p=0.99) sub(38.60,p=0.88) suprafața(38.80,p=0.97) apei,(39.50,p=0.96) găsești(40.56,p=0.99) mai(40.92,p=1.00) multe(41.10,p=0.99) informații(41.46,p=0.99) pe(42.22,p=0.99) clastep(42.58,p=0.54) .ro(43.46,p=1.00)
