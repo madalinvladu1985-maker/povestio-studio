@@ -1,0 +1,49 @@
+{
+  "id": "AA_DEMO_20261127_UscatorFrica",
+  "brand": "atentales",
+  "spec": "clipuri/demo/AA_DEMO_20261127_UscatorFrica.json",
+  "programare": {
+    "data": "demo",
+    "ora": "--"
+  },
+  "platforme": {},
+  "produs": {
+    "handle": "uscator-de-par-1800-w-motor-ac-2-seruri",
+    "url": "https://atentales.ro/products/uscator-de-par-1800-w-motor-ac-2-seruri",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1400aa68caad3058c10b40d6bfd89a0b.jpg?v=1795585623",
+    "fapte_din_fisa": [
+      "1800 W",
+      "motor AC din cupru, până la 18.000 rpm",
+      "3 trepte de temperatură",
+      "funcție de aer rece pentru fixarea coafurii",
+      "difuzor și concentrator",
+      "săculeț din catifea, 2 seruri cu biotină, cutie cadou"
+    ],
+    "imagine_zona": [
+      0.32,
+      0.18,
+      0.97,
+      0.8
+    ],
+    "imagine_punct": [
+      0.57,
+      0.25
+    ]
+  },
+  "actualizat": "2026-11-27T10:12:13+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 25.1,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_DEMO_20261127_UscatorFrica.mp4",
+    "jpg": "AA_DEMO_20261127_UscatorFrica.jpg",
+    "srt": "AA_DEMO_20261127_UscatorFrica.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_UscatorFrica.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_UscatorFrica.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-demo/AA_DEMO_20261127_UscatorFrica.srt"
+}
