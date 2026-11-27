@@ -1,4 +1,4 @@
-name: Povestio - lista voci
+name: Povestio - mostre voci
 
 on:
   push:
@@ -13,15 +13,21 @@ permissions:
 jobs:
   voci:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install faster-whisper numpy
       - env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: python3 scripts/voci_elevenlabs.py
+        run: python scripts/mostre_voci.py
       - run: |
           git config user.name "Povestio Bot"
           git config user.email "povestio-bot@users.noreply.github.com"
-          git add verificari/voci.json
-          git diff --cached --quiet || git commit -m "Povestio: lista voci"
+          git add verificari/mostre_voci
+          git diff --cached --quiet || git commit -m "Povestio: mostre voci"
           git pull --rebase --autostash
           git push
