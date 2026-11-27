@@ -1,0 +1,70 @@
+{
+  "id": "AA_20261128_0730_BlenderPortabil",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-28/AA_20261128_0730_BlenderPortabil.json",
+  "programare": {
+    "data": "2026-11-28",
+    "ora": "07:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+    },
+    "instagram": {
+      "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+    },
+    "facebook": {
+      "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro. https://atentales.ro/collections/casa-electrocasnice?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI.\n#smoothie #rutinadedimineata #sala #micdejun #atentales"
+    },
+    "threads": {
+      "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪\nSfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient.\nGăsește blendere portabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Smoothie în 10 minute înainte de sală: 3 sfaturi",
+      "descriere": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪 Sfatul 1: taie fructele de cu seară. Sfatul 2: întâi lichidul, apoi fructele. Sfatul 3: lasă puțin loc în recipient. Găsește blendere portabile pe AtentAles.ro. https://atentales.ro/collections/casa-electrocasnice?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI."
+    },
+    "pinterest": {
+      "text": "Zece minute până la sală și tot pleci cu micul dejun în mână? 💪 Găsește blendere portabile pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/casa-electrocasnice?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil"
+    },
+    "first_comment": "Tu ce pui în smoothie-ul de dimineață?"
+  },
+  "produs": {
+    "handle": "blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+    "url": "https://atentales.ro/products/blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_63dcc7eddea34e92149d61e27b587191.jpg?v=1795561294",
+    "fapte_din_fisa": [
+      "400 ml",
+      "6 lame din oțel inoxidabil 304",
+      "baterie 2000 mAh, încărcare USB-C",
+      "recipient fără BPA",
+      "capac to go și curea de transport"
+    ],
+    "imagine_zona": [
+      0.505,
+      0.09,
+      0.755,
+      0.96
+    ],
+    "imagine_punct": [
+      0.62,
+      0.5
+    ]
+  },
+  "actualizat": "2026-11-27T12:07:46+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 39.6,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261128_0730_BlenderPortabil.mp4",
+    "jpg": "AA_20261128_0730_BlenderPortabil.jpg",
+    "srt": "AA_20261128_0730_BlenderPortabil.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_0730_BlenderPortabil.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_0730_BlenderPortabil.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_0730_BlenderPortabil.srt"
+}
