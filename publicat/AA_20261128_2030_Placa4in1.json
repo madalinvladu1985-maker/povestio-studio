@@ -1,0 +1,75 @@
+{
+  "id": "AA_20261128_2030_Placa4in1",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-28/AA_20261128_2030_Placa4in1.json",
+  "programare": {
+    "data": "2026-11-28",
+    "ora": "20:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
+    },
+    "instagram": {
+      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători.\n1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
+    },
+    "facebook": {
+      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nhttps://atentales.ro/collections/par-ondulatoare?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Nu mai face asta cu buclele de sărbători",
+      "descriere": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nhttps://atentales.ro/collections/par-ondulatoare?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI.",
+      "tags": [
+        "bucle",
+        "ondulator",
+        "coafura sarbatori",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/par-ondulatoare?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1"
+    }
+  },
+  "produs": {
+    "handle": "placa-de-par-4-in-1-indreptat-ondulat-crimp",
+    "url": "https://atentales.ro/products/placa-de-par-4-in-1-indreptat-ondulat-crimp",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1cf4d5f00410509e19e30f7a3e322472.jpg?v=1795585408",
+    "fapte_din_fisa": [
+      "4 funcții: îndreptare, ondulare, crimp, valuri",
+      "tub de 36 mm",
+      "12 trepte, 120–230 °C",
+      "afișaj LED",
+      "2 seruri cu biotină, cutie cadou"
+    ],
+    "imagine_zona": [
+      0.03,
+      0.68,
+      0.98,
+      0.96
+    ],
+    "imagine_punct": [
+      0.5,
+      0.82
+    ]
+  },
+  "actualizat": "2026-11-27T11:36:50+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 28.7,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261128_2030_Placa4in1.mp4",
+    "jpg": "AA_20261128_2030_Placa4in1.jpg",
+    "srt": "AA_20261128_2030_Placa4in1.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_2030_Placa4in1.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_2030_Placa4in1.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-28/AA_20261128_2030_Placa4in1.srt"
+}
