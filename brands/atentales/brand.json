@@ -2,7 +2,7 @@
   "nume": "Atent Ales",
   "magazin_shopify": "2fuzia-7q.myshopify.com",
   "domeniu_public": "AtentAles.ro",
-  "slogan": "produse atent alese",
+  "slogan": "Produse atent alese pentru casa ta.",
   "culoare_accent": [
     255,
     200,
@@ -57,6 +57,10 @@
     "cta_y": 1250,
     "subtitlu_accent_hook": true,
     "voce_impact": true,
-    "sunet_hook": true
+    "sunet_hook": true,
+    "outro_logo": {
+      "durata": 2.2,
+      "slogan": "Produse atent alese pentru casa ta."
+    }
   }
 }

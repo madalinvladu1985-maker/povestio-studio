@@ -133,6 +133,36 @@ def strat_subtitlu(text, y=1720, accent=False):
     return (im, (W - lat) // 2, int(y))
 
 
+def strat_outro(brand_id, slogan):
+    """Cadrul final: logoul brandului centrat + slogan, pe fundal crem."""
+    fr = Image.new("RGBA", (W, H), (255, 250, 242, 255))
+    lp = RAD / "brands" / brand_id / "logo.png"
+    logo = None
+    if lp.exists():
+        logo = Image.open(lp).convert("RGBA")
+        k = 860 / logo.width
+        logo = logo.resize((860, int(logo.height * k)), Image.LANCZOS)
+    sl = None
+    if slogan:
+        f = font(FONT_TITLU, 46, 800)  # fontul e la scară 2x, ca la subtitrări
+        tw = int(f.getlength(slogan)) + 60
+        sl = Image.new("RGBA", (tw, 200), (0, 0, 0, 0))
+        ImageDraw.Draw(sl).text((tw / 2, 100), slogan, font=f, fill=CERNEALA + (255,), anchor="mm")
+        sl = sl.resize((tw // 2, 100), Image.LANCZOS)
+    return fr, logo, sl
+
+
+def deseneaza_outro(o, lt):
+    fr, logo, sl = o
+    fr = fr.copy()
+    if logo is not None:
+        s = 0.8 + 0.2 * ease_out_back(lt / 0.6)
+        pune(fr, (logo, (W - logo.width) // 2, 760), a=ease(lt / 0.35), s=s)
+    if sl is not None:
+        pune(fr, (sl, (W - sl.width) // 2, 1040), a=ease((lt - 0.5) / 0.4), dy=20 * (1 - ease((lt - 0.5) / 0.5)))
+    return fr
+
+
 def sunet_impact(sr=44100, dur=0.9):
     """Lovitură scurtă + suflu, generate din cod (fără licențe), pentru primul cadru al hook-ului."""
     n = int(sr * dur); t = np.arange(n) / sr
@@ -323,6 +353,12 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         audio += [v, np.zeros(int(sr * (dur - d)), np.int16)]
         t += dur
     durata = t + 0.6
+    outro_cfg = aspect.get("outro_logo")
+    t_outro = None
+    if outro_cfg:
+        t_outro = durata
+        durata += float(outro_cfg.get("durata", 2.2))
+        outro = strat_outro(brand.get("id", spec.get("brand", "")), outro_cfg.get("slogan", ""))
     vox = np.concatenate(audio); vox = np.pad(vox, (0, max(0, int(sr * durata) - len(vox))))
 
     # 2) straturi
@@ -352,6 +388,16 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         return deseneaza(straturi[i], sc, lt, sc["end"] - sc["start"], sc["start"] + lt)
 
     def cadru(t):
+        if t_outro is not None and t >= t_outro:
+            lt = t - t_outro
+            fr = deseneaza_outro(outro, lt)
+            if lt < 0.35:  # trecere lină din ultima scenă
+                fr = Image.blend(cadru_continut(t_outro - 0.01), fr, ease(lt / 0.35))
+            pune(fr, eticheta_ai)
+            return fr
+        return cadru_continut(t)
+
+    def cadru_continut(t):
         i = next((k for k, s in enumerate(scene) if t < s["end"]), len(scene) - 1)
         sc = scene[i]; lt = t - sc["start"]
         fr = cadru_scena(i, lt)
@@ -371,7 +417,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
             if a <= t < b + 0.15 and not e_cta:
                 pune(fr, st, a=min(ease((t - a) / 0.12), 1.0))
         pune(fr, eticheta_ai)
-        if t > durata - 0.4:
+        if t_outro is None and t > durata - 0.4:
             fr = Image.blend(fr, Image.new("RGBA", (W, H), (255, 246, 229, 255)), ease((t - (durata - 0.4)) / 0.4))
         return fr
 
