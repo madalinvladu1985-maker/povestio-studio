@@ -76,7 +76,12 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 9. Raport scurt către Mădălin (notificare): ce clipuri, ce categorii, ce ore, ce a reieșit din analiză.
 
 ## O singură dată (cerut de Mădălin pe 27.11)
-- Clipurile din 28.11 au fost făcute înainte de ultimul update, în stilul scurt. **Refă-le pe toate 5 în stilul standard de mai sus** (alte produse sau aceleași, dar alt hook la fiecare, altă voce la fiecare, ilustrații în mișcare, 35–40 s). Dacă erau deja programate în Metricool, actualizează postarea (`updateScheduledPost`, cu noul MP4 și noile texte), nu o dubla. După ce le-ai refăcut, șterge această secțiune.
+- Clipurile din 28.11 au fost făcute înainte de ultimul update, în stilul scurt. **07:30 (blender) e deja refăcut și programat în stilul nou.** La rularea de 02:13 din 28.11 (creditele Figma se resetează la 00:00 UTC), **refă 11:00, 14:30, 17:00 și 20:30** în stilul standard: aceleași produse, câte 4 ilustrații Figma pe clip, alt hook, altă voce și altă protagonistă la fiecare. Actualizează postările existente din Metricool (`getScheduledPosts` pentru 28.11 → `updateScheduledPost` pe postarea principală și pe cea de Pinterest, cu noul MP4 și noile texte), nu le dubla. Propuneri, ca să fie toate diferite:
+  - 11:00 priza de blat — hook „mit vs adevăr” („Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar.”), etichete MIT/ADEVĂR, protagonistă de ~45 de ani, păr scurt grizonat, ochelari. Ilustrații deja generate (valabile până pe 4.12): https://www.figma.com/api/mcp/asset/b07a14e6-59b7-4395-b8d6-206de3e785b4.jpg (blat plin de cabluri), https://www.figma.com/api/mcp/asset/9c60a4b6-526a-400f-bf0e-cc94c726d4b7.jpg (măsoară blatul). Mai generează 2: telefonul la încărcat într-un singur loc pe blat curat; ea gătind relaxată pe blatul liber. Voce: Charlotte.
+  - 14:30 placa de păr lată — hook de curiozitate („Secretul unui păr drept care arată bine și seara”), etichete SECRETUL 1/2/3, protagonistă de ~22 de ani, păr lung negru, bluză roz. Voce: Aria.
+  - 17:00 lampa UV — hook-întrebare aspirațional („Manichiură ca de la salon, făcută acasă? Trei detalii fac diferența.”), etichete DETALIUL 1/2/3, protagonistă de ~30 de ani, păr roșcat ondulat. Voce: Sarah.
+  - 20:30 placa 4 în 1 — hook pe greșeală (singurul de acest tip din zi: „Nu mai face asta cu buclele de sărbători”), etichete GREȘEALA 1/2/3, protagonistă de ~35 de ani, păr castaniu lung, la o petrecere de Crăciun. Voce: Jessica.
+- După ce le-ai refăcut, șterge această secțiune.
 
 ## Dacă ceva nu merge
 - Brandul Atent Ales nu există în Metricool: randează clipurile, nu publica pe alte branduri, anunță-l.
