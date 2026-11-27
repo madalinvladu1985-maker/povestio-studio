@@ -16,7 +16,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw
 
-from povestio import muzica, voce
+from povestio import ai_imagini, muzica, voce
 from povestio.planse import (ALB, ALBASTRU, CERNEALA, CORAL, FONT_TITLU, GALBEN, H, LEMN, TEAL, W, Plansa,
                              font)
 from povestio.render3 import ease, ease_out_back, ffmpeg_exe
@@ -158,6 +158,15 @@ def construieste(sc, idx, produs_cale):
     elif decor == "terasa":
         pb.terasa(BLAT_Y)
     L["fundal"] = pb.finalizeaza()
+    if sc.get("_ai_cfg"):
+        cale_ai = ai_imagini.genereaza(sc, sc["_ai_cfg"], sc["_ai_cache"], sc.get("_ai_pers", ""))
+        if cale_ai:
+            L["fundal"] = Image.open(cale_ai).convert("RGBA"); L["fundal_ai"] = True
+            if sc.get("ilustratie_personaj", True):
+                sc = {k: v for k, v in sc.items() if k != "personaj"}  # personajul e deja in ilustratie
+            if sc.get("produs", {}).get("din_blat"):
+                sc = dict(sc, produs=dict(sc["produs"], din_blat=False))
+            L["sc"] = sc
 
     ytit = 250 if sc.get("eticheta") else 200
     if sc.get("eticheta"):
@@ -220,7 +229,15 @@ def construieste(sc, idx, produs_cale):
 
 
 def deseneaza(L, sc, lt, D, t):
-    fr = L["fundal"].copy()
+    sc = L.get("sc", sc)
+    if L.get("fundal_ai"):
+        # mișcare lentă de cameră peste ilustrație (zoom 1.00 -> 1.07, ușor în sus)
+        z = 1.0 + 0.07 * min(max(lt / max(D, 0.1), 0), 1)
+        f = L["fundal"]; cw, ch = int(W / z), int(H / z)
+        x0 = (W - cw) // 2; y0 = int((H - ch) * 0.45)
+        fr = f.crop((x0, y0, x0 + cw, y0 + ch)).resize((W, H), Image.BILINEAR)
+    else:
+        fr = L["fundal"].copy()
     # titlu si eticheta
     pune(fr, L.get("eticheta"), a=ease(lt / 0.2), s=0.6 + 0.4 * ease_out_back(lt / 0.4))
     for k, st in enumerate(L.get("titlu", [])):
@@ -300,6 +317,8 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         d = len(v) / sr; pauza = sc.get("pauza", 0.35)
         dur = max(d + pauza, sc.get("durata_min", 0))
         extra = {k: aspect[a] for k, a in (("_cta_y", "cta_y"), ("_pasi_y", "pasi_y")) if a in aspect}
+        if aspect.get("fundal_ai"):
+            extra.update(_ai_cfg=aspect["fundal_ai"], _ai_cache=str(cache), _ai_pers=spec.get("personaj_ai", ""))
         scene.append(dict(sc, **extra, start=t, end=t + dur, v_end=t + d))
         audio += [v, np.zeros(int(sr * (dur - d)), np.int16)]
         t += dur
