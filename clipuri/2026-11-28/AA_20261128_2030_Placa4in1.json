@@ -131,7 +131,7 @@
     {
       "tip": "cta",
       "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru petrecerea de sărbători*",
+      "ecran": "Salvează clipul\n*pentru petrecere*",
       "marime_ecran": 80,
       "personaj": {
         "x": 250,
@@ -140,9 +140,9 @@
       },
       "produs": {
         "x": 680,
-        "baza": 1300,
-        "latime": 560,
-        "inaltime_max": 280,
+        "baza": 1210,
+        "latime": 580,
+        "inaltime_max": 260,
         "start": 0.2
       },
       "cta": {

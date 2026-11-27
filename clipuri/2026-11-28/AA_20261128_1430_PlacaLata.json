@@ -137,7 +137,7 @@
     {
       "tip": "cta",
       "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru următoarea coafură*",
+      "ecran": "Salvează clipul\n*pentru data viitoare*",
       "marime_ecran": 80,
       "personaj": {
         "x": 250,
@@ -146,9 +146,9 @@
       },
       "produs": {
         "x": 680,
-        "baza": 1300,
-        "latime": 520,
-        "inaltime_max": 260,
+        "baza": 1210,
+        "latime": 560,
+        "inaltime_max": 240,
         "start": 0.2
       },
       "cta": {
