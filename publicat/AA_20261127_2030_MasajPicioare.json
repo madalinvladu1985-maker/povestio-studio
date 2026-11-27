@@ -1,0 +1,72 @@
+{
+  "id": "AA_20261127_2030_MasajPicioare",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-27/AA_20261127_2030_MasajPicioare.json",
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "20:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. Vezi toate aparatele de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#seraacasa #relaxare #iarna #masaj #atentales"
+    },
+    "instagram": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. ❄️\nUn mic răsfăț pentru seară: aparatul din clip are 3 tipuri de masaj, 3 moduri de vibrație, 3 trepte de încălzire și baterie reîncărcabilă de 2500 mAh, fără fir.\nToate aparatele de masaj, pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#seraacasa #relaxare #iarna #masaj #atentales"
+    },
+    "facebook": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Un mic răsfăț de seară: 3 tipuri de masaj, 3 moduri de vibrație și 3 trepte de încălzire, fără fir. Vezi toate aparatele de masaj pe AtentAles.ro.\nhttps://atentales.ro/collections/confort-masaj?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Ai stat toată ziua în picioare, iar acum vrei doar canapeaua. Vibrații și căldură blândă, fără fir: un mic răsfăț de seară. Toate aparatele de masaj, pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "POV: ai stat toată ziua în picioare. Un mic răsfăț de seară",
+      "descriere": "Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. 3 tipuri de masaj, 3 moduri de vibrație, 3 trepte de încălzire. Vezi toate aparatele de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare Conținut realizat cu ajutorul AI.",
+      "tags": [
+        "aparat de masaj",
+        "masaj picioare",
+        "relaxare",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "titlu": "POV: ai stat toată ziua în picioare",
+      "text": "Un mic răsfăț de seară: vibrații și căldură blândă, fără fir. Toate aparatele de masaj, pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/confort-masaj?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_MasajPicioare"
+    }
+  },
+  "produs": {
+    "handle": "aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "url": "https://atentales.ro/products/aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_2eb778b716ffe994472df79ca4feb09d.jpg?v=1795561352",
+    "imagine_zona": [
+      0.08,
+      0.38,
+      0.97,
+      0.86
+    ],
+    "fapte_din_fisa": [
+      "3 tipuri de masaj și 3 moduri de vibrație",
+      "3 trepte de încălzire, temperatură constantă",
+      "fără fir, baterie reîncărcabilă 2500 mAh",
+      "până la 20 de utilizări după o încărcare completă",
+      "exterior din ABS și material textil"
+    ]
+  },
+  "actualizat": "2026-11-27T00:20:30+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 26.8,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261127_2030_MasajPicioare.mp4",
+    "jpg": "AA_20261127_2030_MasajPicioare.jpg",
+    "srt": "AA_20261127_2030_MasajPicioare.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_MasajPicioare.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_MasajPicioare.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_MasajPicioare.srt"
+}
