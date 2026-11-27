@@ -117,16 +117,31 @@ def strat_eticheta_ai(text="Realizat cu AI"):
     return (im, W - lat - 36, 40)
 
 
-def strat_subtitlu(text):
-    f = font(FONT_TITLU, 50, 850)
+def strat_subtitlu(text, y=1720, accent=False):
+    """Subtitrare pe pastilă închisă. y = marginea de sus a pastilei.
+    1720 = jos (vechi, acoperit de descrierea TikTok); ~1345 = deasupra descrierii, spre centru."""
+    f = font(FONT_TITLU, 54 if accent else 50, 900 if accent else 850)
     tw = f.getlength(text) / 2
     lat = min(int(tw + 80), 1000)
-    im = Image.new("RGBA", (lat * 2, 120 * 2), (0, 0, 0, 0))
+    inalt = 124 if accent else 120
+    im = Image.new("RGBA", (lat * 2, inalt * 2), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=60, fill=CERNEALA + (235,))
-    d.text((im.width / 2, im.height / 2 + 2), text, font=f, fill=ALB, anchor="mm")
-    im = im.resize((lat, 120), Image.LANCZOS)
-    return (im, (W - lat) // 2, 1720)
+    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=inalt, fill=CERNEALA + (240,),
+                        outline=(GALBEN + (255,)) if accent else None, width=8 if accent else 0)
+    d.text((im.width / 2, im.height / 2 + 2), text, font=f, fill=GALBEN if accent else ALB, anchor="mm")
+    im = im.resize((lat, inalt), Image.LANCZOS)
+    return (im, (W - lat) // 2, int(y))
+
+
+def sunet_impact(sr=44100, dur=0.9):
+    """Lovitură scurtă + suflu, generate din cod (fără licențe), pentru primul cadru al hook-ului."""
+    n = int(sr * dur); t = np.arange(n) / sr
+    frecv = 38 + 70 * np.exp(-t * 18)
+    boom = np.sin(2 * np.pi * np.cumsum(frecv) / sr) * np.exp(-t * 5.5)
+    rng = np.random.default_rng(7)
+    zg = rng.standard_normal(n)
+    zg = np.convolve(zg, np.ones(24) / 24, mode="same") * np.exp(-((t - 0.08) ** 2) / 0.004)
+    return (0.9 * boom + 0.35 * zg).astype(np.float32)
 
 
 # ---------- construirea unei scene ----------
@@ -192,14 +207,15 @@ def construieste(sc, idx, produs_cale):
         n = len(sc["pasi"])
         cx = W / 2 + (k - (n - 1) / 2) * 350
         L["pasi"].append(strat(lambda p, k=k, cx=cx, txt=txt: (
-            p.numar(cx, 1530, k + 1, culori_pasi[k % 4]),
-            p.text(cx, 1600, txt, 44, ancora="ma", greutate=800))))
+            p.numar(cx, sc.get("_pasi_y", 1530), k + 1, culori_pasi[k % 4]),
+            p.text(cx, sc.get("_pasi_y", 1530) + 70, txt, 44, ancora="ma", greutate=800))))
 
     if sc.get("tip") == "cta":
         cta = sc.get("cta", {})
-        L["cta_cutie"] = strat(lambda p: (p.drept(90, 1480, 900, 250, ALB, gros=7, raza=40),
-                                          p.text(540, 1530, cta.get("sus", ""), 50, ancora="ma")))
-        L["cta_domeniu"] = strat(lambda p: p.eticheta(330, 1610, cta.get("domeniu", "AtentAles.ro"), GALBEN, CERNEALA, 58, rot=-2))
+        y0 = sc.get("_cta_y", 1480)
+        L["cta_cutie"] = strat(lambda p: (p.drept(90, y0, 900, 250, ALB, gros=7, raza=40),
+                                          p.text(540, y0 + 50, cta.get("sus", ""), 50, ancora="ma")))
+        L["cta_domeniu"] = strat(lambda p: p.eticheta(330, y0 + 130, cta.get("domeniu", "AtentAles.ro"), GALBEN, CERNEALA, 58, rot=-2))
     return L
 
 
@@ -271,6 +287,11 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     iesire, cache = Path(iesire), Path(cache)
     iesire.mkdir(parents=True, exist_ok=True); cache.mkdir(parents=True, exist_ok=True)
     nume = spec["id"]; sr = voce.SR
+    # aspect: setările brandului, suprascrise de spec (ex. clip demonstrativ)
+    aspect = {**brand.get("aspect", {}), **spec.get("aspect", {})}
+    if spec.get("voce_setari"):
+        brand = {**brand, "voce": {**brand.get("voce", {}), **spec["voce_setari"]}}
+    sub_y = aspect.get("subtitlu_y", 1720)
 
     # 1) vocea pe scene -> cronologie
     scene, audio, t, furn = [], [np.zeros(int(sr * 0.3), np.int16)], 0.3, set()
@@ -278,7 +299,8 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         v, f = voce.genereaza(sc["voce"], brand, cache, ordine_voce); furn.add(f)
         d = len(v) / sr; pauza = sc.get("pauza", 0.35)
         dur = max(d + pauza, sc.get("durata_min", 0))
-        scene.append(dict(sc, start=t, end=t + dur, v_end=t + d))
+        extra = {k: aspect[a] for k, a in (("_cta_y", "cta_y"), ("_pasi_y", "pasi_y")) if a in aspect}
+        scene.append(dict(sc, **extra, start=t, end=t + dur, v_end=t + d))
         audio += [v, np.zeros(int(sr * (dur - d)), np.int16)]
         t += dur
     durata = t + 0.6
@@ -303,7 +325,8 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         tot = sum(len(x) for x in fz); t0 = sc["start"]
         for x in fz:
             d = (sc["v_end"] - sc["start"]) * len(x) / tot
-            subt.append((t0, t0 + d, sc.get("tip") == "cta", strat_subtitlu(x), x)); t0 += d
+            acc = aspect.get("subtitlu_accent_hook", False) and sc.get("tip") == "hook"
+            subt.append((t0, t0 + d, sc.get("tip") == "cta", strat_subtitlu(x, sub_y, acc), x)); t0 += d
 
     def cadru_scena(i, lt):
         sc = scene[i]
@@ -350,14 +373,22 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         raise RuntimeError("ffmpeg a eșuat la video")
 
     mus = muzica.genereaza(durata, 44100)
+    if aspect.get("sunet_hook"):
+        imp = sunet_impact(44100); i0 = int(44100 * 0.05)
+        mus = mus.astype(np.float32); seg = mus[i0:i0 + len(imp)]
+        k = float(aspect.get("sunet_hook_volum", 0.55)) / max(brand.get("volum_muzica", 0.22), 0.05)
+        seg += (imp[:len(seg), None] if seg.ndim == 2 else imp[:len(seg)]) * k
     mus_wav = cache / f"{nume}_muzica.wav"; muzica.scrie_wav(mus_wav, mus, 44100)
     voc_wav = cache / f"{nume}_voce.wav"
     with wave.open(str(voc_wav), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(vox.tobytes())
     vol_m = brand.get("volum_muzica", 0.22) if furn - {"fara"} else 0.8
+    # voce „de impact”: mai prezentă și mai apăsată (compresie + puțin bas tăiat + câștig)
+    filtru_voce = (",highpass=f=90,acompressor=threshold=-22dB:ratio=4:attack=4:release=90:makeup=3,"
+                   "equalizer=f=3000:t=q:w=1.2:g=3,volume=1.15") if aspect.get("voce_impact") else ""
     mp4 = iesire / f"{nume}.mp4"; tmpf = iesire / f"{nume}.tmp.mp4"
     r = subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(tmp_v), "-i", str(voc_wav), "-i", str(mus_wav),
-                        "-filter_complex", f"[1:a]aresample=44100[v];[2:a]volume={vol_m}[m];[v][m]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95[a]",
+                        "-filter_complex", f"[1:a]aresample=44100{filtru_voce}[v];[2:a]volume={vol_m}[m];[v][m]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95[a]",
                         "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
                         "-shortest", "-movflags", "+faststart", str(tmpf)])
     if r.returncode != 0:

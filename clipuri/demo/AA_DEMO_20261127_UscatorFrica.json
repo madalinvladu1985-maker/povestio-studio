@@ -1,0 +1,173 @@
+{
+ "id": "AA_DEMO_20261127_UscatorFrica",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "demo": true,
+ "unghi_marketing": "DEMO: hook pe frică (coafura stricată) -> greșeala frecventă -> pasul cu aer rece -> funcții -> categorie",
+ "stare_emotionala": "teama de a arata neingrijit",
+ "produs": {
+  "handle": "uscator-de-par-1800-w-motor-ac-2-seruri",
+  "url": "https://atentales.ro/products/uscator-de-par-1800-w-motor-ac-2-seruri",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1400aa68caad3058c10b40d6bfd89a0b.jpg?v=1795585623",
+  "fapte_din_fisa": [
+   "1800 W",
+   "motor AC din cupru, până la 18.000 rpm",
+   "3 trepte de temperatură",
+   "funcție de aer rece pentru fixarea coafurii",
+   "difuzor și concentrator",
+   "săculeț din catifea, 2 seruri cu biotină, cutie cadou"
+  ],
+  "imagine_zona": [
+   0.32,
+   0.18,
+   0.97,
+   0.8
+  ],
+  "imagine_punct": [
+   0.57,
+   0.25
+  ]
+ },
+ "cta": {
+  "sus": "Vezi toate",
+  "categorie": "Uscătoare de păr",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/par-uscatoare"
+ },
+ "programare": {
+  "data": "demo",
+  "ora": "--"
+ },
+ "tinta_caractere_voce": 330,
+ "aspect": {
+  "subtitlu_y": 1345,
+  "cta_y": 1250,
+  "subtitlu_accent_hook": true,
+  "voce_impact": true,
+  "sunet_hook": true
+ },
+ "voce_setari": {
+  "stabilitate": 0.32,
+  "similaritate": 0.8,
+  "stil": 0.45,
+  "viteza": 1.07
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "baie",
+   "eticheta": "ATENȚIE!",
+   "culoare_eticheta": "coral",
+   "ecran": "Coafura ta *se strică*\nînainte să ieși?",
+   "marime_ecran": 90,
+   "personaj": {
+    "x": 380,
+    "stare": "surprins",
+    "intrare": true
+   },
+   "voce": "Atenție! Îți faci coafura dimineața… și se strică înainte să ieși pe ușă?",
+   "pauza": 0.25
+  },
+  {
+   "tip": "problema",
+   "decor": "sufragerie",
+   "ecran": "Greșeala pe care\n*o fac mulți*",
+   "marime_ecran": 90,
+   "personaj": {
+    "x": 380,
+    "stare": "trist"
+   },
+   "bula": "Iar arăt ciufulită…",
+   "bula_start": 0.3,
+   "voce": "Greșeala pe care o fac mulți: opresc uscătorul fără ultimul pas.",
+   "pauza": 0.25
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "eticheta": "ULTIMUL PAS",
+   "culoare_eticheta": "albastru",
+   "ecran": "un jet de *aer rece*,\nla final",
+   "marime_ecran": 88,
+   "produs": {
+    "x": 540,
+    "baza": 1250,
+    "latime": 560,
+    "inaltime_max": 560,
+    "din_blat": true,
+    "start": 0.3
+   },
+   "voce": "Un jet de aer rece, la final, ajută la fixarea coafurii.",
+   "pauza": 0.25
+  },
+  {
+   "tip": "functii",
+   "decor": "hartie",
+   "ecran": "Tot ce-ți trebuie,\n*într-o singură cutie*",
+   "marime_ecran": 86,
+   "produs": {
+    "x": 540,
+    "baza": 1190,
+    "latime": 520,
+    "inaltime_max": 480,
+    "start": 0.1
+   },
+   "etichete": [
+    {
+     "text": "1800 W · motor AC",
+     "x": 540,
+     "y": 560,
+     "accent": true,
+     "latime": 520,
+     "sageata": true
+    },
+    {
+     "text": "3 trepte",
+     "x": 290,
+     "y": 1220
+    },
+    {
+     "text": "Aer rece",
+     "x": 790,
+     "y": 1220
+    }
+   ],
+   "voce": "Acesta are 1800 de wați, motor AC din cupru, trei trepte de temperatură și aer rece.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "baie",
+   "ecran": "Ultimul pas\n*face diferența*.",
+   "marime_ecran": 90,
+   "personaj": {
+    "x": 330,
+    "stare": "bucuros",
+    "obiect": "brate_sus"
+   },
+   "produs": {
+    "x": 720,
+    "baza": 1335,
+    "latime": 300,
+    "inaltime_max": 360,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Vezi toate uscătoarele de păr",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Vezi toate uscătoarele de păr pe AtentAles.ro.",
+   "durata_min": 3.0
+  }
+ ],
+ "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
+ "varianta": {
+  "hook_tip": "frica",
+  "deschidere": "personaj_problema",
+  "mix_scene": "planse_ilustrate",
+  "categorie": "par-uscatoare",
+  "stil": "planse_v4_impact",
+  "stare": "teama"
+ },
+ "platforme": {}
+}
