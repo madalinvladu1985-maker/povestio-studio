@@ -1,0 +1,18 @@
+[ 0.00- 3.88] Ziua s-a terminat. Acum urmează 10 minute doar pentru tine.
+    Ziua(0.00,p=0.71) s(0.60,p=1.00) -a(0.72,p=1.00) terminat.(0.72,p=1.00) Acum(1.64,p=0.99) urmează(1.84,p=0.83) 10(2.20,p=0.93) minute(2.46,p=0.98) doar(2.76,p=0.98) pentru(2.98,p=1.00) tine.(3.26,p=1.00)
+[ 4.38- 8.52] Primul pas. Lasă telefonul cu ecranul în jos și stinge lumina mare.
+    Primul(4.38,p=0.90) pas.(4.68,p=1.00) Lasă(5.18,p=0.94) telefonul(5.68,p=1.00) cu(6.18,p=0.99) ecranul(6.32,p=0.95) în(6.80,p=0.99) jos(6.96,p=0.98) și(7.18,p=0.97) stinge(7.50,p=0.73) lumina(7.82,p=0.99) mare.(8.22,p=1.00)
+[ 8.88-10.92] O lampă caldă e de ajuns.
+    O(8.88,p=0.99) lampă(9.04,p=0.99) caldă(9.36,p=1.00) e(9.68,p=0.93) de(9.80,p=1.00) ajuns.(10.00,p=0.93)
+[11.14-15.46] Al doilea pas. O cană de ceai cald, fără grabă, fără liste de făcut.
+    Al(11.14,p=0.83) doilea(11.32,p=0.99) pas.(11.68,p=1.00) O(12.16,p=0.98) cană(12.36,p=0.99) de(12.60,p=1.00) ceai(12.80,p=0.81) cald,(13.02,p=0.99) fără(13.50,p=1.00) grabă,(13.80,p=0.95) fără(14.38,p=1.00) liste(14.64,p=0.99) de(14.94,p=1.00) făcut.(15.10,p=0.99)
+[16.16-18.80] Al treilea pas. Ridică picioarele pe o pernă
+    Al(16.16,p=0.97) treilea(16.36,p=0.95) pas.(16.80,p=1.00) Ridică(17.30,p=0.96) picioarele(17.72,p=0.98) pe(18.16,p=1.00) o(18.32,p=0.99) pernă(18.54,p=0.96)
+[18.80-21.52] și lasă-le să se odihnească după o zi lungă.
+    și(18.80,p=0.99) lasă(18.96,p=0.75) -le(19.26,p=0.99) să(19.38,p=0.99) se(19.56,p=0.99) odihnească(19.66,p=0.99) după(20.24,p=0.99) o(20.44,p=0.98) zi(20.60,p=1.00) lungă.(20.74,p=1.00)
+[21.80-24.20] Telefonul deoparte, ceai cald, picioarele sup.
+    Telefonul(21.80,p=0.99) deoparte,(22.26,p=0.97) ceai(22.80,p=0.96) cald,(23.14,p=0.99) picioarele(23.50,p=0.99) sup.(24.00,p=0.40)
+[24.50-26.66] Salvează clipul pentru o seară liniștită.
+    Salvează(24.50,p=0.99) clipul(24.90,p=0.98) pentru(25.24,p=0.99) o(25.44,p=1.00) seară(25.66,p=0.97) liniștită.(25.92,p=0.97)
+[26.66-29.94] Găsește aparate de masaj pe atentales.ro.
+    Găsește(26.66,p=0.94) aparate(27.68,p=0.97) de(28.06,p=0.99) masaj(28.30,p=0.98) pe(28.64,p=1.00) atentales(28.88,p=0.47) .ro.(29.36,p=0.99)

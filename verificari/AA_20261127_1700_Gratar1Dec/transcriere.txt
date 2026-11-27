@@ -1,0 +1,30 @@
+[ 0.00- 2.74] Vine 1 decembrie și grătarul e la tine?
+    Vine(0.00,p=0.18) 1(0.56,p=0.76) decembrie(0.74,p=0.80) și(1.36,p=0.58) grătarul(1.52,p=0.99) e(1.98,p=0.89) la(2.10,p=1.00) tine?(2.28,p=1.00)
+[ 3.36- 5.98] Uite cum îl organizez fără să alergi toată ziua.
+    Uite(3.36,p=0.96) cum(3.52,p=0.99) îl(3.66,p=0.97) organizez(3.86,p=0.78) fără(4.30,p=0.99) să(4.50,p=0.99) alergi(4.64,p=0.90) toată(4.90,p=0.97) ziua.(5.16,p=1.00)
+[ 6.32- 6.70] Pasul 1.
+    Pasul(6.32,p=0.68) 1.(6.46,p=0.93)
+[ 7.00- 8.44] Faci lista cu o zi înainte.
+    Faci(7.00,p=0.80) lista(7.28,p=0.69) cu(7.44,p=0.99) o(7.66,p=0.96) zi(7.72,p=1.00) înainte.(7.82,p=1.00)
+[ 8.54-11.04] Câte persoane vin, ce carne, ce garnituri.
+    Câte(8.54,p=0.84) persoane(8.74,p=0.92) vin,(9.18,p=0.99) ce(9.58,p=1.00) carne,(9.76,p=0.90) ce(10.26,p=1.00) garnituri.(10.40,p=1.00)
+[11.42-12.18] Pasul 2.
+    Pasul(11.42,p=0.99) 2.(11.82,p=1.00)
+[12.44-14.04] Pregătește marinada de cu seară.
+    Pregătește(12.44,p=0.97) marinada(12.90,p=0.98) de(13.34,p=0.97) cu(13.50,p=0.74) seară.(13.66,p=0.84)
+[14.30-15.68] A doua zi ai mai puțin de făcut.
+    A(14.30,p=0.98) doua(14.38,p=0.91) zi(14.58,p=1.00) ai(14.70,p=0.95) mai(14.76,p=1.00) puțin(14.96,p=0.99) de(15.20,p=1.00) făcut.(15.34,p=1.00)
+[16.20-16.92] Pasul 3.
+    Pasul(16.20,p=0.99) 3.(16.56,p=1.00)
+[17.10-19.26] Pune toate ustensilele într-o singură geantă.
+    Pune(17.10,p=0.97) toate(17.24,p=1.00) ustensilele(17.50,p=0.99) într(18.14,p=0.99) -o(18.34,p=1.00) singură(18.34,p=0.99) geantă.(18.74,p=0.96)
+[19.66-21.86] Nu mai cauți cleștele când jarul e gata.
+    Nu(19.66,p=0.72) mai(19.78,p=1.00) cauți(20.00,p=0.86) cleștele(20.28,p=0.89) când(20.74,p=0.97) jarul(20.88,p=0.96) e(21.22,p=0.96) gata.(21.36,p=1.00)
+[22.46-24.70] Listă, marinadă, o geantă pregătită.
+    Listă,(22.46,p=0.72) marinadă,(22.88,p=0.97) o(23.62,p=1.00) geantă(23.76,p=1.00) pregătită.(24.02,p=0.99)
+[25.00-26.84] Iar tu ai timp să stai cu prietenii.
+    Iar(25.00,p=0.99) tu(25.16,p=0.99) ai(25.26,p=0.99) timp(25.40,p=1.00) să(25.68,p=0.98) stai(25.84,p=0.99) cu(25.96,p=1.00) prietenii.(26.14,p=0.99)
+[27.02-28.98] Trimite clipul cuiva cu care faci grătar.
+    Trimite(27.02,p=0.95) clipul(27.30,p=0.98) cuiva(27.68,p=0.95) cu(28.00,p=0.97) care(28.16,p=1.00) faci(28.36,p=1.00) grătar.(28.60,p=0.97)
+[28.98-32.20] Găsește truse pentru grătar pe atentales.ro
+    Găsește(28.98,p=0.90) truse(29.96,p=0.94) pentru(30.22,p=0.99) grătar(30.52,p=0.84) pe(30.86,p=0.99) atentales(31.06,p=0.84) .ro(31.64,p=0.98)
