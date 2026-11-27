@@ -189,7 +189,12 @@ def construieste(sc, idx, produs_cale):
         pb.terasa(BLAT_Y)
     L["fundal"] = pb.finalizeaza()
     if sc.get("_ai_cfg"):
-        cale_ai = ai_imagini.genereaza(sc, sc["_ai_cfg"], sc["_ai_cache"], sc.get("_ai_pers", ""))
+        # „fara_personaj”: scenă fără protagonistă (ex. doar un decor) -> nu folosește și nu devine referință
+        ref = sc["_ai_ref"][0] if sc.get("_ai_ref") and not sc.get("fara_personaj") else None
+        cale_ai = ai_imagini.genereaza(sc, sc["_ai_cfg"], sc["_ai_cache"], sc.get("_ai_pers", ""), ref)
+        if cale_ai and sc.get("_ai_ref") is not None and not sc["_ai_ref"] and not sc.get("fara_personaj") \
+                and not sc.get("ilustratie_url"):
+            sc["_ai_ref"].append(str(cale_ai))
         if cale_ai:
             L["fundal"] = Image.open(cale_ai).convert("RGBA"); L["fundal_ai"] = True
             if sc.get("ilustratie_personaj", True):
@@ -385,6 +390,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
     if spec.get("voce_id"):  # altă voce feminină la fiecare clip
         brand = {**brand, "voce": {**brand.get("voce", {}), "voce_id_clip": spec["voce_id"]}}
     sub_y = aspect.get("subtitlu_y", 1720)
+    ref_personaj = []  # prima ilustrație cu personajul -> referință pentru celelalte scene (același personaj)
 
     # 1) vocea pe scene -> cronologie
     scene, audio, t, furn = [], [np.zeros(int(sr * 0.3), np.int16)], 0.3, set()
@@ -394,7 +400,7 @@ def randeaza(spec, brand, iesire, cache, ordine_voce=None):
         dur = max(d + pauza, sc.get("durata_min", 0))
         extra = {k: aspect[a] for k, a in (("_cta_y", "cta_y"), ("_pasi_y", "pasi_y")) if a in aspect}
         if aspect.get("fundal_ai"):
-            extra.update(_ai_cfg=aspect["fundal_ai"], _ai_cache=str(cache), _ai_pers=spec.get("personaj_ai", ""))
+            extra.update(_ai_cfg=aspect["fundal_ai"], _ai_cache=str(cache), _ai_pers=spec.get("personaj_ai", ""), _ai_ref=ref_personaj)
         scene.append(dict(sc, **extra, start=t, end=t + dur, v_end=t + d))
         audio += [v, np.zeros(int(sr * (dur - d)), np.int16)]
         t += dur

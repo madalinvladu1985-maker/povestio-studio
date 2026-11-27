@@ -38,7 +38,36 @@ def prompt_scena(sc, personaj_desc):
     return f"{p}. {STIL}"
 
 
-def genereaza(sc, cfg, cache_dir, personaj_desc=""):
+def _gemini(prompt, cfg, referinta=None):
+    """Gemini API (Nano Banana), plătit din creditele Google Cloud incluse în Google AI Pro."""
+    import base64
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return None
+    model = cfg.get("model", "gemini-2.5-flash-image")
+    parts = []
+    if referinta and Path(referinta).exists():
+        parts.append({"inline_data": {"mime_type": "image/png", "data": base64.b64encode(Path(referinta).read_bytes()).decode()}})
+        prompt = ("Use the attached image only as the reference for the main character: keep the same person, face, hair, "
+                  "clothes and the same illustration style. New scene: " + prompt)
+    parts.append({"text": prompt})
+    body = {"contents": [{"parts": parts}],
+            "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": "9:16"}}}
+    r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                      params={"key": key}, json=body, timeout=180)
+    if r.status_code != 200:
+        print(f"[ai_imagini] gemini {model} {r.status_code}: {r.text[:300]}")
+        return None
+    for c in r.json().get("candidates", []):
+        for part in c.get("content", {}).get("parts", []):
+            d = part.get("inline_data") or part.get("inlineData")
+            if d and d.get("data"):
+                return Image.open(io.BytesIO(base64.b64decode(d["data"]))).convert("RGB")
+    print("[ai_imagini] gemini: raspuns fara imagine")
+    return None
+
+
+def genereaza(sc, cfg, cache_dir, personaj_desc="", referinta=None):
     """Intoarce calea unei imagini 1080x1920 sau None."""
     if sc.get("ilustratie_url"):  # ilustratie deja generata (ex. demo), doar o descarcam
         out = _cache(cache_dir, "url|" + sc["ilustratie_url"])
@@ -53,9 +82,21 @@ def genereaza(sc, cfg, cache_dir, personaj_desc=""):
         return out
     if not sc.get("ilustratie"):
         return None
+    prompt = prompt_scena(sc, personaj_desc)
+    if cfg.get("furnizor") == "gemini":
+        out = _cache(cache_dir, f"gemini|{cfg.get('model')}|{prompt}|{referinta}")
+        if out.exists():
+            return out
+        try:
+            im = _gemini(prompt, cfg, referinta if cfg.get("referinta_personaj", True) else None)
+        except Exception as e:
+            print(f"[ai_imagini] gemini eroare: {e}"); im = None
+        if im is None:
+            return None
+        _acopera(im).save(out)
+        return out
     key = os.environ.get("FAL_KEY")
     model = cfg.get("model", "fal-ai/flux/schnell")
-    prompt = prompt_scena(sc, personaj_desc)
     out = _cache(cache_dir, f"{model}|{prompt}|{cfg.get('seed', 7)}")
     if out.exists():
         return out
