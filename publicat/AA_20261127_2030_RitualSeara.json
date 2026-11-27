@@ -1,0 +1,66 @@
+{
+  "id": "AA_20261127_2030_RitualSeara",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-27/AA_20261127_2030_RitualSeara.json",
+  "programare": {
+    "data": "2026-11-27",
+    "ora": "20:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+    },
+    "instagram": {
+      "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+    },
+    "facebook": {
+      "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara\nConținut realizat cu ajutorul AI.\n#ritualdeseara #selfcare #relaxare #seraacasa #atentales"
+    },
+    "threads": {
+      "text": "Zece minute doar pentru tine. ✨\nRitualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă.\nGăsește aparate de masaj pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Ritualul de seară în 3 pași: zece minute doar pentru tine",
+      "descriere": "Zece minute doar pentru tine. ✨ Ritualul de seară în 3 pași: telefonul cu ecranul în jos, un ceai cald fără grabă, picioarele sus pe o pernă. Găsește aparate de masaj pe AtentAles.ro. https://atentales.ro/collections/confort-masaj?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara\nConținut realizat cu ajutorul AI."
+    },
+    "pinterest": {
+      "text": "Zece minute doar pentru tine. ✨ Găsește aparate de masaj pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/confort-masaj?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261127_2030_RitualSeara"
+    },
+    "first_comment": "Care e momentul tău preferat al serii?"
+  },
+  "produs": {
+    "handle": "aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "url": "https://atentales.ro/products/aparat-de-masaj-pentru-picioare-cu-incalzire-reincarcabil",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_2eb778b716ffe994472df79ca4feb09d.jpg?v=1795561352",
+    "imagine_zona": [
+      0.08,
+      0.38,
+      0.97,
+      0.86
+    ],
+    "fapte_din_fisa": [
+      "3 tipuri de masaj și 3 moduri de vibrație",
+      "3 trepte de încălzire, temperatură constantă",
+      "fără fir, baterie reîncărcabilă 2500 mAh",
+      "până la 20 de utilizări după o încărcare completă",
+      "exterior din ABS și material textil"
+    ]
+  },
+  "actualizat": "2026-11-27T12:01:17+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 33.2,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261127_2030_RitualSeara.mp4",
+    "jpg": "AA_20261127_2030_RitualSeara.jpg",
+    "srt": "AA_20261127_2030_RitualSeara.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_RitualSeara.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_RitualSeara.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-27/AA_20261127_2030_RitualSeara.srt"
+}
