@@ -28,17 +28,27 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 2. Catalog: `catalog/atentales.json` (actualizat zilnic de workflow-ul „Povestio catalog”; pentru reîmprospătare, scrie data în `catalog/cerere.txt` și fă push).
 3. Analiză: rulează `python studio.py analiza` și citește `performanta/strategie.json` (vezi `docs/AGENT_ANALIZA.md`). Dacă există metrici noi în Metricool pentru clipurile publicate acum 24 h / 72 h, înregistrează-le întâi.
 4. Alege 5 categorii diferite, aleatoriu, din lista de rotație de mai jos, evitând categoriile folosite în ultimele 2 zile (vezi `clipuri/`). În fiecare categorie alege aleatoriu un produs `disponibil` cu imagini.
-5. Pentru fiecare clip scrie un spec v4 (`versiune_motor: 4`) în `clipuri/<data>/AA_<data>_<HHMM>_<Nume>.json`. **Stilul aprobat de Mădălin pe 27.11 este EDUCATIV: vorbim mai mult despre educație decât despre produs, iar produsul apare doar la final, în CTA.** Model obligatoriu: `clipuri/demo/AA_DEMO_20261127_EducatieUscator.json`.
-   - 5 scene, ~80% educație:
-     1. **Hook pe frică** (eticheta „ATENȚIE!” coral): „N greșeli care îți strică…”, „Greșeala pe care o faci zilnic cu…”, „Nu mai face asta dacă…”. Ce riscă omul să piardă în viața de zi cu zi: coafura, timpul, ordinea, căldura din casă, un cadou ratat. Fără frică medicală, de siguranță sau de accidente.
-     2–4. **Câte o greșeală sau un sfat pe scenă** (eticheta „GREȘEALA 1/2/3” sau „PASUL 1/2/3”, în culori diferite), titlu scurt cu marcaj galben, 1–2 etichete sus (y≈490 și y≈610) de forma „NU: …” / „DA: …”. Personajul sau decorul arată situația. Produsul NU apare în scenele 2–4.
-     5. **Final cu produsul și CTA-ul legat de ultimul sfat**: poza reală a produsului + caseta CTA; pe ecran un îndemn de salvare („Salvează clipul pentru…”). CTA vocal ≤ 8 cuvinte, legat de ce s-a explicat, spre categorie: „Caută un uscător cu aer rece pe AtentAles.ro.”, „Găsește prize încorporabile pe AtentAles.ro.”
+5. Pentru fiecare clip scrie un spec v4 (`versiune_motor: 4`) în `clipuri/<data>/AA_<data>_<HHMM>_<Nume>.json`.
+   **STILUL STANDARD (aprobat de Mădălin pe 27.11): „poveste ilustrată în mișcare” + discursul educativ.** Model obligatoriu: `clipuri/demo/AA_DEMO_20261127_PerieIndreptat.json`. Vizual ca în clipul de referință @klastep (analizat în `verificari/ref_7711755734429469974/`): un singur personaj într-o singură poveste, ilustrații 2D care se mișcă (cameră + mici animații), etichete-card, pași numerotați, final cu brandul. Discursul rămâne al nostru: hook pe frică, greșeli/sfaturi, produsul doar la final, CTA legat de sfat, logo.
+   - **Durată 35–40 s**: 6 scene + încheierea cu logo (automată). Vocea ~440–540 de caractere (respectă `tinta_caractere_voce` din `studio.py buget`).
+   - **Scenele:**
+     1. **Hook pe frică** (eticheta „ATENȚIE!” coral): „N greșeli care îți strică…”. Personajul în situația neplăcută, într-un loc din viața reală (cafenea, birou, stradă, bucătărie). `efect: "intrebari"` lângă capul personajului.
+     2–4. **Câte o greșeală pe scenă** („GREȘEALA 1/2/3” în coral / albastru / teal): titlu scurt cu marcaj galben + 2 etichete sus, la y≈500 și y≈620 („NU: …” albă, „DA: …” galbenă). Ilustrația arată personajul exact în momentul acelei greșeli sau făcând lucrul corect. Produsul NU apare.
+     5. **Rezumat** (eticheta „REȚINE”): ecran „Salvează clipul *pentru …*”, `pasi` cu 3 cuvinte scurte (fără săgeți „→”, fontul nu le are), ilustrație cu personajul mulțumit, `efect: "sclipiri"`.
+     6. **CTA** pe `decor: "hartie"`: poza reală a produsului + caseta CTA. CTA vocal ≤ 8 cuvinte, legat de sfat și de un fapt din fișă: „Găsește perii cu 14 trepte pe AtentAles.ro.” Numerele din CTA se scriu în litere în `voce` și în cifre în `subtitlu`.
+   - **Mișcare**: fiecare scenă are `camera` cu `de`/`la` = [centru_x, centru_y, zoom], fracții din cadru, zoom între 1.0 și 1.3. Alternează apropierea cu depărtarea și ușoare deplasări laterale, ca la un desen animat filmat. `efect` (cel mult unul pe scenă): `intrebari` (hook), `picaturi` (apă/umezeală/ploaie), `sclipiri` (rezultat bun). `efect_poz` = [x, y] în pixeli pe cadrul de 1080×1920.
+   - **Ilustrații AI** (aceeași persoană în tot clipul, alt personaj la fiecare clip, potrivit categoriei):
+     - Stil fix în prompt: „A flat vector 2D animation-style illustration with soft gradients, in a warm palette of cream, teal, coral and soft pink… [personajul descris identic în toate scenele, cu aceleași haine]… She/He is in the lower half of the frame; the top third is a calm plain cream wall/sky with nothing on it, leaving space for a title. Vertical 9:16 composition. No text, no letters, no logos, no watermark.” Fără produse de brand în ilustrații: obiectele sunt generice („a plain unbranded …”).
+     - **Dacă secretul `FAL_KEY` există** (după ce Mădălin îl adaugă): pune în fiecare scenă `ilustratie` (promptul) și în `aspect` `{"fundal_ai": {"model": "fal-ai/flux/schnell", "seed": <număr>}}` (modelul se poate schimba după primul test). Motorul le generează la randare.
+     - **Până atunci**: generează ilustrațiile cu Figma (`generate_image`, fișierul `2E6Xo9Rx3joDAQ27LGVPcl`, modelul `gemini-3.1-flash-lite-image`, 1080×1920), câte 4–5 pe clip (o ilustrație poate servi la două scene, cu altă `camera`). Pune URL-ul primit în `ilustratie_url`, iar în `aspect` `{"fundal_ai": {"model": "figma"}}`. URL-urile Figma expiră în 7 zile, deci clipul se randează în aceeași zi.
+     - Dacă generarea nu merge (lipsă credite, eroare): clipul iese cu decorurile din cod (`baie`, `bucatarie`, `sufragerie`, `terasa`, `hartie`) și personajul desenat, iar Mădălin primește o singură notificare în raportul zilei.
+     - Verifică fiecare ilustrație: fără text, fără logouri, mâini și față normale, același personaj. Altfel o regenerezi o dată.
+   - **Vocea**: nu coborî `stabilitate` sub 0.5 (la 0.32 vocea a scos cuvinte fără sens). După randare, pune URL-urile MP4 în `verificari/cerere_voce.txt` și fă push. Workflow-ul „Povestio - verificare voce” scrie transcrierea în `verificari/<id>/transcriere.txt`. Dacă transcrierea are cuvinte fără sens față de text, șterge `publicat/<id>.json` și rerandează cu o formulare mai simplă.
    - Sfaturile sunt de bun-simț, general cunoscute și verificabile. Nicio afirmație medicală, de siguranță, de sănătate sau „științifică” fără sursă. Dacă nu ești sigur că un sfat e corect, nu-l folosi.
-   - Singura caracteristică a produsului care se poate numi (doar în CTA sau pe ecranul final) trebuie să fie în fișa lui și să răspundă sfatului din clip. Dacă fișa nu are o caracteristică legată de sfaturi, CTA-ul devine „Vezi toate <categoria> pe AtentAles.ro.”
+   - Despre produs, doar fapte din fișă. Caracteristica pomenită în CTA trebuie să răspundă unui sfat din clip; dacă fișa nu are una potrivită, CTA-ul devine „Vezi toate <categoria> pe AtentAles.ro.”
    - În descrieri: prima propoziție = hook-ul; apoi cele 3 sfaturi pe scurt; apoi CTA-ul. `firstCommentText` = întrebare despre obiceiul lor („Tu care dintre greșeli o faci?”).
-   - **Încheiere cu logoul (aprobat 27.11)**: motorul adaugă automat, după CTA, un cadru de ~2,2 s cu logoul Atent Ales (`brands/atentales/logo.png`) și sloganul „Produse atent alese pentru casa ta.” (`brand.json` → `aspect.outro_logo`). Nu-l adăuga în spec; ține cont că durata crește cu ~2 s (ținta totală 22–32 s).
-   - `varianta.stil` = `educatie_cta_final`; `hook_tip` = `frica_lista` sau `frica_greseala`.
-   - Din modelul demo NU copia `ilustratie_url`, `aspect` sau `demo`: ilustrațiile AI acolo sunt doar demonstrative. Până când `FAL_KEY` e activ și Mădălin aprobă ilustrațiile AI, scenele folosesc decorurile din cod (`baie`, `bucatarie`, `sufragerie`, `terasa`, `hartie`) cu personajul desenat (`personaj` cu `stare`), ca să nu rămână goale.
+   - `varianta.stil` = `poveste_ilustrata`; `mix_scene` = `ilustratii_miscatoare`; `hook_tip` = `frica_lista` sau `frica_greseala`.
+   - **Încheiere cu logoul**: motorul adaugă automat ~2,2 s cu logoul Atent Ales și sloganul „Produse atent alese pentru casa ta.” Nu-l adăuga în spec.
    - Subtitrarea (deasupra descrierii TikTok), caseta CTA mai sus, vocea „de impact” și sunetul de la hook sunt activate implicit din `brands/atentales/brand.json` → `aspect`. Nu le suprascrie în spec. Nu pune elemente importante (etichete, pași) mai jos de y≈1480, unde le acoperă descrierea TikTok.
    - **Stare emoțională diferită la fiecare clip**: grabă, oboseală, frig, dorință de liniște, bucuria unui cadou, mândria lucrului bine făcut, curiozitate, nevoie de ordine, aventură etc.
    - **Prima scenă (coperta pe TikTok) trebuie să arate diferit la fiecare clip al zilei și față de ultimele clipuri publicate**: alt decor sau alt cadru în scena 1. Pe 27.11, uscătorul și trimmerul au avut aceeași copertă (baie + oglindă) și arătau ca același clip pe profil.
@@ -50,7 +60,7 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
    - `varianta`: hook_tip, deschidere, mix_scene, categorie, stil, stare.
    - Rulează `python studio.py verifica <spec>`; corectează până trece.
 6. Commit + push. Workflow-ul „Povestio - randare clipuri” randează cu vocea ElevenLabs și scrie `publicat/<id>.json` cu `video_url`, `coperta_url`.
-7. Verifică fiecare clip: descarcă MP4 din release, extrage 4 cadre, verifică textul, poza produsului (fără text, fără alte obiecte) și durata (20–35 s). Dacă ceva e greșit, corectează spec-ul, șterge `publicat/<id>.json` și fă push ca să se rerandeze.
+7. Verifică fiecare clip: descarcă MP4 din release, extrage 4 cadre, verifică textul, poza produsului (fără text, fără alte obiecte), ilustrațiile și durata (35–40 s); verifică vocea prin transcriere (pasul 5). Dacă ceva e greșit, corectează spec-ul, șterge `publicat/<id>.json` și fă push ca să se rerandeze.
 8. Publicare în Metricool, brandul **Atent Ales, blogId 8391098** (NU Vlateo 6257903): `createScheduledPost` la ora slotului, o singură postare pentru toate rețelele, cu:
    - `text` = textul pentru Instagram (≤ 500 caractere, ca să treacă și pe Threads);
    - `tiktokData.title` este obligatoriu (titlu scurt, ≤ 90 caractere);
@@ -77,7 +87,7 @@ Gândește ca un creator de short-form care trăiește din vizualizări, nu ca u
 **Primele 2 secunde decid totul**
 - Prima replică și primul text de pe ecran trebuie să creeze curiozitate sau recunoaștere imediată („Știai că…?”, „Greșeala pe care o faci în fiecare dimineață…”, „3 lucruri pe care nu ți le spune nimeni despre…”). Fără introduceri, fără nume de brand la început.
 - Personajul apare din primul cadru, într-o situație pe care privitorul o recunoaște.
-- Durata țintă 22–28 s: scurt = mai multă retenție și mai multe vizionări repetate.
+- Durata țintă 35–40 s (aprobat de Mădălin pe 27.11), cu o informație nouă la fiecare 5–6 s, ca retenția să nu scadă.
 
 **Retenție**
 - Fiecare scenă aduce o informație nouă; nicio frază de umplutură.

@@ -246,6 +246,7 @@ def construieste(sc, idx, produs_cale):
         n = len(sc["pasi"])
         cx = W / 2 + (k - (n - 1) / 2) * 350
         L["pasi"].append(strat(lambda p, k=k, cx=cx, txt=txt: (
+            p.drept(cx - 160, sc.get("_pasi_y", 1530) + 58, 320, 72, ALB, gros=5, raza=36),
             p.numar(cx, sc.get("_pasi_y", 1530), k + 1, culori_pasi[k % 4]),
             p.text(cx, sc.get("_pasi_y", 1530) + 70, txt, 44, ancora="ma", greutate=800))))
 

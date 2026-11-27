@@ -16,8 +16,8 @@ RAD = Path(__file__).resolve().parent.parent
 SLOTURI = ["07:30", "11:00", "14:30", "17:00", "20:30"]
 CREDIT_PE_CARACTER = 0.5        # eleven_flash_v2_5 prin API
 CARACTERE_PE_SECUNDA = 16       # masurat pe vocea Corina (355 caractere ~ 22 s voce)
-MIN_CAR, MAX_CAR = 240, 520     # ~15 s ... ~32 s de voce
-MEDIE_OPTIMA_CAR = 380          # ~24 s de voce: tinta de retentie; nu lungim clipurile doar pentru ca avem credite
+MIN_CAR, MAX_CAR = 400, 540     # stilul aprobat 27.11: clipuri de 35-40 s (~26-34 s de voce + logo)
+MEDIE_OPTIMA_CAR = 470          # ~30 s de voce -> clip de ~37 s cu pauzele si logoul
 REZERVA = 0.10
 
 
@@ -48,7 +48,7 @@ def tinte_zi(zi: date | str):
     out = []
     for s in SLOTURI:
         r = random.Random(f"slot-{zi.isoformat()}-{s}")
-        f = r.uniform(0.70, 1.30)
+        f = r.uniform(0.90, 1.10)
         baza = min(medie / CREDIT_PE_CARACTER, MEDIE_OPTIMA_CAR)
         car = int(max(MIN_CAR, min(MAX_CAR, baza * f_zi * f)))
         out.append({"ora": s, "caractere_voce": car, "credite": round(car * CREDIT_PE_CARACTER),
