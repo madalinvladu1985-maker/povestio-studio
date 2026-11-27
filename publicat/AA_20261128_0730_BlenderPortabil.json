@@ -1,0 +1,64 @@
+{
+  "id": "AA_20261128_0730_BlenderPortabil",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-28/AA_20261128_0730_BlenderPortabil.json",
+  "programare": {
+    "data": "2026-11-28",
+    "ora": "07:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #micdejun #weekend #bucatarie #atentales"
+    },
+    "instagram": {
+      "text": "Două greșeli care îți strică smoothie-ul de dimineață.\n1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece.\nGăsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#smoothie #micdejun #weekend #bucatarie #atentales"
+    },
+    "facebook": {
+      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nhttps://atentales.ro/collections/casa-electrocasnice?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI."
+    },
+    "threads": {
+      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "2 greșeli care îți strică smoothie-ul de dimineață",
+      "descriere": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro.\nhttps://atentales.ro/collections/casa-electrocasnice?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil\nConținut realizat cu ajutorul AI.",
+      "tags": [
+        "smoothie",
+        "blender portabil",
+        "mic dejun",
+        "atentales"
+      ]
+    },
+    "pinterest": {
+      "text": "Două greșeli care îți strică smoothie-ul de dimineață. 1. Toarnă întâi lichidul, apoi fructele. 2. Nu umple paharul până sus, lasă loc ca totul să se amestece. Găsește un blender portabil pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/casa-electrocasnice?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_0730_BlenderPortabil"
+    }
+  },
+  "produs": {
+    "handle": "blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+    "url": "https://atentales.ro/products/blender-portabil-400-ml-6-lame-inox-usb-c-fara-bpa",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_63dcc7eddea34e92149d61e27b587191.jpg?v=1795561294",
+    "fapte_din_fisa": [
+      "400 ml",
+      "6 lame din oțel inoxidabil 304",
+      "baterie 2000 mAh, încărcare USB-C",
+      "recipient fără BPA",
+      "capac to go și curea de transport"
+    ],
+    "imagine_zona": [
+      0.505,
+      0.09,
+      0.755,
+      0.96
+    ],
+    "imagine_punct": [
+      0.62,
+      0.5
+    ]
+  },
+  "actualizat": "2026-11-27T11:23:45+00:00",
+  "status": "eroare_randare",
+  "erori": [
+    "HTTP Error 502: Bad Gateway"
+  ]
+}
