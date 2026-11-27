@@ -12,8 +12,17 @@ def descarca(url, cache):
     f = cache / ("img_" + hashlib.sha1(url.encode()).hexdigest()[:16] + ".img")
     if not f.exists():
         u = url if "width=" in url else url + ("&" if "?" in url else "?") + "width=1400"
-        req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 Povestio"})
-        f.write_bytes(urllib.request.urlopen(req, timeout=40).read())
+        import time
+        for i, pauza in enumerate((5, 15, 30, 60, 0)):
+            try:  # CDN-ul Shopify mai dă 502 temporar: reîncercăm, apoi și fără parametrul width
+                uu = u if i < 3 else url
+                req = urllib.request.Request(uu, headers={"User-Agent": "Mozilla/5.0 Povestio"})
+                f.write_bytes(urllib.request.urlopen(req, timeout=40).read())
+                break
+            except Exception:
+                if not pauza:
+                    raise
+                time.sleep(pauza)
     return f
 
 
