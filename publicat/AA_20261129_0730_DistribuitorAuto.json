@@ -1,0 +1,60 @@
+{
+  "id": "AA_20261129_0730_DistribuitorAuto",
+  "brand": "atentales",
+  "spec": "clipuri/2026-11-29/AA_20261129_0730_DistribuitorAuto.json",
+  "programare": {
+    "data": "2026-11-29",
+    "ora": "07:30"
+  },
+  "platforme": {
+    "tiktok": {
+      "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+    },
+    "instagram": {
+      "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+    },
+    "facebook": {
+      "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro. https://atentales.ro/collections/auto-moto-interior?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+    },
+    "threads": {
+      "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+    },
+    "youtube": {
+      "titlu": "Pleci la drum de 1 Decembrie? 3 sfaturi ca să pornești fără agitație",
+      "descriere": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro. https://atentales.ro/collections/auto-moto-interior?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto\nConținut realizat cu ajutorul AI."
+    },
+    "pinterest": {
+      "text": "Pleci la drum de 1 Decembrie? 🚗 Trei sfaturi ca să pornești fără agitație. Găsește distribuitoare auto cu USB-C pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+      "link": "https://atentales.ro/collections/auto-moto-interior?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto"
+    },
+    "first_comment": "Tu unde pleci de 1 Decembrie?"
+  },
+  "produs": {
+    "handle": "distribuitor-bricheta-auto-3-prize-usb-c-qc-3-0-180-w",
+    "url": "https://atentales.ro/products/distribuitor-bricheta-auto-3-prize-usb-c-qc-3-0-180-w",
+    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_35aa4d6c97b924b62acc8dbbc15c3089.jpg?v=1795561350",
+    "fapte_din_fisa": [
+      "3 prize de brichetă 12/24 V",
+      "3 porturi USB și un port USB-C",
+      "port QC 3.0",
+      "voltmetru LED",
+      "întrerupător pentru fiecare priză"
+    ]
+  },
+  "actualizat": "2026-11-28T11:19:30+00:00",
+  "status": "gata_de_programat",
+  "avertismente": [],
+  "durata_s": 40.1,
+  "voce": [
+    "elevenlabs"
+  ],
+  "tema": "v4_planse",
+  "fisiere": {
+    "mp4": "AA_20261129_0730_DistribuitorAuto.mp4",
+    "jpg": "AA_20261129_0730_DistribuitorAuto.jpg",
+    "srt": "AA_20261129_0730_DistribuitorAuto.srt"
+  },
+  "video_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-29/AA_20261129_0730_DistribuitorAuto.mp4",
+  "coperta_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-29/AA_20261129_0730_DistribuitorAuto.jpg",
+  "srt_url": "https://github.com/madalinvladu1985-maker/povestio-studio/releases/download/clipuri-2026-11-29/AA_20261129_0730_DistribuitorAuto.srt"
+}
