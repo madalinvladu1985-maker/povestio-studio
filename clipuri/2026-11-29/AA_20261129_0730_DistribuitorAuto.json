@@ -1,0 +1,266 @@
+{
+ "id": "AA_20261129_0730_DistribuitorAuto",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "întrebare sezonieră: drum de minivacanță de 1 Decembrie, 3 sfaturi de pregătire; distribuitorul doar la final",
+ "stare_emotionala": "grabă înaintea plecării, apoi liniște la drum",
+ "produs": {
+  "handle": "distribuitor-bricheta-auto-3-prize-usb-c-qc-3-0-180-w",
+  "url": "https://atentales.ro/products/distribuitor-bricheta-auto-3-prize-usb-c-qc-3-0-180-w",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_35aa4d6c97b924b62acc8dbbc15c3089.jpg?v=1795561350",
+  "fapte_din_fisa": [
+   "3 prize de brichetă 12/24 V",
+   "3 porturi USB și un port USB-C",
+   "port QC 3.0",
+   "voltmetru LED",
+   "întrerupător pentru fiecare priză"
+  ]
+ },
+ "cta": {
+  "sus": "Caută un distribuitor cu USB-C",
+  "categorie": "Accesorii interior",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/auto-moto-interior"
+ },
+ "programare": {
+  "data": "2026-11-29",
+  "ora": "07:30"
+ },
+ "tinta_caractere_voce": 491,
+ "voce_id": "pFZP5JQG7iQjIQuC4Bku",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "eticheta": "MINIVACANȚĂ DE 1 DECEMBRIE",
+   "culoare_eticheta": "teal",
+   "ecran": "Pleci la drum\n*de 1 Decembrie?*",
+   "marime_ecran": 90,
+   "camera": {
+    "de": [
+     0.6,
+     0.66,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.0
+    ]
+   },
+   "efect": "intrebari",
+   "efect_poz": [
+    780,
+    760
+   ],
+   "voce": "Pleci la drum de 1 Decembrie? Fă trei lucruri cu o seară înainte și pornești fără agitație.",
+   "pauza": 0.35,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/43fcda7e-edf3-40be-a126-9dd2cc639e24.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "SFATUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Totul la încărcat\n*de cu seară*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.42,
+     0.64,
+     1.22
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: dimineața, în grabă",
+     "x": 540,
+     "y": 500,
+     "latime": 640
+    },
+    {
+     "text": "DA: seara, într-un singur loc",
+     "x": 540,
+     "y": 620,
+     "latime": 720,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul unu: pune la încărcat telefoanele și tableta copilului de cu seară, toate în același loc.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/aa648638-b6f6-4981-a820-50dd7fb6c5f2.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "SFATUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Toate cablurile,\n*într-un săculeț*",
+   "marime_ecran": 86,
+   "camera": {
+    "de": [
+     0.5,
+     0.7,
+     1.28
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "La îndemână, în față",
+     "x": 540,
+     "y": 500,
+     "latime": 600,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul doi: strânge toate cablurile într-un singur săculeț și ține-l în față, la îndemână.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/bed85d75-39d8-4786-b02d-f170b174ecee.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "SFATUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Muzica și traseul,\n*înainte de plecare*",
+   "marime_ecran": 84,
+   "camera": {
+    "de": [
+     0.4,
+     0.64,
+     1.2
+    ],
+    "la": [
+     0.48,
+     0.6,
+     1.02
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: la volan",
+     "x": 540,
+     "y": 500,
+     "latime": 460
+    },
+    {
+     "text": "DA: în parcare",
+     "x": 540,
+     "y": 620,
+     "latime": 500,
+     "accent": true
+    }
+   ],
+   "voce": "Sfatul trei: pregătește muzica și traseul cât stai în parcare, nu în timp ce conduci.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/a1579494-6d19-49e7-bf71-5567d4872b38.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Salvează clipul\n*pentru minivacanță*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.15
+    ],
+    "la": [
+     0.55,
+     0.66,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    560,
+    900
+   ],
+   "pasi": [
+    "Încărcat",
+    "Strâns",
+    "Pregătit"
+   ],
+   "voce": "Încărcat, strâns, pregătit. Salvează clipul pentru drumul de mâine.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/ddb9247c-e253-4ef4-bc88-23018caa742f.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "3 prize, 3 USB\n*și un USB-C*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Caută un distribuitor cu USB-C",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește distribuitoare auto cu USB-C pe AtentAles.ro.",
+   "durata_min": 3.0
+  }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "femeie de ~35 de ani, păr castaniu închis prins în coc jos, pulover galben-muștar tricotat, blugi închiși",
+ "varianta": {
+  "hook_tip": "sezonier_intrebare",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "auto-moto-interior",
+  "stil": "poveste_ilustrata",
+  "stare": "graba_plecare"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+  },
+  "instagram": {
+   "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+  },
+  "facebook": {
+   "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro. https://atentales.ro/collections/auto-moto-interior?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto\nConținut realizat cu ajutorul AI.\n#1decembrie #minivacanta #calatorie #drumlung #atentales"
+  },
+  "threads": {
+   "text": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Pleci la drum de 1 Decembrie? 3 sfaturi ca să pornești fără agitație",
+   "descriere": "Pleci la drum de 1 Decembrie? 🚗\nSfatul 1: pune totul la încărcat de cu seară, în același loc.\nSfatul 2: toate cablurile într-un singur săculeț, la îndemână.\nSfatul 3: pregătește muzica și traseul în parcare, nu la volan.\nGăsește distribuitoare auto cu USB-C pe AtentAles.ro. https://atentales.ro/collections/auto-moto-interior?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Pleci la drum de 1 Decembrie? 🚗 Trei sfaturi ca să pornești fără agitație. Găsește distribuitoare auto cu USB-C pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/auto-moto-interior?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_0730_DistribuitorAuto"
+  },
+  "first_comment": "Tu unde pleci de 1 Decembrie?"
+ },
+ "titlu_scurt": "Pleci la drum de 1 Decembrie? 3 sfaturi"
+}
