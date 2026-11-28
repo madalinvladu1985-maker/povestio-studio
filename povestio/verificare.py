@@ -25,6 +25,40 @@ def _gaseste(tipare, text):
     return [t for t in tipare if re.search(t, text, flags=re.IGNORECASE)]
 
 
+# Hashtaguri pe care TikTok le-a eliminat sau care sunt asociate frecvent cu conținut restricționat
+# (masaj/spa/răsfăț sunt folosite pentru servicii pentru adulți și sunt filtrate). Se completează
+# ori de câte ori o platformă elimină un hashtag (vezi docs/AGENT_ZILNIC.md).
+HASHTAGURI_INTERZISE = {
+    "rasfat", "rasfatat", "rasfataturi", "rasfatpersonal", "masaj", "masajrelaxant", "masaje", "massage",
+    "spa", "spaacasa", "sexy", "hot", "body", "bodycare", "intim", "intime", "nud", "lenjerie",
+    "slabire", "dieta", "detox", "fyp", "foryou", "foryoupage", "viral", "pentrutine", "xyzbca",
+}
+MAX_HASHTAGURI = 5
+
+
+def verifica_hashtaguri(spec):
+    erori = []
+    for retea, d in spec.get("platforme", {}).items():
+        if isinstance(d, str):
+            d = {"text": d}
+        txt = d.get("text", "") + " " + d.get("descriere", "")
+        if re.search(r"#(\s|$)", txt):
+            erori.append(f"{retea}: există un „#” gol în text.")
+        tags = re.findall(r"#(\S+)", txt)
+        for t in tags:
+            curat = t.strip(".,!?;:").lower()
+            if not re.fullmatch(r"[a-z0-9]+", curat):
+                erori.append(f"{retea}: hashtagul #{t} are diacritice sau caractere speciale; folosește doar a-z și cifre.")
+            elif curat in HASHTAGURI_INTERZISE:
+                erori.append(f"{retea}: hashtagul #{curat} e pe lista neagră (eliminat/restricționat de platforme). Înlocuiește-l.")
+        if len(tags) > MAX_HASHTAGURI:
+            erori.append(f"{retea}: {len(tags)} hashtaguri; maximum {MAX_HASHTAGURI}.")
+        for t in d.get("tags", []):
+            if re.sub(r"\s", "", t.lower()) in HASHTAGURI_INTERZISE:
+                erori.append(f"{retea}: eticheta „{t}” e pe lista neagră.")
+    return erori
+
+
 def verifica_v3(spec, brand):
     erori, avert = [], []
     sc = spec.get("scene", [])
@@ -64,6 +98,7 @@ def verifica_v3(spec, brand):
         texte += [yt.get("titlu", ""), yt.get("descriere", "")]
         if not yt.get("titlu") or len(yt.get("titlu", "")) > LIMITE["youtube_titlu"]:
             erori.append("Titlul YouTube lipsește sau depășește 100 de caractere.")
+    erori += verifica_hashtaguri(spec)
     tot = "\n".join(texte)
     for t in _gaseste(INTERZISE_GENERAL, tot):
         erori.append(f"Formulare interzisă (vânzare agresivă/promisiune): {t}")

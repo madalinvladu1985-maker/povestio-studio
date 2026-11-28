@@ -110,3 +110,11 @@ Gândește ca un creator de short-form care trăiește din vizualizări, nu ca u
 - Folosește `getBestTimeToPostByNetwork` după primele 2 săptămâni; până atunci păstrează orele fixe cerute de Mădălin.
 
 **Nu-l deranja pe Mădălin.** Rezolvă singur problemele (alt produs, altă poză, rerandare). Trimite doar raportul zilnic scurt; scrie-i separat numai dacă publicarea e blocată (Metricool, limite, conturi deconectate).
+
+## Hashtaguri (după eliminarea #rasfat de către TikTok, 28.11.2026)
+- 3–5 hashtaguri, doar litere a-z și cifre, fără diacritice (#ingrijireaparului, nu #ingrijireapărului).
+- Hashtaguri descriptive pentru categorie și situație: #organizarebucatarie, #coafuraacasa, #ingrijireapicioarelor, #cadourideCraciun → scrise #cadouridecraciun.
+- Interzise (lista completă în `povestio/verificare.py`, HASHTAGURI_INTERZISE): #rasfat și variantele lui, #masaj, #spa, #body, #sexy, #detox, #slabire și hashtagurile-momeală (#fyp, #foryou, #viral). Cuvintele „masaj” sau „răsfăț” pot apărea în text normal, dar NU ca hashtag.
+- Pentru produsele de masaj sau relaxare folosește hashtaguri de context: #relaxareacasa, #seradupamunca, #ingrijirepersonala, #cadoupentrumama.
+- `python studio.py verifica` respinge orice hashtag interzis sau cu diacritice.
+- Dacă Mădălin raportează că o platformă a eliminat un hashtag, adaugă-l în HASHTAGURI_INTERZISE (fără diacritice), fă commit și verifică postările încă programate în Metricool: dacă îl conțin, actualizează-le cu `updateScheduledPost`.
