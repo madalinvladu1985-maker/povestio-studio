@@ -24,8 +24,7 @@ jobs:
       - run: pip install faster-whisper numpy
       - env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          GEN: ${{ contains(github.event.head_commit.modified, 'verificari/cerere_voci_barbati.txt') || contains(github.event.head_commit.added, 'verificari/cerere_voci_barbati.txt') && 'male' || 'female' }}
-        run: python scripts/mostre_voci.py
+        run: GEN=$(cat verificari/gen_voci.txt 2>/dev/null || echo female) python scripts/mostre_voci.py
       - run: |
           git config user.name "Povestio Bot"
           git config user.email "povestio-bot@users.noreply.github.com"
