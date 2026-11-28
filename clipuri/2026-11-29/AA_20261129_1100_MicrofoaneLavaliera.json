@@ -53,7 +53,12 @@
      1.0
     ]
    },
-   "voce": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători. Uite cum iese clar.",
+   "efect": "intrebari",
+   "efect_poz": [
+    780,
+    760
+   ],
+   "voce": "Vrei să le trimiți bunicilor un mesaj video de sărbători? Uite cum iese clar.",
    "pauza": 0.35,
    "ilustratie_url": "https://www.figma.com/api/mcp/asset/a82477a5-b605-4a57-8f16-8f52d9a6fdb4.jpg",
    "ilustratie_personaj": false,
@@ -221,7 +226,7 @@
  "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
  "personaj_descriere": "femeie de ~40 de ani, bob blond ondulat scurt, helancă coral, pantaloni gri deschis; fiica ei de ~8 ani cu codițe, rochie verde",
  "varianta": {
-  "hook_tip": "pov",
+  "hook_tip": "pov_intrebare",
   "deschidere": "personaj_situatie",
   "mix_scene": "ilustratii_miscatoare",
   "categorie": "electronice-audio",
