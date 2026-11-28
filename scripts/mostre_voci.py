@@ -9,11 +9,11 @@ VOCI = {"Corina (actuala)": "gbLy9ep70G3JW53cTzFC", "Sarah": "EXAVITQu4vr4xnSDxM
         "Lily": "pFZP5JQG7iQjIQuC4Bku", "Charlotte": "XB0fDUnXU5powFXDhCwa", "Aria": "9BWtsMINqrJLrRacOk9x"}
 GEN = os.environ.get("GEN", "female")
 if GEN == "male":
-    # vocile masculine disponibile in cont (premade + adaugate), citite din API, nu ghicite
-    d = json.load(urllib.request.urlopen(urllib.request.Request("https://api.elevenlabs.io/v1/voices",
-                                                                headers={"xi-api-key": K}), timeout=30))
-    VOCI = {v["name"]: v["voice_id"] for v in d["voices"] if (v.get("labels") or {}).get("gender") == "male"}
-    print("voci masculine in cont:", VOCI)
+    # voci masculine standard ElevenLabs; genul se verifica prin frecventa vocii (F0), nu se presupune
+    VOCI = {"Adam": "pNInz6obpgDQGcFmaJgB", "Brian": "nPczCjzI2devNBz1zQrb", "Daniel": "onwK4e9ZLuTAKqWW03F9",
+            "George": "JBFqnCBsd6RMkjVDRZzb", "Callum": "N2lVS1w4EtoT3dr4eOWO", "Charlie": "IKne3meq5aSn9XLyUdCD",
+            "Chris": "iP95p4xoKVk53GoZ742B", "Eric": "cjVigY5qzO86Huf0OWal", "Liam": "TX3LPaxmHKxFdv7VdQ7U",
+            "Roger": "CwhRBWXzGAHq8TQ4Fs5s", "Will": "bIHbv24MWmeRgasZH58o", "Bill": "pqHfZKP75CvOlQylNhV4"}
 TEXT_B = "Știai că priza poate sta ascunsă chiar în blat? Iese când ai nevoie și coboară la loc când termini. Vezi toate prizele încorporabile pe Atent Ales punct ro."
 TEXT = "Seara asta e doar despre tine. Lasă telefonul deoparte, aprinde o lumină caldă și fă-ți un ceai. Găsește aparate de masaj pe Atent Ales punct ro."
 if GEN == "male":
@@ -34,7 +34,19 @@ for nume, vid in VOCI.items():
     a = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768
     segs, _ = m.transcribe(a, language="ro", word_timestamps=True)
     cuv = [w for s in segs for w in s.words]
-    rez.append({"nume": nume, "id": vid, "fisier": f.name, "claritate": round(float(np.mean([w.probability for w in cuv])), 3),
+    # frecventa fundamentala mediana (autocorelatie pe cadre sonore): barbati ~85-165 Hz, femei ~165-255 Hz
+    f0 = []
+    for i in range(0, len(a) - 1024, 512):
+        x = a[i:i + 1024]
+        if np.sqrt(np.mean(x ** 2)) < 0.02:
+            continue
+        x = x - x.mean(); c = np.correlate(x, x, "full")[1023:]
+        lo, hi = 16000 // 300, 16000 // 70
+        k = lo + int(np.argmax(c[lo:hi]))
+        if c[k] > 0.3 * c[0]:
+            f0.append(16000 / k)
+    rez.append({"f0_hz": round(float(np.median(f0)), 1) if f0 else None})
+    rez[-1].update({"nume": nume, "id": vid, "fisier": f.name, "claritate": round(float(np.mean([w.probability for w in cuv])), 3),
                 "transcriere": " ".join(w.word.strip() for w in cuv), "durata_s": round(len(a) / 16000, 1)})
     print(rez[-1])
 (out / "rezultate.json").write_text(json.dumps(sorted(rez, key=lambda x: -x.get("claritate", 0)), ensure_ascii=False, indent=1))
