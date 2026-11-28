@@ -1,0 +1,255 @@
+{
+ "id": "AA_20261129_1100_MicrofoaneLavaliera",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "POV: mesaj video de sărbători pentru bunici, 3 pași pentru imagine și sunet; microfoanele doar la final",
+ "stare_emotionala": "grija pentru cei dragi",
+ "produs": {
+  "handle": "set-2-microfoane-lavaliera-wireless-usb-c-sau-lightning",
+  "url": "https://atentales.ro/products/set-2-microfoane-lavaliera-wireless-usb-c-sau-lightning",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_b4d26646a620ff4bca9ec2f01c0ca80e.jpg?v=1795585514",
+  "fapte_din_fisa": [
+   "2 microfoane lavalieră",
+   "prindere magnetică pe haine",
+   "reducere a zgomotului de fundal",
+   "receptor USB-C sau Lightning",
+   "carcasă de încărcare cu afișaj digital"
+  ]
+ },
+ "cta": {
+  "sus": "Caută un set cu 2 microfoane",
+  "categorie": "Audio",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/electronice-audio"
+ },
+ "programare": {
+  "data": "2026-11-29",
+  "ora": "11:00"
+ },
+ "tinta_caractere_voce": 443,
+ "voce_id": "gbLy9ep70G3JW53cTzFC",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "eticheta": "POV",
+   "culoare_eticheta": "teal",
+   "ecran": "Mesaj video\n*pentru bunici*",
+   "marime_ecran": 90,
+   "camera": {
+    "de": [
+     0.45,
+     0.66,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.0
+    ]
+   },
+   "voce": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători. Uite cum iese clar.",
+   "pauza": 0.35,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/a82477a5-b605-4a57-8f16-8f52d9a6fdb4.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "PASUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Cu fața\n*spre fereastră*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.6,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.62,
+     0.6,
+     1.22
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: cu lumina în spate",
+     "x": 540,
+     "y": 500,
+     "latime": 640
+    },
+    {
+     "text": "DA: lumina din față",
+     "x": 540,
+     "y": 620,
+     "latime": 580,
+     "accent": true
+    }
+   ],
+   "voce": "Pasul unu: stai cu fața spre fereastră, nu cu lumina în spate.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/9be6d3da-0a0d-4e3a-aa8a-4076bddd37f2.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "PASUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Telefonul,\n*la nivelul ochilor*",
+   "marime_ecran": 86,
+   "camera": {
+    "de": [
+     0.3,
+     0.72,
+     1.3
+    ],
+    "la": [
+     0.4,
+     0.66,
+     1.1
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Sprijinit, nu ținut în mână",
+     "x": 540,
+     "y": 500,
+     "latime": 720,
+     "accent": true
+    }
+   ],
+   "voce": "Pasul doi: sprijină telefonul la nivelul ochilor, ca imaginea să nu tremure.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/9be6d3da-0a0d-4e3a-aa8a-4076bddd37f2.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "PASUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Liniște\n*și microfonul aproape*",
+   "marime_ecran": 86,
+   "camera": {
+    "de": [
+     0.5,
+     0.64,
+     1.0
+    ],
+    "la": [
+     0.6,
+     0.68,
+     1.2
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Televizorul oprit",
+     "x": 540,
+     "y": 500,
+     "latime": 520,
+     "accent": true
+    }
+   ],
+   "voce": "Pasul trei: oprește televizorul și prinde microfonul aproape de voce.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/f1e2a61e-7b45-4a5a-a2b7-9cb1db33302c.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "explica",
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Trimite clipul\n*cuiva care e departe*",
+   "marime_ecran": 78,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.66,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    560,
+    880
+   ],
+   "pasi": [
+    "Lumină",
+    "Sprijin",
+    "Liniște"
+   ],
+   "voce": "Lumină, sprijin, liniște. Trimite clipul cuiva care are familia departe.",
+   "pauza": 0.3,
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/c3e12e3d-739f-4cd9-810f-7532d87eb3ac.jpg",
+   "ilustratie_personaj": false,
+   "decor": "hartie"
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Prindere magnetică,\n*direct pe haine*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Caută un set cu 2 microfoane",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește microfoane lavalieră pe AtentAles.ro.",
+   "durata_min": 3.0
+  }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "femeie de ~40 de ani, bob blond ondulat scurt, helancă coral, pantaloni gri deschis; fiica ei de ~8 ani cu codițe, rochie verde",
+ "varianta": {
+  "hook_tip": "pov",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "electronice-audio",
+  "stil": "poveste_ilustrata",
+  "stare": "grija_pentru_cei_dragi"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători 🎄\nPasul 1: stai cu fața spre fereastră.\nPasul 2: sprijină telefonul la nivelul ochilor.\nPasul 3: oprește televizorul și prinde microfonul aproape de voce.\nGăsește microfoane lavalieră pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#sarbatori #bunici #mesajvideo #familie #atentales"
+  },
+  "instagram": {
+   "text": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători 🎄\nPasul 1: stai cu fața spre fereastră.\nPasul 2: sprijină telefonul la nivelul ochilor.\nPasul 3: oprește televizorul și prinde microfonul aproape de voce.\nGăsește microfoane lavalieră pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#sarbatori #bunici #mesajvideo #familie #atentales"
+  },
+  "facebook": {
+   "text": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători 🎄\nPasul 1: stai cu fața spre fereastră.\nPasul 2: sprijină telefonul la nivelul ochilor.\nPasul 3: oprește televizorul și prinde microfonul aproape de voce.\nGăsește microfoane lavalieră pe AtentAles.ro. https://atentales.ro/collections/electronice-audio?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_1100_MicrofoaneLavaliera\nConținut realizat cu ajutorul AI.\n#sarbatori #bunici #mesajvideo #familie #atentales"
+  },
+  "threads": {
+   "text": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători 🎄\nPasul 1: stai cu fața spre fereastră.\nPasul 2: sprijină telefonul la nivelul ochilor.\nPasul 3: oprește televizorul și prinde microfonul aproape de voce.\nGăsește microfoane lavalieră pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Mesaj video de sărbători pentru bunici: 3 pași ca să se audă clar",
+   "descriere": "POV: vrei să le trimiți bunicilor un mesaj video de sărbători 🎄\nPasul 1: stai cu fața spre fereastră.\nPasul 2: sprijină telefonul la nivelul ochilor.\nPasul 3: oprește televizorul și prinde microfonul aproape de voce.\nGăsește microfoane lavalieră pe AtentAles.ro. https://atentales.ro/collections/electronice-audio?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_1100_MicrofoaneLavaliera\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Mesaj video de sărbători pentru bunici 🎄 Trei pași ca să se vadă și să se audă clar. Găsește microfoane lavalieră pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/electronice-audio?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261129_1100_MicrofoaneLavaliera"
+  },
+  "first_comment": "Cui i-ai trimite primul mesaj de sărbători?"
+ },
+ "titlu_scurt": "Mesaj video pentru bunici: 3 pași"
+}
