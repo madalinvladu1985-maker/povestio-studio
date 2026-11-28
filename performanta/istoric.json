@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "clip_id": "AA_20261127_0730_Uscator1800",
+    "retea": "tiktok",
+    "ora_postare": "2026-11-27 07:30",
+    "ore_de_la_postare": 24,
+    "vizualizari": 1,
+    "aprecieri": 2,
+    "comentarii": 0,
+    "distribuiri": 0,
+    "salvari": 0,
+    "varianta": {
+      "hook_tip": "stiai_ca",
+      "deschidere": "personaj_problema",
+      "mix_scene": "planse_ilustrate",
+      "categorie": "par-uscatoare",
+      "stil": "planse_v4",
+      "stare": "graba",
+      "durata_s": 29.0
+    },
+    "scor": 11.0,
+    "inregistrat": "2026-11-28T06:14:53+00:00"
+  },
+  {
+    "clip_id": "AA_20261127_0730_Uscator1800",
+    "retea": "instagram",
+    "ora_postare": "2026-11-27 07:30",
+    "ore_de_la_postare": 24,
+    "vizualizari": 112,
+    "aprecieri": 2,
+    "comentarii": 1,
+    "distribuiri": 0,
+    "salvari": 0,
+    "varianta": {
+      "hook_tip": "stiai_ca",
+      "deschidere": "personaj_problema",
+      "mix_scene": "planse_ilustrate",
+      "categorie": "par-uscatoare",
+      "stil": "planse_v4",
+      "stare": "graba",
+      "durata_s": 29.0
+    },
+    "scor": 132.0,
+    "inregistrat": "2026-11-28T06:14:53+00:00"
+  }
+]

@@ -43,6 +43,9 @@
       "20:00"
     ]
   },
-  "observatii": [],
-  "actualizat": null
+  "observatii": [
+    "Tinta 5000: 0/0 din ultimele clipuri mature au trecut-o (e nevoie de 3/6)."
+  ],
+  "actualizat": "2026-11-28T06:14:53+00:00",
+  "clipuri_mature": 0
 }
