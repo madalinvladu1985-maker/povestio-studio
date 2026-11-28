@@ -12,3 +12,8 @@ Sfaturi trimmer (din fișă): fără apăsare, pe piele curată; capul potrivit 
 Sfaturi aparat facial (din fișă): pe piele curată; împreună cu serul sau crema obișnuită; după curățare îl pui pe bază, să se scurgă apa.
 Sfaturi styler: începi cu treapta mică de temperatură (3 trepte); șuvițe subțiri; capul potrivit pentru bucle / drept / volum.
 Aparatul de vidat și ser-ul Biotinix au fost excluse: toate pozele au alte obiecte sau text.
+
+## Stare la 28.11 13:40
+- 07:30 DistribuitorAuto (Lily) și 11:00 MicrofoaneLavaliera (Corina): randate, voce verificată, programate în Metricool (+ Pinterest).
+- Ajutor: `python scripts/fac_spec.py scripts/clipuri_compacte/<fisier>.py` construiește spec-ul complet (texte, UTM, eticheta AI) dintr-un dict compact; vezi exemplele din `scripts/clipuri_compacte/`.
+- Atenție la voce: scrie „întâi Decembrie” în `voce` (cifra „1” a fost citită „unie”) și pune `subtitlu` cu cifra; nu începe vocea cu „POV” (citit „Piovi”).
