@@ -1,210 +1,272 @@
 {
-  "id": "AA_20261128_1430_PlacaLata",
-  "brand": "atentales",
-  "versiune_motor": 4,
-  "unghi_marketing": "educativ: 3 greșeli cu placa de păr -> temperatură reglabilă la final",
-  "stare_emotionala": "mândria unei coafuri făcute bine, acasă",
-  "produs": {
-    "handle": "placa-de-indreptat-parul-placi-late-2-seruri",
-    "url": "https://atentales.ro/products/placa-de-indreptat-parul-placi-late-2-seruri",
-    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_64adf24353e580c01a34a358c152775a.jpg?v=1795585409",
-    "fapte_din_fisa": [
-      "plăci late 100 × 45 mm",
-      "afișaj LCD",
-      "7 trepte de temperatură, până la 220 °C",
-      "ionizare, oprire automată, cablu rotativ",
-      "2 seruri cu biotină, cutie cadou"
-    ],
-    "imagine_zona": [
-      0.14,
-      0.69,
-      0.93,
-      0.94
-    ],
-    "imagine_punct": [
-      0.5,
-      0.8
-    ]
-  },
-  "cta": {
-    "sus": "Caută o placă cu 7 trepte",
-    "categorie": "Plăci de păr",
-    "domeniu": "AtentAles.ro",
-    "url_categorie": "https://atentales.ro/collections/par-placi"
-  },
-  "programare": {
-    "data": "2026-11-28",
-    "ora": "14:30"
-  },
-  "tinta_caractere_voce": 473,
-  "scene": [
-    {
-      "tip": "hook",
-      "decor": "baie",
-      "eticheta": "ATENȚIE!",
-      "culoare_eticheta": "coral",
-      "ecran": "*3 greșeli* pe care le faci\ncu placa de păr",
-      "marime_ecran": 84,
-      "personaj": {
-        "x": 330,
-        "stare": "surprins",
-        "intrare": true
-      },
-      "voce": "Atenție! Trei greșeli pe care le faci cu placa de păr și care îți strică coafura.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 1",
-      "culoare_eticheta": "coral",
-      "ecran": "Îndrepți părul\n*încă ud*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "NU: păr umed",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "DA: complet uscat",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Unu: îndrepți părul încă ud. Usucă-l complet înainte, altfel lucrezi de două ori.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 2",
-      "culoare_eticheta": "albastru",
-      "ecran": "Pornești direct\n*la maximum*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Începe cu o treaptă mai mică",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 780,
-        "stare": "surprins"
-      },
-      "voce": "Doi: pornești direct la temperatura maximă. Începe cu o treaptă mai mică și urcă doar dacă e nevoie.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 3",
-      "culoare_eticheta": "teal",
-      "ecran": "Iei șuvițe\n*la întâmplare*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Împarte părul pe secțiuni",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "Prinde-le cu clame",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Trei: iei șuvițe la întâmplare. Împarte părul pe secțiuni și prinde-le cu clame, ca să nu ratezi nimic.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "cta",
-      "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru data viitoare*",
-      "marime_ecran": 80,
-      "personaj": {
-        "x": 250,
-        "stare": "bucuros",
-        "obiect": "brate_sus"
-      },
-      "produs": {
-        "x": 680,
-        "baza": 1210,
-        "latime": 560,
-        "inaltime_max": 240,
-        "start": 0.2
-      },
-      "cta": {
-        "sus": "Caută o placă cu 7 trepte",
-        "domeniu": "AtentAles.ro"
-      },
-      "voce": "Caută o placă cu 7 trepte pe AtentAles.ro.",
-      "durata_min": 3.2,
-      "etichete": [
-        {
-          "text": "7 trepte · afișaj LCD",
-          "x": 540,
-          "y": 560,
-          "latime": 640,
-          "accent": true
-        }
-      ]
-    }
+ "id": "AA_20261128_1430_PlacaLata",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "curiozitate: secretul unui păr drept care arată bine și seara; placa doar la final",
+ "stare_emotionala": "dorința de a arăta bine toată ziua",
+ "produs": {
+  "handle": "placa-de-indreptat-parul-placi-late-2-seruri",
+  "url": "https://atentales.ro/products/placa-de-indreptat-parul-placi-late-2-seruri",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_64adf24353e580c01a34a358c152775a.jpg?v=1795585409",
+  "fapte_din_fisa": [
+   "plăci late 100 × 45 mm",
+   "afișaj LCD",
+   "7 trepte de temperatură, până la 220 °C",
+   "ionizare, oprire automată, cablu rotativ",
+   "2 seruri cu biotină, cutie cadou"
   ],
-  "platforme": {
-    "tiktok": {
-      "text": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura. 1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame. Caută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#placadepar #parondrept #coafura #ingrijireaparului #atentales"
-    },
-    "instagram": {
-      "text": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura.\n1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame.\nCaută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#placadepar #parondrept #coafura #ingrijireaparului #atentales"
-    },
-    "facebook": {
-      "text": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura. 1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame. Caută o placă cu 7 trepte pe AtentAles.ro.\nhttps://atentales.ro/collections/par-placi?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata\nConținut realizat cu ajutorul AI."
-    },
-    "threads": {
-      "text": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura. 1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame. Caută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
-    },
-    "youtube": {
-      "titlu": "3 greșeli pe care le faci cu placa de păr",
-      "descriere": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura. 1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame. Caută o placă cu 7 trepte pe AtentAles.ro.\nhttps://atentales.ro/collections/par-placi?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata\nConținut realizat cu ajutorul AI.",
-      "tags": [
-        "placa de par",
-        "par drept",
-        "coafura",
-        "atentales"
-      ]
-    },
-    "pinterest": {
-      "text": "Trei greșeli pe care le faci cu placa de păr și care îți strică coafura. 1. Usucă părul complet înainte. 2. Începe cu o treaptă de temperatură mai mică și urcă doar dacă e nevoie. 3. Împarte părul pe secțiuni și prinde-le cu clame. Caută o placă cu 7 trepte pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
-      "link": "https://atentales.ro/collections/par-placi?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata"
-    }
+  "imagine_zona": [
+   0.14,
+   0.69,
+   0.93,
+   0.94
+  ],
+  "imagine_punct": [
+   0.5,
+   0.8
+  ]
+ },
+ "cta": {
+  "sus": "Caută o placă cu 7 trepte",
+  "categorie": "Plăci de păr",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/par-placi"
+ },
+ "programare": {
+  "data": "2026-11-28",
+  "ora": "14:30"
+ },
+ "tinta_caractere_voce": 500,
+ "voce_id": "9BWtsMINqrJLrRacOk9x",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
   },
-  "titlu_scurt": "3 greșeli pe care le faci cu placa de păr",
-  "first_comment": "Tu la ce temperatură îți setezi placa?",
-  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
-  "varianta": {
-    "hook_tip": "frica_greseala",
-    "deschidere": "personaj_problema",
-    "mix_scene": "educativ_planse",
-    "categorie": "par-placi",
-    "stil": "educatie_cta_final",
-    "stare": "mandrie"
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/6f9b821e-3993-441b-a14f-626c907ee9ba.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SECRETUL",
+   "culoare_eticheta": "teal",
+   "ecran": "Păr drept\n*și seara*",
+   "marime_ecran": 96,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
+    ]
+   },
+   "voce": "Secretul unui păr drept care arată bine și seara? Trei obiceiuri mici, de dimineață.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/95e44179-6cbf-4f01-a4cc-bc67d02fabc1.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SECRETUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Doar pe\n*părul complet uscat*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.5,
+     0.66,
+     1.22
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: păr umed",
+     "x": 540,
+     "y": 500,
+     "latime": 500
+    },
+    {
+     "text": "DA: complet uscat",
+     "x": 540,
+     "y": 620,
+     "latime": 560,
+     "accent": true
+    }
+   ],
+   "voce": "Secretul unu: îndrepți doar părul complet uscat. Pe părul umed, ajungi să lucrezi de două ori.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/8bc5d74f-4f0d-46dc-bcc3-af76a54adaeb.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SECRETUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Începi\n*cu mai puțină căldură*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.48,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: direct la maxim",
+     "x": 540,
+     "y": 500,
+     "latime": 580
+    },
+    {
+     "text": "DA: urci treptat",
+     "x": 540,
+     "y": 620,
+     "latime": 540,
+     "accent": true
+    }
+   ],
+   "voce": "Secretul doi: pornești de la o temperatură mai mică și urci doar dacă părul tău are nevoie.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/8bc5d74f-4f0d-46dc-bcc3-af76a54adaeb.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "SECRETUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Lucrezi\n*pe secțiuni*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.62,
+     0.6,
+     1.3
+    ],
+    "la": [
+     0.55,
+     0.62,
+     1.12
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Prinde-le cu clame",
+     "x": 540,
+     "y": 500,
+     "latime": 580,
+     "accent": true
+    }
+   ],
+   "voce": "Secretul trei: împarți părul pe secțiuni și le prinzi cu clame, ca să nu ratezi nicio șuviță.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/b2f36375-3630-4592-9c60-a755d50ac02a.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Salvează clipul\n*pentru mâine dimineață*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.58,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    560,
+    880
+   ],
+   "pasi": [
+    "Uscat",
+    "Treptat",
+    "Secțiuni"
+   ],
+   "voce": "Păr uscat, temperatură potrivită, secțiuni prinse cu clame. Așa arată bine și la cină. Salvează clipul pentru mâine dimineață.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Plăci late,\n*7 trepte de temperatură*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Caută o placă cu 7 trepte",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Caută o placă cu șapte trepte pe AtentAles.ro.",
+   "durata_min": 3.0,
+   "subtitlu": "Caută o placă cu 7 trepte pe AtentAles.ro."
   }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "tânără de ~22 de ani, păr lung negru drept, bluză roz",
+ "varianta": {
+  "hook_tip": "curiozitate",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "par-placi",
+  "stil": "poveste_ilustrata",
+  "stare": "dorinta_sa_arate_bine"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Secretul unui păr drept care arată bine și seara? ✨\nSecretul 1: îndrepți doar părul complet uscat.\nSecretul 2: pornești de la o temperatură mai mică și urci doar dacă e nevoie.\nSecretul 3: lucrezi pe secțiuni prinse cu clame.\nCaută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#placadepar #pardrept #coafura #ingrijireaparului #atentales"
+  },
+  "instagram": {
+   "text": "Secretul unui păr drept care arată bine și seara? ✨\nSecretul 1: îndrepți doar părul complet uscat.\nSecretul 2: pornești de la o temperatură mai mică și urci doar dacă e nevoie.\nSecretul 3: lucrezi pe secțiuni prinse cu clame.\nCaută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#placadepar #pardrept #coafura #ingrijireaparului #atentales"
+  },
+  "facebook": {
+   "text": "Secretul unui păr drept care arată bine și seara? ✨\nSecretul 1: îndrepți doar părul complet uscat.\nSecretul 2: pornești de la o temperatură mai mică și urci doar dacă e nevoie.\nSecretul 3: lucrezi pe secțiuni prinse cu clame.\nCaută o placă cu 7 trepte pe AtentAles.ro. https://atentales.ro/collections/par-placi?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata\nConținut realizat cu ajutorul AI.\n#placadepar #pardrept #coafura #ingrijireaparului #atentales"
+  },
+  "threads": {
+   "text": "Secretul unui păr drept care arată bine și seara? ✨\nSecretul 1: îndrepți doar părul complet uscat.\nSecretul 2: pornești de la o temperatură mai mică și urci doar dacă e nevoie.\nSecretul 3: lucrezi pe secțiuni prinse cu clame.\nCaută o placă cu 7 trepte pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Secretul unui păr drept care arată bine și seara: 3 obiceiuri",
+   "descriere": "Secretul unui păr drept care arată bine și seara? ✨\nSecretul 1: îndrepți doar părul complet uscat.\nSecretul 2: pornești de la o temperatură mai mică și urci doar dacă e nevoie.\nSecretul 3: lucrezi pe secțiuni prinse cu clame. Caută o placă cu 7 trepte pe AtentAles.ro. https://atentales.ro/collections/par-placi?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Secretul unui păr drept care arată bine și seara? ✨ Trei obiceiuri mici, de dimineață. Caută o placă cu 7 trepte pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/par-placi?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1430_PlacaLata"
+  },
+  "first_comment": "Tu îți îndrepți părul dimineața sau seara?"
+ },
+ "titlu_scurt": "Secretul unui păr drept și seara"
 }

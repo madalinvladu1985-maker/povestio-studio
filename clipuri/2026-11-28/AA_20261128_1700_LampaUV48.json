@@ -1,194 +1,260 @@
 {
-  "id": "AA_20261128_1700_LampaUV48",
-  "brand": "atentales",
-  "versiune_motor": 4,
-  "unghi_marketing": "educativ: 3 greșeli la manichiura cu gel făcută acasă -> lampă cu senzor la final",
-  "stare_emotionala": "răsfăț personal de sâmbătă seara",
-  "produs": {
-    "handle": "lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
-    "url": "https://atentales.ro/products/lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
-    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_59b11414dd6aa57c1fcf4db87b02feb5.jpg?v=1795561436",
-    "fapte_din_fisa": [
-      "48 W",
-      "senzor care pornește și oprește lampa automat",
-      "timer 10 / 30 / 60 / 99 s",
-      "afișaj digital",
-      "mod Low Heat de 99 s"
+ "id": "AA_20261128_1700_LampaUV48",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "întrebare aspirațională: manichiură ca la salon acasă, 3 detalii; lampa UV doar la final",
+ "stare_emotionala": "răsfăț personal",
+ "produs": {
+  "handle": "lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
+  "url": "https://atentales.ro/products/lampa-uv-led-unghii-48-w-cu-senzor-si-afisaj-digital",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_59b11414dd6aa57c1fcf4db87b02feb5.jpg?v=1795561436",
+  "fapte_din_fisa": [
+   "48 W",
+   "senzor care pornește și oprește lampa automat",
+   "timer 10 / 30 / 60 / 99 s",
+   "afișaj digital",
+   "mod Low Heat de 99 s"
+  ]
+ },
+ "cta": {
+  "sus": "Caută o lampă cu senzor",
+  "categorie": "Manichiură și pedichiură",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/beauty-manichiura"
+ },
+ "programare": {
+  "data": "2026-11-28",
+  "ora": "17:00"
+ },
+ "tinta_caractere_voce": 446,
+ "voce_id": "EXAVITQu4vr4xnSDxMaL",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/08a7d1e1-c553-4c8c-8a82-4db17845abad.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DUPĂ-AMIAZĂ DE IARNĂ",
+   "culoare_eticheta": "teal",
+   "ecran": "Ca de la salon,\n*făcută acasă?*",
+   "marime_ecran": 90,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
     ]
+   },
+   "efect": "intrebari",
+   "efect_poz": [
+    760,
+    820
+   ],
+   "voce": "Manichiură ca de la salon, făcută acasă? Se poate. Trei detalii mici fac toată diferența.",
+   "pauza": 0.35
   },
-  "cta": {
-    "sus": "Caută o lampă UV LED",
-    "categorie": "Manichiură și pedichiură",
-    "domeniu": "AtentAles.ro",
-    "url_categorie": "https://atentales.ro/collections/beauty-manichiura"
-  },
-  "programare": {
-    "data": "2026-11-28",
-    "ora": "17:00"
-  },
-  "tinta_caractere_voce": 344,
-  "scene": [
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/28f44d65-ec7f-4a28-8311-a3d8834d5730.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DETALIUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Straturi\n*subțiri*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.5,
+     0.66,
+     1.22
+    ]
+   },
+   "etichete": [
     {
-      "tip": "hook",
-      "decor": "sufragerie",
-      "eticheta": "ATENȚIE!",
-      "culoare_eticheta": "coral",
-      "ecran": "*3 greșeli* care îți strică\nmanichiura făcută acasă",
-      "marime_ecran": 84,
-      "personaj": {
-        "x": 360,
-        "stare": "surprins",
-        "intrare": true
-      },
-      "voce": "Atenție! Trei greșeli care îți strică manichiura făcută acasă.",
-      "pauza": 0.25
+     "text": "NU: un strat gros",
+     "x": 540,
+     "y": 500,
+     "latime": 540
     },
     {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 1",
-      "culoare_eticheta": "coral",
-      "ecran": "Pui straturi\n*groase*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "NU: un strat gros",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "DA: straturi subțiri",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Unu: pui straturi groase. Mai bine subțiri, fiecare uscat separat.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 2",
-      "culoare_eticheta": "albastru",
-      "ecran": "Ții mâna\n*pe jumătate afară*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Mâna complet înăuntru",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 780,
-        "stare": "surprins"
-      },
-      "voce": "Doi: ții mâna pe jumătate afară. Introdu-o complet, cu degetele întinse.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 3",
-      "culoare_eticheta": "teal",
-      "ecran": "Uiți de\n*vârful unghiei*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Trece pensula și pe margine",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Trei: uiți de vârful unghiei. Trece pensula și peste margine.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "cta",
-      "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru seara de răsfăț*",
-      "marime_ecran": 80,
-      "personaj": {
-        "x": 250,
-        "stare": "bucuros",
-        "obiect": "brate_sus"
-      },
-      "produs": {
-        "x": 680,
-        "baza": 1300,
-        "latime": 420,
-        "inaltime_max": 340,
-        "start": 0.2
-      },
-      "cta": {
-        "sus": "Caută o lampă UV LED",
-        "domeniu": "AtentAles.ro"
-      },
-      "voce": "Caută o lampă UV LED pe AtentAles.ro.",
-      "durata_min": 3.2,
-      "etichete": [
-        {
-          "text": "Senzor de mână · timer",
-          "x": 540,
-          "y": 560,
-          "latime": 640,
-          "accent": true
-        }
-      ]
+     "text": "DA: subțiri, pe rând",
+     "x": 540,
+     "y": 620,
+     "latime": 600,
+     "accent": true
     }
-  ],
-  "platforme": {
-    "tiktok": {
-      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #acasa #atentales"
-    },
-    "instagram": {
-      "text": "Trei greșeli care îți strică manichiura făcută acasă.\n1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei.\nCaută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #acasa #atentales"
-    },
-    "facebook": {
-      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nhttps://atentales.ro/collections/beauty-manichiura?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI."
-    },
-    "threads": {
-      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
-    },
-    "youtube": {
-      "titlu": "3 greșeli care îți strică manichiura făcută acasă",
-      "descriere": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro.\nhttps://atentales.ro/collections/beauty-manichiura?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI.",
-      "tags": [
-        "manichiura",
-        "lampa uv",
-        "unghii gel",
-        "atentales"
-      ]
-    },
-    "pinterest": {
-      "text": "Trei greșeli care îți strică manichiura făcută acasă. 1. Aplică straturi subțiri, fiecare uscat separat. 2. Introdu mâna complet în lampă, cu degetele întinse. 3. Trece pensula și peste marginea unghiei. Caută o lampă UV LED pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
-      "link": "https://atentales.ro/collections/beauty-manichiura?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48"
-    }
+   ],
+   "voce": "Detaliul unu: aplică straturi subțiri, și usucă fiecare strat separat.",
+   "pauza": 0.3
   },
-  "titlu_scurt": "3 greșeli la manichiura făcută acasă",
-  "first_comment": "Tu îți faci singură manichiura sau mergi la salon?",
-  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
-  "varianta": {
-    "hook_tip": "frica_lista",
-    "deschidere": "personaj_problema",
-    "mix_scene": "educativ_planse",
-    "categorie": "beauty-manichiura",
-    "stil": "educatie_cta_final",
-    "stare": "rasfat"
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/b89fc063-0808-49b5-b8cb-0f659536f793.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DETALIUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Mâna,\n*complet în lampă*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.48,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Degetele întinse",
+     "x": 540,
+     "y": 500,
+     "latime": 540,
+     "accent": true
+    }
+   ],
+   "voce": "Detaliul doi: introdu mâna complet în lampă, cu degetele întinse, nu pe jumătate afară.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/28f44d65-ec7f-4a28-8311-a3d8834d5730.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "DETALIUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Și vârful\n*unghiei*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.55,
+     0.68,
+     1.3
+    ],
+    "la": [
+     0.6,
+     0.7,
+     1.15
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Pensula și pe margine",
+     "x": 540,
+     "y": 500,
+     "latime": 620,
+     "accent": true
+    }
+   ],
+   "voce": "Detaliul trei: trece pensula și peste vârful unghiei, nu doar pe suprafață.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/29a47681-53e6-47f3-9b20-688a6c9c85c3.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Trimite clipul\n*prietenei tale*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.58,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    560,
+    880
+   ],
+   "pasi": [
+    "Subțire",
+    "Toată mâna",
+    "Vârful"
+   ],
+   "voce": "Straturi subțiri, mâna întreagă în lampă, vârful unghiei. Trimite clipul prietenei cu care îți faci unghiile.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Senzorul o pornește\n*când intră mâna*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Caută o lampă cu senzor",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Caută o lampă cu senzor pe AtentAles.ro.",
+   "durata_min": 3.0
   }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "femeie de ~30 de ani, păr roșcat ondulat până la umeri, cardigan verde-salvie",
+ "varianta": {
+  "hook_tip": "intrebare_aspirationala",
+  "deschidere": "personaj_situatie",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "beauty-manichiura",
+  "stil": "poveste_ilustrata",
+  "stare": "rasfat_personal"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Manichiură ca de la salon, făcută acasă? 💅\nDetaliul 1: straturi subțiri, fiecare uscat separat.\nDetaliul 2: mâna complet în lampă, cu degetele întinse.\nDetaliul 3: pensula trece și peste vârful unghiei.\nCaută o lampă UV cu senzor pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #iarnaacasa #atentales"
+  },
+  "instagram": {
+   "text": "Manichiură ca de la salon, făcută acasă? 💅\nDetaliul 1: straturi subțiri, fiecare uscat separat.\nDetaliul 2: mâna complet în lampă, cu degetele întinse.\nDetaliul 3: pensula trece și peste vârful unghiei.\nCaută o lampă UV cu senzor pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #iarnaacasa #atentales"
+  },
+  "facebook": {
+   "text": "Manichiură ca de la salon, făcută acasă? 💅\nDetaliul 1: straturi subțiri, fiecare uscat separat.\nDetaliul 2: mâna complet în lampă, cu degetele întinse.\nDetaliul 3: pensula trece și peste vârful unghiei.\nCaută o lampă UV cu senzor pe AtentAles.ro. https://atentales.ro/collections/beauty-manichiura?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI.\n#manichiura #unghiigel #rasfat #iarnaacasa #atentales"
+  },
+  "threads": {
+   "text": "Manichiură ca de la salon, făcută acasă? 💅\nDetaliul 1: straturi subțiri, fiecare uscat separat.\nDetaliul 2: mâna complet în lampă, cu degetele întinse.\nDetaliul 3: pensula trece și peste vârful unghiei.\nCaută o lampă UV cu senzor pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Manichiură ca de la salon, făcută acasă: 3 detalii",
+   "descriere": "Manichiură ca de la salon, făcută acasă? 💅\nDetaliul 1: straturi subțiri, fiecare uscat separat.\nDetaliul 2: mâna complet în lampă, cu degetele întinse.\nDetaliul 3: pensula trece și peste vârful unghiei. Caută o lampă UV cu senzor pe AtentAles.ro. https://atentales.ro/collections/beauty-manichiura?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Manichiură ca de la salon, făcută acasă? 💅 Trei detalii fac diferența. Caută o lampă UV cu senzor pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/beauty-manichiura?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1700_LampaUV48"
+  },
+  "first_comment": "Ce culoare porți în decembrie?"
+ },
+ "titlu_scurt": "Manichiură ca la salon, acasă: 3 detalii"
 }

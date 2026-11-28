@@ -1,193 +1,260 @@
 {
-  "id": "AA_20261128_1100_PrizaBlat3",
-  "brand": "atentales",
-  "versiune_motor": 4,
-  "unghi_marketing": "educativ: 3 greșeli care îți umplu blatul de cabluri -> priză încorporabilă la final",
-  "stare_emotionala": "nevoia de ordine",
-  "produs": {
-    "handle": "priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
-    "url": "https://atentales.ro/products/priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
-    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_f79948e868a784c6501ae8744c8893fb.jpg?v=1795130325",
-    "fapte_din_fisa": [
-      "3 prize",
-      "1 port USB-C și 1 port USB-A, 18 W",
-      "capac",
-      "montaj încastrat în blat"
+ "id": "AA_20261128_1100_PrizaBlat3",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "mit vs adevăr: 3 mituri despre blatul ordonat; priza de blat doar la final",
+ "stare_emotionala": "nevoie de ordine",
+ "produs": {
+  "handle": "priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
+  "url": "https://atentales.ro/products/priza-incorporabila-in-blat-atomkit-3-prize-usb-a-si-usb-c-18-w-capac-de-protectie-neagra",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_f79948e868a784c6501ae8744c8893fb.jpg?v=1795130325",
+  "fapte_din_fisa": [
+   "3 prize",
+   "1 port USB-C și 1 port USB-A, 18 W",
+   "capac",
+   "montaj încastrat în blat"
+  ]
+ },
+ "cta": {
+  "sus": "Găsește prize încorporabile",
+  "categorie": "Prize și prelungitoare",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/electronice-prize"
+ },
+ "programare": {
+  "data": "2026-11-28",
+  "ora": "11:00"
+ },
+ "tinta_caractere_voce": 459,
+ "voce_id": "XB0fDUnXU5powFXDhCwa",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
+  },
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/6f0bd6ed-19fc-4349-b328-c4e67f061cf7.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "MIT SAU ADEVĂR?",
+   "culoare_eticheta": "teal",
+   "ecran": "Blat ordonat =\n*doar curățenie?*",
+   "marime_ecran": 90,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
     ]
+   },
+   "voce": "Credeai că un blat ordonat înseamnă doar curățenie? Nu chiar.",
+   "pauza": 0.35
   },
-  "cta": {
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/6f0bd6ed-19fc-4349-b328-c4e67f061cf7.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "MITUL 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Cablurile\n*își găsesc singure locul*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.4,
+     0.66,
+     1.0
+    ],
+    "la": [
+     0.32,
+     0.68,
+     1.25
+    ]
+   },
+   "etichete": [
+    {
+     "text": "MIT: se strâng singure",
+     "x": 540,
+     "y": 500,
+     "latime": 620
+    },
+    {
+     "text": "ADEVĂR: un singur loc",
+     "x": 540,
+     "y": 620,
+     "latime": 620,
+     "accent": true
+    }
+   ],
+   "voce": "Mitul unu: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/75d0c227-512a-4b9b-9bfd-f143cb18ab27.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "MITUL 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Un adaptor\n*pentru fiecare telefon*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.48,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "MIT: câte un adaptor",
+     "x": 540,
+     "y": 500,
+     "latime": 600
+    },
+    {
+     "text": "ADEVĂR: prize cu USB",
+     "x": 540,
+     "y": 620,
+     "latime": 600,
+     "accent": true
+    }
+   ],
+   "voce": "Mitul doi: fiecare telefon cu adaptorul lui. Adevărul: o priză cu porturi USB te scapă de adaptoare.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/1442d4bb-2c11-485f-ad17-ed48a370d7b8.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "MITUL 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Prizele\n*la final*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.42,
+     0.66,
+     1.3
+    ],
+    "la": [
+     0.45,
+     0.64,
+     1.15
+    ]
+   },
+   "etichete": [
+    {
+     "text": "ADEVĂR: le plănuiești din timp",
+     "x": 540,
+     "y": 500,
+     "latime": 700,
+     "accent": true
+    }
+   ],
+   "voce": "Mitul trei: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/c870b1ab-4429-46f5-8f0d-0f5b620321c7.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Trimite clipul\n*prietenei care renovează*",
+   "marime_ecran": 80,
+   "camera": {
+    "de": [
+     0.5,
+     0.58,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    480,
+    900
+   ],
+   "pasi": [
+    "Un loc",
+    "USB",
+    "Din timp"
+   ],
+   "voce": "Un loc, porturi USB, prize plănuite din timp. Trimite clipul prietenei care renovează.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Prize care se montează\n*direct în blat*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
     "sus": "Găsește prize încorporabile",
-    "categorie": "Prize și prelungitoare",
-    "domeniu": "AtentAles.ro",
-    "url_categorie": "https://atentales.ro/collections/electronice-prize"
-  },
-  "programare": {
-    "data": "2026-11-28",
-    "ora": "11:00"
-  },
-  "tinta_caractere_voce": 375,
-  "scene": [
-    {
-      "tip": "hook",
-      "decor": "bucatarie_cabluri",
-      "eticheta": "ATENȚIE!",
-      "culoare_eticheta": "coral",
-      "ecran": "*3 greșeli* care îți umplu\nblatul de cabluri",
-      "marime_ecran": 84,
-      "personaj": {
-        "x": 330,
-        "stare": "surprins",
-        "intrare": true
-      },
-      "voce": "Atenție! Trei greșeli care îți transformă blatul într-un ghem de cabluri.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 1",
-      "culoare_eticheta": "coral",
-      "ecran": "Încărcătoare\n*peste tot*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "NU: pe tot blatul",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "DA: un singur loc",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Unu: lași încărcătoarele împrăștiate pe blat. Fă-le un singur loc al lor.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 2",
-      "culoare_eticheta": "albastru",
-      "ecran": "Câte un adaptor\n*pentru fiecare*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Caută porturi USB în priză",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 780,
-        "stare": "trist"
-      },
-      "voce": "Doi: ai câte un adaptor pentru fiecare telefon. Caută prize cu porturi USB.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 3",
-      "culoare_eticheta": "teal",
-      "ecran": "Te gândești la prize\n*prea târziu*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Stabilește locul din timp",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "surprins"
-      },
-      "voce": "Trei: te gândești la prize după ce montezi blatul. Stabilește-le locul din timp.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "cta",
-      "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru renovare*",
-      "marime_ecran": 80,
-      "personaj": {
-        "x": 250,
-        "stare": "bucuros",
-        "obiect": "brate_sus"
-      },
-      "produs": {
-        "x": 680,
-        "baza": 1300,
-        "latime": 440,
-        "inaltime_max": 360,
-        "start": 0.2
-      },
-      "cta": {
-        "sus": "Găsește prize încorporabile",
-        "domeniu": "AtentAles.ro"
-      },
-      "voce": "Găsește prize încorporabile pe AtentAles.ro.",
-      "durata_min": 3.2,
-      "etichete": [
-        {
-          "text": "3 prize · USB-A și USB-C",
-          "x": 540,
-          "y": 560,
-          "latime": 640,
-          "accent": true
-        }
-      ]
-    }
-  ],
-  "platforme": {
-    "tiktok": {
-      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #renovare #bucatarie #amenajare #atentales"
-    },
-    "instagram": {
-      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri.\n1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #renovare #bucatarie #amenajare #atentales"
-    },
-    "facebook": {
-      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nhttps://atentales.ro/collections/electronice-prize?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI."
-    },
-    "threads": {
-      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
-    },
-    "youtube": {
-      "titlu": "3 greșeli care îți umplu blatul de cabluri",
-      "descriere": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro.\nhttps://atentales.ro/collections/electronice-prize?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI.",
-      "tags": [
-        "priza incorporabila",
-        "organizare",
-        "renovare bucatarie",
-        "atentales"
-      ]
-    },
-    "pinterest": {
-      "text": "Trei greșeli care îți transformă blatul într-un ghem de cabluri. 1. Fă-le încărcătoarelor un singur loc. 2. Caută prize cu porturi USB, în loc de câte un adaptor pentru fiecare telefon. 3. Stabilește locul prizelor din timp, înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
-      "link": "https://atentales.ro/collections/electronice-prize?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3"
-    }
-  },
-  "titlu_scurt": "3 greșeli care îți umplu blatul de cabluri",
-  "first_comment": "Câte încărcătoare ai acum pe blat?",
-  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
-  "varianta": {
-    "hook_tip": "frica_lista",
-    "deschidere": "personaj_problema",
-    "mix_scene": "educativ_planse",
-    "categorie": "electronice-prize",
-    "stil": "educatie_cta_final",
-    "stare": "ordine"
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește prize încorporabile pe AtentAles.ro.",
+   "durata_min": 3.0
   }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "femeie de ~45 de ani, păr scurt grizonat, ochelari rotunzi, pulover galben-muștar",
+ "varianta": {
+  "hook_tip": "mit_adevar",
+  "deschidere": "personaj_problema",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "electronice-prize",
+  "stil": "poveste_ilustrata",
+  "stare": "nevoie_de_ordine"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌\nMitul 1: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.\nMitul 2: câte un adaptor pentru fiecare telefon. Adevărul: prizele cu porturi USB te scapă de adaptoare.\nMitul 3: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #bucatarie #renovare #amenajare #atentales"
+  },
+  "instagram": {
+   "text": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌\nMitul 1: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.\nMitul 2: câte un adaptor pentru fiecare telefon. Adevărul: prizele cu porturi USB te scapă de adaptoare.\nMitul 3: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#organizare #bucatarie #renovare #amenajare #atentales"
+  },
+  "facebook": {
+   "text": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌\nMitul 1: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.\nMitul 2: câte un adaptor pentru fiecare telefon. Adevărul: prizele cu porturi USB te scapă de adaptoare.\nMitul 3: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro. https://atentales.ro/collections/electronice-prize?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI.\n#organizare #bucatarie #renovare #amenajare #atentales"
+  },
+  "threads": {
+   "text": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌\nMitul 1: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.\nMitul 2: câte un adaptor pentru fiecare telefon. Adevărul: prizele cu porturi USB te scapă de adaptoare.\nMitul 3: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului.\nGăsește prize încorporabile pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Blat ordonat fără cabluri: 3 mituri și adevărul",
+   "descriere": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌\nMitul 1: cablurile se strâng singure. Adevărul: încărcătoarele au nevoie de un singur loc.\nMitul 2: câte un adaptor pentru fiecare telefon. Adevărul: prizele cu porturi USB te scapă de adaptoare.\nMitul 3: la prize te gândești la final. Adevărul: le plănuiești înainte de montajul blatului. Găsește prize încorporabile pe AtentAles.ro. https://atentales.ro/collections/electronice-prize?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Credeai că un blat ordonat înseamnă doar să faci curat? Nu chiar. 🔌 Găsește prize încorporabile pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/electronice-prize?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_1100_PrizaBlat3"
+  },
+  "first_comment": "Tu ai crezut vreunul dintre mituri?"
+ },
+ "titlu_scurt": "Blat ordonat: 3 mituri și adevărul"
 }

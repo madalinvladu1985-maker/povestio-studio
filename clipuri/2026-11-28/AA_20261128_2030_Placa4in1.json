@@ -1,204 +1,272 @@
 {
-  "id": "AA_20261128_2030_Placa4in1",
-  "brand": "atentales",
-  "versiune_motor": 4,
-  "unghi_marketing": "educativ: 3 greșeli la buclele pentru petrecerea de sărbători -> aparat 4 în 1 la final",
-  "stare_emotionala": "bucuria pregătirilor pentru petrecerea de sărbători",
-  "produs": {
-    "handle": "placa-de-par-4-in-1-indreptat-ondulat-crimp",
-    "url": "https://atentales.ro/products/placa-de-par-4-in-1-indreptat-ondulat-crimp",
-    "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1cf4d5f00410509e19e30f7a3e322472.jpg?v=1795585408",
-    "fapte_din_fisa": [
-      "4 funcții: îndreptare, ondulare, crimp, valuri",
-      "tub de 36 mm",
-      "12 trepte, 120–230 °C",
-      "afișaj LED",
-      "2 seruri cu biotină, cutie cadou"
-    ],
-    "imagine_zona": [
-      0.03,
-      0.68,
-      0.98,
-      0.96
-    ],
-    "imagine_punct": [
-      0.5,
-      0.82
-    ]
-  },
-  "cta": {
-    "sus": "Găsește un aparat 4 în 1",
-    "categorie": "Ondulatoare",
-    "domeniu": "AtentAles.ro",
-    "url_categorie": "https://atentales.ro/collections/par-ondulatoare"
-  },
-  "programare": {
-    "data": "2026-11-28",
-    "ora": "20:30"
-  },
-  "tinta_caractere_voce": 408,
-  "scene": [
-    {
-      "tip": "hook",
-      "decor": "sufragerie",
-      "eticheta": "ATENȚIE!",
-      "culoare_eticheta": "coral",
-      "ecran": "Nu mai face asta\ncu *buclele de sărbători*",
-      "marime_ecran": 84,
-      "personaj": {
-        "x": 330,
-        "stare": "surprins",
-        "intrare": true
-      },
-      "voce": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 1",
-      "culoare_eticheta": "coral",
-      "ecran": "Piepteni buclele\n*cât sunt calde*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Lasă-le să se răcească",
-          "x": 540,
-          "y": 490,
-          "latime": 640
-        },
-        {
-          "text": "Apoi desfă-le cu degetele",
-          "x": 540,
-          "y": 610,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Unu: piepteni buclele cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 2",
-      "culoare_eticheta": "albastru",
-      "ecran": "Toate buclele\n*în aceeași parte*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Alternează direcția",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 780,
-        "stare": "surprins"
-      },
-      "voce": "Doi: le întorci pe toate în aceeași parte. Alternează direcția, pentru un aspect natural.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "explica",
-      "decor": "hartie",
-      "eticheta": "GREȘEALA 3",
-      "culoare_eticheta": "teal",
-      "ecran": "Aceeași coafură\n*la fiecare petrecere*",
-      "marime_ecran": 88,
-      "etichete": [
-        {
-          "text": "Bucle, valuri sau păr drept",
-          "x": 540,
-          "y": 490,
-          "latime": 640,
-          "accent": true
-        }
-      ],
-      "personaj": {
-        "x": 300,
-        "stare": "trist"
-      },
-      "voce": "Trei: porți aceeași coafură la fiecare petrecere. Schimbă: bucle, valuri sau păr drept.",
-      "pauza": 0.25
-    },
-    {
-      "tip": "cta",
-      "decor": "hartie",
-      "ecran": "Salvează clipul\n*pentru petrecere*",
-      "marime_ecran": 80,
-      "personaj": {
-        "x": 250,
-        "stare": "bucuros",
-        "obiect": "brate_sus"
-      },
-      "produs": {
-        "x": 680,
-        "baza": 1210,
-        "latime": 580,
-        "inaltime_max": 260,
-        "start": 0.2
-      },
-      "cta": {
-        "sus": "Găsește un aparat 4 în 1",
-        "domeniu": "AtentAles.ro"
-      },
-      "voce": "Găsește un aparat 4 în 1 pe AtentAles.ro.",
-      "durata_min": 3.2,
-      "etichete": [
-        {
-          "text": "Drept · bucle · crimp · valuri",
-          "x": 540,
-          "y": 560,
-          "latime": 640,
-          "accent": true
-        }
-      ]
-    }
+ "id": "AA_20261128_2030_Placa4in1",
+ "brand": "atentales",
+ "versiune_motor": 4,
+ "unghi_marketing": "greșeală: 3 greșeli cu buclele de sărbători; aparatul 4 în 1 doar la final",
+ "stare_emotionala": "emoția dinaintea petrecerii",
+ "produs": {
+  "handle": "placa-de-par-4-in-1-indreptat-ondulat-crimp",
+  "url": "https://atentales.ro/products/placa-de-par-4-in-1-indreptat-ondulat-crimp",
+  "imagine_url": "https://cdn.shopify.com/s/files/1/1124/6495/3734/files/res_1cf4d5f00410509e19e30f7a3e322472.jpg?v=1795585408",
+  "fapte_din_fisa": [
+   "4 funcții: îndreptare, ondulare, crimp, valuri",
+   "tub de 36 mm",
+   "12 trepte, 120–230 °C",
+   "afișaj LED",
+   "2 seruri cu biotină, cutie cadou"
   ],
-  "platforme": {
-    "tiktok": {
-      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
-    },
-    "instagram": {
-      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători.\n1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
-    },
-    "facebook": {
-      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nhttps://atentales.ro/collections/par-ondulatoare?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI."
-    },
-    "threads": {
-      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
-    },
-    "youtube": {
-      "titlu": "Nu mai face asta cu buclele de sărbători",
-      "descriere": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro.\nhttps://atentales.ro/collections/par-ondulatoare?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI.",
-      "tags": [
-        "bucle",
-        "ondulator",
-        "coafura sarbatori",
-        "atentales"
-      ]
-    },
-    "pinterest": {
-      "text": "Nu mai face asta dacă îți pregătești buclele pentru petrecerea de sărbători. 1. Lasă buclele să se răcească, apoi desfă-le cu degetele. 2. Alternează direcția buclelor. 3. Schimbă coafura de la o petrecere la alta: bucle, valuri sau păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
-      "link": "https://atentales.ro/collections/par-ondulatoare?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1"
-    }
+  "imagine_zona": [
+   0.03,
+   0.68,
+   0.98,
+   0.96
+  ],
+  "imagine_punct": [
+   0.5,
+   0.82
+  ]
+ },
+ "cta": {
+  "sus": "Găsește un aparat 4 în 1",
+  "categorie": "Ondulatoare",
+  "domeniu": "AtentAles.ro",
+  "url_categorie": "https://atentales.ro/collections/par-ondulatoare"
+ },
+ "programare": {
+  "data": "2026-11-28",
+  "ora": "20:30"
+ },
+ "tinta_caractere_voce": 473,
+ "voce_id": "cgSgspJ2msm6clMCkdW9",
+ "aspect": {
+  "fundal_ai": {
+   "model": "figma"
   },
-  "titlu_scurt": "Nu mai face asta cu buclele de sărbători",
-  "first_comment": "Ce coafură porți la petrecerea de Crăciun?",
-  "sursa_personaje": "personaj fictiv desenat din cod (Povestio planșe)",
-  "varianta": {
-    "hook_tip": "frica_greseala",
-    "deschidere": "personaj_problema",
-    "mix_scene": "educativ_planse",
-    "categorie": "par-ondulatoare",
-    "stil": "educatie_cta_final",
-    "stare": "bucurie_sarbatori"
+  "pasi_y": 1120
+ },
+ "scene": [
+  {
+   "tip": "hook",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/44aa1568-272e-49e4-b237-7fd0c482ac6b.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "ÎNAINTE DE PETRECERE",
+   "culoare_eticheta": "teal",
+   "ecran": "Nu mai face asta\n*cu buclele*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.45,
+     0.6,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.56,
+     1.0
+    ]
+   },
+   "voce": "Nu mai face asta cu buclele de sărbători. Trei greșeli le strică înainte de petrecere.",
+   "pauza": 0.35
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/44aa1568-272e-49e4-b237-7fd0c482ac6b.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 1",
+   "culoare_eticheta": "coral",
+   "ecran": "Le piepteni\n*cât sunt calde*",
+   "marime_ecran": 88,
+   "camera": {
+    "de": [
+     0.5,
+     0.62,
+     1.0
+    ],
+    "la": [
+     0.45,
+     0.6,
+     1.25
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: peria imediat",
+     "x": 540,
+     "y": 500,
+     "latime": 560
+    },
+    {
+     "text": "DA: răcite, cu degetele",
+     "x": 540,
+     "y": 620,
+     "latime": 680,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala unu: piepteni buclele cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/71c91807-7bc3-435f-9775-332c99ea6311.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 2",
+   "culoare_eticheta": "albastru",
+   "ecran": "Toate\n*în aceeași parte*",
+   "marime_ecran": 92,
+   "camera": {
+    "de": [
+     0.48,
+     0.62,
+     1.25
+    ],
+    "la": [
+     0.5,
+     0.6,
+     1.05
+    ]
+   },
+   "etichete": [
+    {
+     "text": "NU: aceeași direcție",
+     "x": 540,
+     "y": 500,
+     "latime": 580
+    },
+    {
+     "text": "DA: alternezi",
+     "x": 540,
+     "y": 620,
+     "latime": 480,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala doi: le întorci pe toate în aceeași parte. Alternează direcția, pentru un aspect natural.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/8daddd0b-0126-46f2-aae1-c0f800edd926.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "GREȘEALA 3",
+   "culoare_eticheta": "teal",
+   "ecran": "Aceeași coafură\n*la fiecare petrecere*",
+   "marime_ecran": 84,
+   "camera": {
+    "de": [
+     0.42,
+     0.66,
+     1.3
+    ],
+    "la": [
+     0.45,
+     0.64,
+     1.15
+    ]
+   },
+   "etichete": [
+    {
+     "text": "Bucle, valuri, păr drept",
+     "x": 540,
+     "y": 500,
+     "latime": 660,
+     "accent": true
+    }
+   ],
+   "voce": "Greșeala trei: porți aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "explica",
+   "decor": "hartie",
+   "ilustratie_url": "https://www.figma.com/api/mcp/asset/265b1d9a-0773-406e-a147-0d85602b53d6.jpg",
+   "ilustratie_personaj": false,
+   "eticheta": "REȚINE",
+   "culoare_eticheta": "coral",
+   "ecran": "Salvează clipul\n*pentru Crăciun*",
+   "marime_ecran": 82,
+   "camera": {
+    "de": [
+     0.5,
+     0.58,
+     1.18
+    ],
+    "la": [
+     0.5,
+     0.62,
+     1.0
+    ]
+   },
+   "efect": "sclipiri",
+   "efect_poz": [
+    540,
+    860
+   ],
+   "pasi": [
+    "Răbdare",
+    "Alternezi",
+    "Variezi"
+   ],
+   "voce": "Răbdare, direcții diferite, coafuri diferite. Salvează clipul pentru Crăciun.",
+   "pauza": 0.3
+  },
+  {
+   "tip": "cta",
+   "decor": "hartie",
+   "ecran": "Îndreptare, bucle,\n*crimp și valuri*",
+   "marime_ecran": 80,
+   "produs": {
+    "x": 540,
+    "baza": 1170,
+    "latime": 420,
+    "inaltime_max": 640,
+    "start": 0.2
+   },
+   "cta": {
+    "sus": "Găsește un aparat 4 în 1",
+    "domeniu": "AtentAles.ro"
+   },
+   "voce": "Găsește un aparat patru în unu pe AtentAles.ro.",
+   "durata_min": 3.0,
+   "subtitlu": "Găsește un aparat 4 în 1 pe AtentAles.ro."
   }
+ ],
+ "sursa_personaje": "ilustratii AI (Figma, gemini-3.1-flash-lite-image)",
+ "personaj_descriere": "femeie de ~35 de ani, păr lung castaniu, rochie de catifea verde-smarald",
+ "varianta": {
+  "hook_tip": "frica_greseala",
+  "deschidere": "personaj_problema",
+  "mix_scene": "ilustratii_miscatoare",
+  "categorie": "par-ondulatoare",
+  "stil": "poveste_ilustrata",
+  "stare": "emotie_petrecere"
+ },
+ "platforme": {
+  "tiktok": {
+   "text": "Nu mai face asta cu buclele de sărbători! 🎄\nGreșeala 1: le piepteni cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.\nGreșeala 2: le întorci pe toate în aceeași parte. Alternează direcția.\nGreșeala 3: aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
+  },
+  "instagram": {
+   "text": "Nu mai face asta cu buclele de sărbători! 🎄\nGreșeala 1: le piepteni cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.\nGreșeala 2: le întorci pe toate în aceeași parte. Alternează direcția.\nGreșeala 3: aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
+  },
+  "facebook": {
+   "text": "Nu mai face asta cu buclele de sărbători! 🎄\nGreșeala 1: le piepteni cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.\nGreșeala 2: le întorci pe toate în aceeași parte. Alternează direcția.\nGreșeala 3: aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro. https://atentales.ro/collections/par-ondulatoare?utm_source=facebook&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI.\n#bucle #coafurasarbatori #petrecere #craciun #atentales"
+  },
+  "threads": {
+   "text": "Nu mai face asta cu buclele de sărbători! 🎄\nGreșeala 1: le piepteni cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.\nGreșeala 2: le întorci pe toate în aceeași parte. Alternează direcția.\nGreșeala 3: aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept.\nGăsește un aparat 4 în 1 pe AtentAles.ro.\nConținut realizat cu ajutorul AI."
+  },
+  "youtube": {
+   "titlu": "Nu mai face asta cu buclele de sărbători: 3 greșeli",
+   "descriere": "Nu mai face asta cu buclele de sărbători! 🎄\nGreșeala 1: le piepteni cât sunt calde. Lasă-le să se răcească, apoi desfă-le cu degetele.\nGreșeala 2: le întorci pe toate în aceeași parte. Alternează direcția.\nGreșeala 3: aceeași coafură la fiecare petrecere. Schimbă între bucle, valuri și păr drept. Găsește un aparat 4 în 1 pe AtentAles.ro. https://atentales.ro/collections/par-ondulatoare?utm_source=youtube&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1\nConținut realizat cu ajutorul AI."
+  },
+  "pinterest": {
+   "text": "Nu mai face asta cu buclele de sărbători! 🎄 Trei greșeli care le strică înainte de petrecere. Găsește un aparat 4 în 1 pe AtentAles.ro. Conținut realizat cu ajutorul AI.",
+   "link": "https://atentales.ro/collections/par-ondulatoare?utm_source=pinterest&utm_medium=short&utm_campaign=povestio&utm_content=AA_20261128_2030_Placa4in1"
+  },
+  "first_comment": "Tu care dintre greșeli o faci?"
+ },
+ "titlu_scurt": "Nu mai face asta cu buclele de sărbători"
 }
