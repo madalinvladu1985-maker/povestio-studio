@@ -7,8 +7,18 @@ K = os.environ["ELEVENLABS_API_KEY"]
 VOCI = {"Corina (actuala)": "gbLy9ep70G3JW53cTzFC", "Sarah": "EXAVITQu4vr4xnSDxMaL", "Laura": "FGY2WhTYpPnrIDTdsKH5",
         "Alice": "Xb7hH8MSUJpSbSDYk0k2", "Matilda": "XrExE9yKIg1WjnnlVkGX", "Jessica": "cgSgspJ2msm6clMCkdW9",
         "Lily": "pFZP5JQG7iQjIQuC4Bku", "Charlotte": "XB0fDUnXU5powFXDhCwa", "Aria": "9BWtsMINqrJLrRacOk9x"}
+GEN = os.environ.get("GEN", "female")
+if GEN == "male":
+    # vocile masculine disponibile in cont (premade + adaugate), citite din API, nu ghicite
+    d = json.load(urllib.request.urlopen(urllib.request.Request("https://api.elevenlabs.io/v1/voices",
+                                                                headers={"xi-api-key": K}), timeout=30))
+    VOCI = {v["name"]: v["voice_id"] for v in d["voices"] if (v.get("labels") or {}).get("gender") == "male"}
+    print("voci masculine in cont:", VOCI)
+TEXT_B = "Știai că priza poate sta ascunsă chiar în blat? Iese când ai nevoie și coboară la loc când termini. Vezi toate prizele încorporabile pe Atent Ales punct ro."
 TEXT = "Seara asta e doar despre tine. Lasă telefonul deoparte, aprinde o lumină caldă și fă-ți un ceai. Găsește aparate de masaj pe Atent Ales punct ro."
-out = Path("verificari/mostre_voci"); out.mkdir(parents=True, exist_ok=True)
+if GEN == "male":
+    TEXT = TEXT_B
+out = Path("verificari/mostre_voci" + ("_barbati" if GEN == "male" else "")); out.mkdir(parents=True, exist_ok=True)
 m = WhisperModel("medium", device="cpu", compute_type="int8")
 rez = []
 for nume, vid in VOCI.items():
