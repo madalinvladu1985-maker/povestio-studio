@@ -17,6 +17,9 @@ Autorizare dată de Mădălin pe 27.11.2026, în chat: agentul creează și **pu
 - Economisește: nu reciti fișiere mari (catalogul se filtrează cu `python -c`), verifică vizual doar 3 cadre pe clip, nu rerandă decât dacă e o eroare reală, analiza se face doar în prima rulare a zilei.
 
 ## Bugetul de credite de voce (toată luna)
+- **Numărul de clipuri pe zi e variabil: 5, 4 sau minimum 3** (acordul lui Mădălin, 28.11). `python studio.py buget <data>` întoarce `numar_clipuri` și lista `sloturi` (5: 07:30, 11:00, 14:30, 17:00, 20:30; 4: 07:30, 11:00, 17:00, 20:30; 3: 07:30, 14:30, 20:30). Fă exact atâtea clipuri, la orele acelea, și scrie numărul în `clipuri/<data>/numar_clipuri.txt`.
+- Numărul scade automat când creditele rămase nu ajung pentru clipuri de lungimea stilului aprobat, sau când ziua precedentă n-a fost terminată (semn că s-a atins limita Claude). Nu scădea sub 3 și nu scurta clipurile sub ținta primită.
+- Regula de mix al vocilor se aplică pe numărul real de clipuri (`python studio.py voci <data> <categoriile zilei>`): la 3 clipuri, minimum câte o voce de fiecare gen.
 - Rulează `python studio.py buget <data>`: dă pentru fiecare slot `caractere_voce` (țintă aleatorie, calculată din soldul real ElevenLabs până la resetare, cu 10% rezervă).
 - Scrie vocea clipului cât mai aproape de țintă (±10%) și pune `"tinta_caractere_voce": <valoarea>` în spec; `verifica` respinge clipul dacă depășește ținta cu peste 15%.
 - Clipurile scurte (sub ~300 caractere) au 4 scene (hook, problemă, funcții, CTA); cele lungi 5 scene. Durata variază aleatoriu de la o zi la alta, nu scade spre sfârșitul lunii.
