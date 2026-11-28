@@ -1,14 +1,16 @@
-[ 0.00- 6.84] Pleci la drum de unie, decembrie, fă trei lucruri cu o seară înainte și pornești fără agitație.
-    Pleci(0.00,p=0.83) la(0.66,p=1.00) drum(0.86,p=1.00) de(1.02,p=0.95) unie,(1.24,p=0.40) decembrie,(1.86,p=0.72) fă(2.76,p=0.88) trei(2.94,p=0.83) lucruri(3.22,p=1.00) cu(3.56,p=0.99) o(3.74,p=0.97) seară(3.92,p=0.99) înainte(4.20,p=0.99) și(4.62,p=0.97) pornești(4.80,p=0.99) fără(5.28,p=1.00) agitație.(5.64,p=1.00)
-[ 7.02-13.52] Sfatul 1. Pune la încărcat telefoanele și tableta copilului de cu seară, toate în același loc.
-    Sfatul(7.02,p=0.76) 1.(7.40,p=0.89) Pune(8.08,p=0.97) la(8.26,p=1.00) încărcat(8.44,p=1.00) telefoanele(8.84,p=0.89) și(9.58,p=0.99) tableta(9.74,p=0.88) copilului(10.24,p=0.99) de(10.86,p=0.67) cu(11.12,p=0.93) seară,(11.38,p=0.85) toate(12.02,p=1.00) în(12.54,p=0.99) același(12.82,p=0.99) loc.(13.22,p=1.00)
-[13.98-19.64] Sfatul 2. Strânge toate cablurile într-un singur săculeț și ține-l în față la îndemână.
-    Sfatul(13.98,p=1.00) 2.(14.42,p=1.00) Strânge(15.18,p=0.91) toate(15.52,p=1.00) cablurile(15.90,p=0.94) într(16.46,p=0.98) -un(16.76,p=1.00) singur(16.82,p=0.99) săculeț(17.18,p=0.88) și(17.76,p=0.98) ține(18.10,p=0.93) -l(18.36,p=0.95) în(18.48,p=1.00) față(18.66,p=0.98) la(18.96,p=0.96) îndemână.(19.06,p=0.96)
-[20.06-25.58] Sfatul 3. Pregătește muzica și traseul cât stai în parcare, nu în timp ce conduci.
-    Sfatul(20.06,p=1.00) 3.(20.64,p=1.00) Pregătește(21.26,p=0.97) muzica(21.76,p=0.97) și(22.12,p=0.99) traseul(22.32,p=0.98) cât(22.82,p=0.98) stai(23.14,p=0.99) în(23.32,p=0.99) parcare,(23.52,p=0.95) nu(24.26,p=0.99) în(24.38,p=0.99) timp(24.52,p=1.00) ce(24.66,p=1.00) conduci.(24.88,p=0.94)
-[26.06-28.72] Încărcat. Strâns.
-    Încărcat.(26.06,p=0.99) Strâns.(28.08,p=0.91)
-[28.72-33.00] Strâns. Pregătit. Salvează clipul pentru drumul de mâine.
-    Strâns.(28.72,p=0.65) Pregătit.(29.78,p=0.97) Salvează(30.82,p=0.99) clipul(31.36,p=0.94) pentru(31.68,p=0.99) drumul(31.94,p=0.99) de(32.34,p=0.99) mâine.(32.50,p=0.99)
-[33.42-36.76] Găsește distribuitoarge auto cu USB-C pe www.attentales.ro
-    Găsește(33.42,p=0.98) distribuitoarge(33.86,p=0.47) auto(34.64,p=0.69) cu(34.86,p=0.98) USB(35.08,p=0.61) -C(35.40,p=0.81) pe(35.56,p=0.99) www(35.72,p=0.32) .attentales(35.72,p=0.81) .ro(36.16,p=1.00)
+[ 0.00- 2.32] Pleci la drum de 1 decembrie?
+    Pleci(0.00,p=0.86) la(0.66,p=1.00) drum(0.84,p=1.00) de(0.98,p=0.96) 1(1.14,p=0.93) decembrie?(1.30,p=0.82)
+[ 2.58- 6.10] Fă trei lucruri cu o seară înainte și pornești fără agitație.
+    Fă(2.58,p=0.86) trei(2.68,p=0.81) lucruri(2.92,p=1.00) cu(3.26,p=0.99) o(3.38,p=0.96) seară(3.52,p=0.99) înainte(3.74,p=0.99) și(4.12,p=0.97) pornești(4.30,p=0.99) fără(4.74,p=0.99) agitație.(5.08,p=1.00)
+[ 6.46-12.96] Sfatul 1. Pune la încărcat telefoanele și tableta copilului de cu seară, toate în același loc.
+    Sfatul(6.46,p=0.83) 1.(6.84,p=0.93) Pune(7.54,p=0.96) la(7.70,p=0.99) încărcat(7.90,p=0.99) telefoanele(8.30,p=0.90) și(9.02,p=0.99) tableta(9.18,p=0.83) copilului(9.68,p=0.99) de(10.30,p=0.66) cu(10.56,p=0.88) seară,(10.82,p=0.85) toate(11.44,p=0.99) în(11.98,p=0.98) același(12.26,p=0.99) loc.(12.68,p=1.00)
+[13.44-19.12] Sfatul 2. Strânge toate cablurile într-un singur săculeț și ține-l în față la îndemână.
+    Sfatul(13.44,p=1.00) 2.(13.86,p=1.00) Strânge(14.62,p=0.93) toate(14.96,p=1.00) cablurile(15.34,p=0.92) într(15.90,p=0.98) -un(16.18,p=1.00) singur(16.28,p=0.99) săculeț(16.62,p=0.86) și(17.18,p=0.98) ține(17.54,p=0.93) -l(17.80,p=0.95) în(17.90,p=1.00) față(18.10,p=0.99) la(18.40,p=0.98) îndemână.(18.52,p=0.95)
+[19.52-24.92] Sfatul 3. Pregătește muzica și traseul cât stai în parcare, nu în timp ce conduci.
+    Sfatul(19.52,p=1.00) 3.(20.10,p=1.00) Pregătește(20.70,p=0.98) muzica(21.22,p=0.97) și(21.58,p=0.99) traseul(21.80,p=0.98) cât(22.26,p=0.98) stai(22.58,p=0.99) în(22.78,p=0.99) parcare,(22.96,p=0.95) nu(23.70,p=0.99) în(23.80,p=0.99) timp(23.96,p=1.00) ce(24.10,p=1.00) conduci.(24.32,p=0.92)
+[25.50-28.28] Încărcat. Strâns.
+    Încărcat.(25.50,p=1.00) Strâns.(27.60,p=0.92)
+[28.28-32.42] Stâns. Pregătit. Salvează clipul pentru drumul de mâine.
+    Stâns.(28.28,p=0.64) Pregătit.(29.22,p=0.97) Salvează(30.26,p=0.99) clipul(30.78,p=0.95) pentru(31.12,p=1.00) drumul(31.40,p=0.99) de(31.78,p=0.99) mâine.(31.94,p=0.99)
+[32.88-36.14] Găsește accesorii auto cu USB și pe atentales.ro
+    Găsește(32.88,p=0.98) accesorii(33.26,p=0.94) auto(33.78,p=0.69) cu(34.00,p=0.99) USB(34.20,p=0.90) și(34.54,p=0.05) pe(34.74,p=0.98) atentales(34.90,p=0.63) .ro(35.40,p=0.98)

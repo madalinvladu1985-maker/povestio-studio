@@ -1,14 +1,16 @@
-[ 0.00- 5.40] Piovi, vrei să le trimiți bunicilor un mesaj video de sărbători. Uite cum iese clar.
-    Piovi,(0.00,p=0.79) vrei(1.06,p=0.99) să(1.14,p=0.95) le(1.32,p=0.99) trimiți(1.46,p=0.85) bunicilor(1.76,p=0.98) un(2.30,p=0.99) mesaj(2.50,p=0.98) video(2.90,p=0.96) de(3.26,p=0.99) sărbători.(3.42,p=0.98) Uite(4.30,p=0.98) cum(4.50,p=0.99) iese(4.66,p=0.94) clar.(4.98,p=1.00)
-[ 5.98- 9.92] Pasul 1. Stai cu fața spre fereastră, nu cu lumina în spate.
-    Pasul(5.98,p=0.96) 1.(6.38,p=0.94) Stai(6.94,p=0.97) cu(7.10,p=1.00) fața(7.32,p=0.98) spre(7.60,p=0.99) fereastră,(7.84,p=0.93) nu(8.56,p=0.99) cu(8.72,p=1.00) lumina(8.88,p=0.88) în(9.16,p=0.98) spate.(9.36,p=0.98)
-[10.30-14.96] Pasul 2. Sprijină telefonul la nivelul ochilor ca imaginea să nu tremure.
-    Pasul(10.30,p=0.99) 2.(10.74,p=1.00) Sprijină(11.32,p=0.91) telefonul(11.76,p=1.00) la(12.30,p=1.00) nivelul(12.48,p=0.99) ochilor(12.94,p=0.96) ca(13.42,p=0.76) imaginea(13.60,p=0.87) să(14.20,p=0.99) nu(14.30,p=1.00) tremure.(14.48,p=0.98)
-[15.50-19.98] Pasul 3. Oprește televizorul și prinde microfonul aproape de voce.
-    Pasul(15.50,p=0.99) 3.(16.00,p=1.00) Oprește(16.46,p=0.97) televizorul(16.88,p=0.98) și(17.70,p=0.99) prinde(17.88,p=0.95) microfonul(18.14,p=0.76) aproape(18.84,p=0.75) de(19.20,p=1.00) voce.(19.44,p=1.00)
-[20.34-25.32] Lumină, sprijin, liniște. Trimite clipul cuiva care are familia departe.
-    Lumină,(20.34,p=0.82) sprijin,(20.96,p=0.97) liniște.(21.66,p=0.99) Trimite(22.50,p=0.93) clipul(22.92,p=0.98) cuiva(23.40,p=0.92) care(23.76,p=0.99) are(23.96,p=0.99) familia(24.20,p=0.88) departe.(24.66,p=0.91)
-[25.88-29.14] Găsește microfane la valieră pe atentales.ro.
-    Găsește(25.88,p=0.99) microfane(26.40,p=0.64) la(26.98,p=0.96) valieră(27.22,p=0.99) pe(27.64,p=0.99) atentales(27.88,p=0.56) .ro.(28.50,p=0.95)
-[30.00-32.22] Piovi, vrei să le trimiți bunicilor un mesaj video de sărbători.
-    Piovi,(30.00,p=0.00) vrei(30.22,p=0.09) să(30.22,p=0.61) le(30.22,p=0.02) trimiți(30.22,p=0.16) bunicilor(30.22,p=0.25) un(30.86,p=0.00) mesaj(30.86,p=0.25) video(30.86,p=0.00) de(30.86,p=0.13) sărbători.(30.86,p=0.28)
+[ 0.00- 4.88] Vrei să le trimiți bunicilor un mesaj video de sărbători? Uite cum iese clar.
+    Vrei(0.00,p=0.92) să(0.54,p=0.94) le(0.70,p=0.99) trimiți(0.84,p=0.71) bunicilor(1.12,p=0.97) un(1.62,p=1.00) mesaj(1.80,p=0.99) video(2.22,p=0.93) de(2.52,p=0.99) sărbători?(2.70,p=0.97) Uite(3.50,p=0.98) cum(3.76,p=0.99) iese(3.94,p=0.96) clar.(4.22,p=1.00)
+[ 5.16- 9.02] Pasul 1. Stai cu fața spre fereastră, nu cu lumină în spate.
+    Pasul(5.16,p=0.93) 1.(5.62,p=0.95) Stai(6.18,p=0.97) cu(6.32,p=1.00) fața(6.50,p=0.98) spre(6.80,p=0.99) fereastră,(7.04,p=0.95) nu(7.78,p=0.99) cu(7.94,p=1.00) lumină(8.12,p=0.68) în(8.40,p=0.95) spate.(8.58,p=0.98)
+[ 9.50-14.14] Pasul 2. Sprijină telefonul la nivelul ochilor ca imaginea să nu tremure.
+    Pasul(9.50,p=0.98) 2.(9.92,p=1.00) Sprijină(10.52,p=0.91) telefonul(10.96,p=1.00) la(11.50,p=1.00) nivelul(11.68,p=1.00) ochilor(12.14,p=0.98) ca(12.62,p=0.65) imaginea(12.80,p=0.83) să(13.40,p=0.99) nu(13.52,p=1.00) tremure.(13.70,p=0.99)
+[14.70-19.24] Pasul 3. Oprește televizorul și prinde microfonul aproape de voce.
+    Pasul(14.70,p=0.99) 3.(15.20,p=1.00) Oprește(15.70,p=0.95) televizorul(16.08,p=0.98) și(16.90,p=0.99) prinde(17.10,p=0.95) microfonul(17.36,p=0.79) aproape(18.06,p=0.82) de(18.40,p=1.00) voce.(18.64,p=1.00)
+[19.56-21.48] Lumină, sprijin, liniște.
+    Lumină,(19.56,p=0.92) sprijin,(20.18,p=0.97) liniște.(20.90,p=0.99)
+[21.72-24.84] Trimite clipul cuiva care are familia departe.
+    Trimite(21.72,p=0.88) clipul(22.12,p=0.99) cuiva(22.62,p=0.95) care(22.96,p=0.99) are(23.18,p=0.99) familia(23.40,p=0.86) departe.(23.86,p=0.88)
+[25.08-28.38] Găsește microfane la valieră pe atentales.ro
+    Găsește(25.08,p=0.99) microfane(25.62,p=0.69) la(26.18,p=0.97) valieră(26.40,p=0.98) pe(26.86,p=0.99) atentales(27.10,p=0.63) .ro(27.72,p=0.98)
+[30.00-31.54] Vrei să le trimiți bunicilor un mesaj video de sărbători? Uite cum iese clar.
+    Vrei(30.00,p=0.04) să(30.00,p=0.54) le(30.00,p=0.02) trimiți(30.00,p=0.16) bunicilor(30.00,p=0.25) un(30.26,p=0.00) mesaj(30.26,p=0.28) video(30.42,p=0.00) de(30.42,p=0.13) sărbători?(30.50,p=0.28) Uite(31.38,p=0.09) cum(31.54,p=0.00) iese(31.54,p=0.00) clar.(31.54,p=0.00)
