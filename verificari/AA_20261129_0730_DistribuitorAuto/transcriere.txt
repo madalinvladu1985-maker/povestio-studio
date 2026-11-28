@@ -1,0 +1,14 @@
+[ 0.00- 6.84] Pleci la drum de unie, decembrie, fă trei lucruri cu o seară înainte și pornești fără agitație.
+    Pleci(0.00,p=0.83) la(0.66,p=1.00) drum(0.86,p=1.00) de(1.02,p=0.95) unie,(1.24,p=0.40) decembrie,(1.86,p=0.72) fă(2.76,p=0.88) trei(2.94,p=0.83) lucruri(3.22,p=1.00) cu(3.56,p=0.99) o(3.74,p=0.97) seară(3.92,p=0.99) înainte(4.20,p=0.99) și(4.62,p=0.97) pornești(4.80,p=0.99) fără(5.28,p=1.00) agitație.(5.64,p=1.00)
+[ 7.02-13.52] Sfatul 1. Pune la încărcat telefoanele și tableta copilului de cu seară, toate în același loc.
+    Sfatul(7.02,p=0.76) 1.(7.40,p=0.89) Pune(8.08,p=0.97) la(8.26,p=1.00) încărcat(8.44,p=1.00) telefoanele(8.84,p=0.89) și(9.58,p=0.99) tableta(9.74,p=0.88) copilului(10.24,p=0.99) de(10.86,p=0.67) cu(11.12,p=0.93) seară,(11.38,p=0.85) toate(12.02,p=1.00) în(12.54,p=0.99) același(12.82,p=0.99) loc.(13.22,p=1.00)
+[13.98-19.64] Sfatul 2. Strânge toate cablurile într-un singur săculeț și ține-l în față la îndemână.
+    Sfatul(13.98,p=1.00) 2.(14.42,p=1.00) Strânge(15.18,p=0.91) toate(15.52,p=1.00) cablurile(15.90,p=0.94) într(16.46,p=0.98) -un(16.76,p=1.00) singur(16.82,p=0.99) săculeț(17.18,p=0.88) și(17.76,p=0.98) ține(18.10,p=0.93) -l(18.36,p=0.95) în(18.48,p=1.00) față(18.66,p=0.98) la(18.96,p=0.96) îndemână.(19.06,p=0.96)
+[20.06-25.58] Sfatul 3. Pregătește muzica și traseul cât stai în parcare, nu în timp ce conduci.
+    Sfatul(20.06,p=1.00) 3.(20.64,p=1.00) Pregătește(21.26,p=0.97) muzica(21.76,p=0.97) și(22.12,p=0.99) traseul(22.32,p=0.98) cât(22.82,p=0.98) stai(23.14,p=0.99) în(23.32,p=0.99) parcare,(23.52,p=0.95) nu(24.26,p=0.99) în(24.38,p=0.99) timp(24.52,p=1.00) ce(24.66,p=1.00) conduci.(24.88,p=0.94)
+[26.06-28.72] Încărcat. Strâns.
+    Încărcat.(26.06,p=0.99) Strâns.(28.08,p=0.91)
+[28.72-33.00] Strâns. Pregătit. Salvează clipul pentru drumul de mâine.
+    Strâns.(28.72,p=0.65) Pregătit.(29.78,p=0.97) Salvează(30.82,p=0.99) clipul(31.36,p=0.94) pentru(31.68,p=0.99) drumul(31.94,p=0.99) de(32.34,p=0.99) mâine.(32.50,p=0.99)
+[33.42-36.76] Găsește distribuitoarge auto cu USB-C pe www.attentales.ro
+    Găsește(33.42,p=0.98) distribuitoarge(33.86,p=0.47) auto(34.64,p=0.69) cu(34.86,p=0.98) USB(35.08,p=0.61) -C(35.40,p=0.81) pe(35.56,p=0.99) www(35.72,p=0.32) .attentales(35.72,p=0.81) .ro(36.16,p=1.00)
