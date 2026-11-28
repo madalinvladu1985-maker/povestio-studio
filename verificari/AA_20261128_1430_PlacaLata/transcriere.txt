@@ -1,0 +1,20 @@
+[ 0.00- 2.78] Secretul unui păr drept, care arată bine și seara
+    Secretul(0.00,p=0.91) unui(0.84,p=0.97) păr(1.02,p=0.95) drept,(1.24,p=0.94) care(1.64,p=0.99) arată(1.76,p=1.00) bine(2.02,p=1.00) și(2.22,p=0.98) seara(2.42,p=0.99)
+[ 2.78- 5.14] Trei obiceiuri mici, de dimineață
+    Trei(2.78,p=0.53) obiceiuri(3.28,p=0.99) mici,(3.74,p=0.99) de(4.00,p=0.99) dimineață(4.16,p=0.97)
+[ 5.14- 8.00] Secretul unu, îndrepti doar părul complet uscat
+    Secretul(5.14,p=0.84) unu,(5.74,p=0.68) îndrepti(6.06,p=0.95) doar(6.60,p=0.99) părul(6.74,p=0.99) complet(7.02,p=1.00) uscat(7.44,p=0.97)
+[ 8.00-10.76] Pe părul umed ajungi să lucrezi de două ori
+    Pe(8.00,p=0.80) părul(8.28,p=0.99) umed(8.62,p=0.97) ajungi(8.92,p=0.70) să(9.20,p=0.99) lucrezi(9.36,p=0.99) de(9.66,p=1.00) două(9.88,p=0.93) ori(10.06,p=1.00)
+[10.76-16.18] Secretul doi, pornești de la o temperatură mai mică și urci doar dacă părul tău are nevoie
+    Secretul(10.76,p=0.96) doi,(11.34,p=0.99) pornești(11.86,p=0.99) de(12.22,p=1.00) la(12.34,p=1.00) o(12.44,p=1.00) temperatură(12.58,p=0.97) mai(13.10,p=1.00) mică(13.32,p=1.00) și(13.68,p=0.61) urci(13.88,p=0.98) doar(14.16,p=0.99) dacă(14.42,p=0.99) părul(14.60,p=1.00) tău(14.94,p=1.00) are(15.10,p=0.99) nevoie(15.30,p=1.00)
+[16.18-21.32] Secretul trei, împarți părul pe secțiuni și le prins cu clame, ca să nu ratezi nicio șuviță
+    Secretul(16.18,p=0.98) trei,(16.82,p=0.99) împarți(17.24,p=0.94) părul(17.58,p=0.99) pe(17.92,p=1.00) secțiuni(18.12,p=0.99) și(18.48,p=0.99) le(18.60,p=0.99) prins(18.80,p=0.88) cu(18.96,p=0.99) clame,(19.20,p=0.92) ca(19.60,p=0.99) să(19.68,p=1.00) nu(19.80,p=1.00) ratezi(19.90,p=0.84) nicio(20.22,p=0.95) șuviță(20.48,p=0.92)
+[21.32-25.46] Părul uscat, temperatură potrivită, secțiuni prinse cu clame
+    Părul(21.32,p=0.86) uscat,(21.72,p=0.97) temperatură(22.28,p=0.85) potrivită,(22.82,p=0.98) secțiuni(23.86,p=0.99) prinse(24.20,p=0.90) cu(24.54,p=1.00) clame(24.78,p=1.00)
+[25.46-27.68] Așa arată bine și la cină
+    Așa(25.46,p=0.95) arată(26.06,p=1.00) bine(26.42,p=1.00) și(26.66,p=0.99) la(26.78,p=0.99) cină(27.00,p=0.95)
+[27.68-29.64] Salvează clipul pentru mâine dimineață
+    Salvează(27.68,p=0.95) clipul(28.30,p=0.97) pentru(28.66,p=0.99) mâine(28.90,p=0.99) dimineață(29.14,p=0.95)
+[29.64-32.96] Caută o placă cu șapte trepte pe atentales.ro
+    Caută(29.64,p=0.94) o(30.56,p=0.99) placă(30.74,p=0.90) cu(30.92,p=1.00) șapte(31.10,p=0.77) trepte(31.40,p=0.98) pe(31.72,p=0.99) atentales(31.90,p=0.68) .ro(32.36,p=0.98)

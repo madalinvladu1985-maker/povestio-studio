@@ -1,10 +1,16 @@
-[ 0.00- 4.72] Atenție! Trei greșeli care îți strică manichiura făcută acasă.
-    Atenție!(0.00,p=0.88) Trei(1.12,p=0.75) greșeli(1.40,p=0.96) care(1.84,p=0.96) îți(2.10,p=0.97) strică(2.48,p=0.99) manichiura(2.80,p=0.77) făcută(3.46,p=0.98) acasă.(3.94,p=0.98)
-[ 4.88- 9.26] 1. Pui straturi groase, mai bine subțiri, fiecare uscat separat.
-    1.(4.88,p=0.69) Pui(5.38,p=0.87) straturi(5.56,p=0.94) groase,(6.04,p=0.97) mai(6.68,p=0.99) bine(6.78,p=1.00) subțiri,(7.10,p=0.95) fiecare(7.82,p=0.99) uscat(8.14,p=0.91) separat.(8.48,p=0.99)
-[ 9.62-14.10] 2. Ți mâna pe jumătate afară. Introdu-o complet, cu degetele întinse.
-    2.(9.62,p=1.00) Ți(10.10,p=0.75) mâna(10.22,p=0.90) pe(10.50,p=1.00) jumătate(10.68,p=0.99) afară.(11.18,p=0.90) Introdu(11.92,p=0.67) -o(12.26,p=0.99) complet,(12.34,p=1.00) cu(12.92,p=1.00) degetele(13.08,p=0.91) întinse.(13.56,p=0.98)
-[14.66-18.78] 3. Uiți de vârful unghiei. Trece pensula și peste margine.
-    3.(14.66,p=1.00) Uiți(15.32,p=0.89) de(15.64,p=0.82) vârful(15.74,p=0.97) unghiei.(16.12,p=0.77) Trece(16.98,p=0.97) pensula(17.30,p=0.92) și(17.74,p=0.99) peste(17.96,p=1.00) margine.(18.24,p=0.91)
-[19.32-22.28] Caută o lampă UV LED pe atentales.ro
-    Caută(19.32,p=0.96) o(19.66,p=0.99) lampă(19.76,p=0.99) UV(20.16,p=0.99) LED(20.40,p=0.39) pe(20.68,p=0.98) atentales(20.94,p=0.67) .ro(21.60,p=0.97)
+[ 0.00- 3.04] Manicură ca de la salon făcută acasă, se poate.
+    Manicură(0.00,p=0.86) ca(0.96,p=0.94) de(1.08,p=1.00) la(1.22,p=1.00) salon(1.40,p=0.98) făcută(1.64,p=0.98) acasă,(2.12,p=0.97) se(2.56,p=0.97) poate.(2.74,p=1.00)
+[ 3.06- 5.00] Trei detalii mici fac toată diferența.
+    Trei(3.06,p=0.81) detalii(3.40,p=0.99) mici(3.78,p=0.99) fac(4.00,p=0.98) toată(4.20,p=0.99) diferența.(4.52,p=0.98)
+[ 5.74-10.02] Detaliul 1. Aplică straturi subțiri și usucă fiecare strat separat.
+    Detaliul(5.74,p=0.98) 1.(6.16,p=0.93) Aplică(6.90,p=0.98) straturi(7.30,p=0.99) subțiri(7.72,p=0.96) și(8.12,p=0.97) usucă(8.32,p=0.98) fiecare(8.72,p=0.99) strat(9.14,p=1.00) separat.(9.38,p=0.99)
+[10.54-15.50] Detaliul 2. Introdu mâna complet în lampă, cu degetele întinse nu pe jumătate afară.
+    Detaliul(10.54,p=0.99) 2.(10.98,p=1.00) Introdu(11.52,p=0.75) mâna(11.74,p=0.98) complet(12.02,p=1.00) în(12.38,p=0.95) lampă,(12.56,p=0.99) cu(13.02,p=1.00) degetele(13.14,p=0.98) întinse(13.58,p=0.97) nu(14.00,p=0.68) pe(14.18,p=0.99) jumătate(14.32,p=0.99) afară.(14.76,p=0.87)
+[15.82-20.02] Detaliul 3. Trece pensula și peste vârful unghiiei, nu doar pe suprafață.
+    Detaliul(15.82,p=1.00) 3.(16.26,p=1.00) Trece(16.78,p=0.97) pensula(17.00,p=0.94) și(17.42,p=0.99) peste(17.60,p=1.00) vârful(17.84,p=0.98) unghiiei,(18.22,p=0.73) nu(18.82,p=1.00) doar(18.90,p=1.00) pe(19.04,p=1.00) suprafață.(19.24,p=0.99)
+[20.66-24.18] Straturi subțiri, mâna întreagă în lampă, vârful unghiiei.
+    Straturi(20.66,p=0.98) subțiri,(21.02,p=0.99) mâna(21.66,p=0.99) întreagă(21.92,p=0.99) în(22.34,p=0.99) lampă,(22.44,p=0.99) vârful(22.96,p=1.00) unghiiei.(23.32,p=1.00)
+[24.28-26.88] Trimite clipul prietenei cu care îți faci unghiile.
+    Trimite(24.28,p=0.90) clipul(24.56,p=0.98) prietenei(24.96,p=0.86) cu(25.48,p=0.90) care(25.64,p=1.00) îți(25.80,p=0.95) faci(26.00,p=0.99) unghiile.(26.26,p=0.86)
+[26.88-29.98] Caută o lampă cu senzor pe atentales.ro
+    Caută(26.88,p=0.91) o(27.80,p=0.98) lampă(27.94,p=0.99) cu(28.18,p=1.00) senzor(28.36,p=0.90) pe(28.72,p=0.99) atentales(28.90,p=0.63) .ro(29.44,p=0.99)

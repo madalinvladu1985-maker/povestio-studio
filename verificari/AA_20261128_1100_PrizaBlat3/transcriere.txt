@@ -1,10 +1,14 @@
-[ 0.00- 4.62] Atenție! Trei greșeli care îți transformă blatul într-un ghem de cabluri.
-    Atenție!(0.00,p=0.90) Trei(1.12,p=0.77) greșeli(1.42,p=0.97) care(1.82,p=1.00) îți(2.04,p=0.90) transformă(2.32,p=1.00) blatul(2.84,p=0.98) într(3.28,p=0.99) -un(3.50,p=1.00) ghem(3.62,p=0.48) de(3.78,p=0.93) cabluri.(4.00,p=0.92)
-[ 5.02- 9.18] 1. Lași încărcătoarele împrăștiate pe blat. Fă-le în singur loc al lor.
-    1.(5.02,p=0.47) Lași(5.34,p=0.83) încărcătoarele(5.64,p=0.99) împrăștiate(6.36,p=0.89) pe(6.94,p=1.00) blat.(7.14,p=0.98) Fă(7.76,p=0.98) -le(7.84,p=0.93) în(7.92,p=0.98) singur(8.18,p=0.99) loc(8.54,p=0.72) al(8.72,p=1.00) lor.(8.90,p=0.99)
-[ 9.58-14.36] 2. Ai câte un adaptor pentru fiecare telefon. Caută prize cu porturi USB.
-    2.(9.58,p=1.00) Ai(10.04,p=0.97) câte(10.22,p=0.99) un(10.46,p=0.56) adaptor(10.62,p=0.71) pentru(11.10,p=1.00) fiecare(11.42,p=0.99) telefon.(11.86,p=1.00) Caută(12.68,p=0.91) prize(13.06,p=0.98) cu(13.32,p=1.00) porturi(13.52,p=0.99) USB.(13.88,p=0.99)
-[14.98-19.88] 3. Te gândești la prize după ce montezi blatul. Stabilește-le locul din timp.
-    3.(14.98,p=1.00) Te(15.36,p=0.99) gândești(15.48,p=0.97) la(15.88,p=0.93) prize(16.14,p=0.99) după(16.50,p=0.93) ce(16.86,p=1.00) montezi(17.00,p=0.75) blatul.(17.42,p=0.99) Stabilește(18.14,p=0.94) -le(18.66,p=1.00) locul(18.78,p=1.00) din(19.14,p=1.00) timp.(19.40,p=1.00)
-[20.12-23.30] Găsește prize încorporabile pe atentales.ro
-    Găsește(20.12,p=0.99) prize(20.68,p=1.00) încorporabile(21.04,p=0.95) pe(21.78,p=0.99) atentales(22.08,p=0.58) .ro(22.66,p=0.96)
+[ 0.00- 3.52] Credeai că un blat ordonat înseamnă doar curățenie? Nu chiar.
+    Credeai(0.00,p=0.92) că(0.68,p=0.91) un(0.78,p=1.00) blat(0.94,p=0.96) ordonat(1.10,p=0.90) înseamnă(1.56,p=0.99) doar(1.90,p=0.99) curățenie?(2.12,p=0.99) Nu(3.00,p=0.99) chiar.(3.22,p=1.00)
+[ 4.06- 7.36] Mitul 1. Cablurile se strâng singure, adevărul.
+    Mitul(4.06,p=0.59) 1.(4.36,p=0.91) Cablurile(5.16,p=0.91) se(5.72,p=0.99) strâng(5.94,p=0.91) singure,(6.12,p=0.97) adevărul.(6.78,p=0.98)
+[ 7.96- 9.90] Încărcătoarele au nevoie de un singur loc.
+    Încărcătoarele(7.96,p=0.99) au(8.52,p=0.99) nevoie(8.68,p=1.00) de(8.98,p=1.00) un(9.10,p=0.99) singur(9.30,p=0.99) loc.(9.60,p=0.99)
+[10.52-16.48] Mitul 2. Fiecare telefon cu adaptorul lui, adevărul, o priză cu porturi USB te scapă de adaptoare.
+    Mitul(10.52,p=0.99) 2.(10.86,p=1.00) Fiecare(11.40,p=0.99) telefon(11.76,p=1.00) cu(12.14,p=0.99) adaptorul(12.32,p=0.81) lui,(12.88,p=0.98) adevărul,(13.40,p=1.00) o(14.02,p=0.99) priză(14.16,p=0.97) cu(14.38,p=0.99) porturi(14.52,p=0.99) USB(14.84,p=0.99) te(15.26,p=0.88) scapă(15.48,p=0.97) de(15.74,p=1.00) adaptoare.(15.94,p=0.87)
+[17.04-21.80] Mitul 3. La prize te gândești la final, adevărul, le plănuiești înainte de montajul blatului.
+    Mitul(17.04,p=0.99) 3.(17.42,p=1.00) La(17.84,p=0.99) prize(18.06,p=0.98) te(18.30,p=0.90) gândești(18.42,p=0.98) la(18.68,p=1.00) final,(18.90,p=1.00) adevărul,(19.32,p=1.00) le(19.82,p=1.00) plănuiești(19.94,p=0.87) înainte(20.42,p=1.00) de(20.74,p=0.99) montajul(20.88,p=0.99) blatului.(21.32,p=0.99)
+[22.30-27.58] Un loc, porturi USB, prize plănuite din timp, trimite clipul prietenei care renovează.
+    Un(22.30,p=0.97) loc,(22.52,p=0.99) porturi(22.84,p=1.00) USB,(23.24,p=0.99) prize(23.96,p=1.00) plănuite(24.24,p=0.84) din(24.62,p=1.00) timp,(24.86,p=1.00) trimite(25.28,p=0.98) clipul(25.52,p=0.97) prietenei(25.88,p=0.84) care(26.32,p=0.98) renovează.(26.54,p=0.84)
+[27.58-30.32] Găsește prize încorporabile pe atentales.ro.
+    Găsește(27.58,p=0.96) prize(28.16,p=0.97) încorporabile(28.44,p=0.96) pe(29.16,p=1.00) atentales(29.32,p=0.61) .ro.(29.86,p=1.00)

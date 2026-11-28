@@ -1,0 +1,22 @@
+[ 0.00- 2.34] Nu mai face asta cu buclele de sărbători.
+    Nu(0.00,p=0.79) mai(0.50,p=1.00) face(0.64,p=0.94) asta(0.82,p=1.00) cu(1.06,p=1.00) buclele(1.22,p=0.98) de(1.62,p=0.99) sărbători.(1.72,p=0.82)
+[ 2.62- 4.88] Trei greșeli le strică înainte de petrecere.
+    Trei(2.62,p=0.85) greșeli(2.90,p=0.95) le(3.22,p=1.00) strică(3.42,p=0.97) înainte(3.70,p=0.99) de(3.98,p=1.00) petrecere.(4.14,p=0.91)
+[ 5.40- 8.16] Greșala 1. Piepteni buclele cât sunt calde.
+    Greșala(5.40,p=0.66) 1.(5.72,p=0.87) Piepteni(6.26,p=0.77) buclele(6.62,p=0.99) cât(7.02,p=0.93) sunt(7.16,p=1.00) calde.(7.36,p=1.00)
+[ 8.46-11.20] Lasă-le să se răcească, apoi desfăle cu degetele.
+    Lasă(8.46,p=0.99) -le(8.68,p=0.99) să(8.78,p=1.00) se(8.94,p=0.98) răcească,(9.04,p=0.99) apoi(9.94,p=1.00) desfăle(10.12,p=0.95) cu(10.46,p=1.00) degetele.(10.64,p=0.98)
+[11.74-14.88] Greșala 2. Le întorci pe toate în aceeași parte.
+    Greșala(11.74,p=0.99) 2.(12.14,p=1.00) Le(13.10,p=0.99) întorci(13.26,p=0.94) pe(13.56,p=0.92) toate(13.78,p=1.00) în(14.00,p=0.97) aceeași(14.18,p=0.98) parte.(14.56,p=0.98)
+[15.68-18.02] Alternează direcția, pentru un aspect natural.
+    Alternează(15.68,p=0.77) direcția,(16.20,p=1.00) pentru(16.98,p=1.00) un(17.20,p=1.00) aspect(17.38,p=0.96) natural.(17.56,p=1.00)
+[18.70-21.98] Greșala 3. Părți aceeași coafură la fiecare petrecere.
+    Greșala(18.70,p=0.99) 3.(19.06,p=1.00) Părți(19.78,p=0.87) aceeași(20.00,p=0.97) coafură(20.36,p=0.99) la(20.74,p=1.00) fiecare(20.94,p=0.99) petrecere.(21.24,p=1.00)
+[22.28-24.94] Schimbă între bucle, valuri și păr drept.
+    Schimbă(22.28,p=0.99) între(22.60,p=0.99) bucle,(22.78,p=0.99) valuri(23.32,p=0.99) și(23.78,p=0.96) păr(23.96,p=0.88) drept.(24.16,p=0.84)
+[25.16-27.88] Răbdare, direcții diferite, coafuri diferite.
+    Răbdare,(25.16,p=0.99) direcții(25.88,p=1.00) diferite,(26.18,p=0.99) coafuri(26.84,p=1.00) diferite.(27.30,p=0.99)
+[28.16-29.62] Salvează clipul pentru Crăciun.
+    Salvează(28.16,p=0.99) clipul(28.54,p=0.99) pentru(28.88,p=0.99) Crăciun.(29.14,p=0.90)
+[29.62-32.86] Găsește un aparat 4 în unupeatentales.ro.
+    Găsește(29.62,p=0.87) un(30.52,p=0.97) aparat(30.70,p=0.96) 4(30.94,p=0.68) în(31.26,p=0.71) unupeatentales(31.42,p=0.75) .ro.(32.24,p=0.99)
