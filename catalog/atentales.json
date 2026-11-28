@@ -1,6 +1,6 @@
 {
  "domeniu": "atentales.ro",
- "actualizat": "2026-11-27T02:51:25Z",
+ "actualizat": "2026-11-28T02:47:24Z",
  "colectii": [
   {
    "handle": "auto-moto-interior",
@@ -247,7 +247,6 @@
    ],
    "colectii": [
     "aparate-coafat",
-    "par-seturi",
     "toate-produsele",
     "par-uscatoare",
     "vlateo",
@@ -280,7 +279,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -312,7 +310,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -344,7 +341,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -375,7 +371,6 @@
    ],
    "colectii": [
     "aparate-coafat",
-    "par-seturi",
     "toate-produsele",
     "par-uscatoare",
     "vlateo",
@@ -408,7 +403,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -441,7 +435,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "par-uscatoare",
     "vlateo",
@@ -670,7 +663,6 @@
    "colectii": [
     "aparate-coafat",
     "par-placi",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -704,7 +696,6 @@
     "aparate-coafat",
     "par-ondulatoare",
     "par-placi",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -766,7 +757,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -827,7 +817,6 @@
    "colectii": [
     "aparate-coafat",
     "par-perii-stylere",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
@@ -3687,7 +3676,6 @@
    "colectii": [
     "aparate-coafat",
     "oferte",
-    "par-seturi",
     "toate-produsele",
     "vlateo",
     "vandute-de-atent-ales",
