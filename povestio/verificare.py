@@ -59,6 +59,25 @@ def verifica_hashtaguri(spec):
     return erori
 
 
+def verifica_voce(spec, brand):
+    from povestio.voci import gen_categorie
+    cat = (spec.get("varianta") or {}).get("categorie", "")
+    g = gen_categorie(cat) if cat else None
+    vc = brand.get("voce", {})
+    fem = {v["id"] for v in vc.get("voci_feminine", [])}
+    mas = {v["id"] for v in vc.get("voci_masculine", [])}
+    vid = spec.get("voce_id")
+    if not vid:
+        return ["Lipsește `voce_id` (alege-l cu `python studio.py voci <data> <categorii...>`)."] if fem or mas else []
+    if vid not in fem | mas:
+        return [f"voce_id {vid} nu e în lista de voci testate din brand.json."]
+    if g == "f" and vid not in fem:
+        return [f"Categoria {cat} cere voce feminină."]
+    if g == "m" and vid not in mas:
+        return [f"Categoria {cat} (prize încorporabile) cere voce masculină."]
+    return []
+
+
 def verifica_v3(spec, brand):
     erori, avert = [], []
     sc = spec.get("scene", [])
@@ -99,6 +118,7 @@ def verifica_v3(spec, brand):
         if not yt.get("titlu") or len(yt.get("titlu", "")) > LIMITE["youtube_titlu"]:
             erori.append("Titlul YouTube lipsește sau depășește 100 de caractere.")
     erori += verifica_hashtaguri(spec)
+    erori += verifica_voce(spec, brand)
     tot = "\n".join(texte)
     for t in _gaseste(INTERZISE_GENERAL, tot):
         erori.append(f"Formulare interzisă (vânzare agresivă/promisiune): {t}")

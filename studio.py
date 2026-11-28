@@ -137,6 +137,11 @@ if __name__ == "__main__":
         from povestio.buget import tinte_zi
         from datetime import date as _d
         print(json.dumps(tinte_zi(a[1] if len(a) > 1 else _d.today().isoformat()), ensure_ascii=False, indent=1))
+    elif a[0] == "voci":
+        # python studio.py voci <data> <categorie1> <categorie2> ...
+        from povestio.voci import alege
+        br = json.loads((Path(__file__).parent / "brands" / "atentales" / "brand.json").read_text())
+        print(json.dumps(alege(a[1], a[2:], br), ensure_ascii=False, indent=1))
     elif a[0] == "analiza":
         from povestio import analiza
         sub = a[1] if len(a) > 1 else "raport"
